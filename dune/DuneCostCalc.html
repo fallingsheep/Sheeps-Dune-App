@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<!--
+Vehicle calc needs:
+special parts ( like bigger buggy boot)
+weights
+export to csv
+
+Base build calc needs:
+total storage
+export to csv
+-->
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dune Cost Calculator</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Dune Cost Calculator</h1>
+    <div class="toggle-group">
+      <div>
+        <button id="switchView">Switch to Vehicle Calculator</button>
+      </div>
+      <div>
+        <label>Dark Mode <input type="checkbox" id="darkModeToggle" /></label>
+      </div>
+    </div>
+
+    <!-- BUILDING CALC -->
+    <div id="buildingCalc">
+      <button id="resetBuildings">Reset</button>
+      <label><input type="checkbox" id="deepDesertToggle" /> Deep Desert 50% cost</label>
+      <div id="buildingList" class="building-grid"></div>
+      <div class="totals">
+        <h3>Total Resources Required:</h3>
+        <ul id="totalResources"></ul>
+        <h3>Total Power: </h3>
+        <img class="icon" src="/dune/Icons/power.png" />
+        <span id="powerUsage" class="power-display">0</span> used / <span id="powerGenerated"
+          class="power-display">0</span> generated
+        <h3>Total Weight: </h3>
+        <span id="weightUsage" class="weight-display">0v</span>
+        <h3>Water Storage: </h3>
+        <span id="waterStorage" class="water-display">0ml</span>
+
+      </div>
+    </div>
+
+    <!-- VEHICLE CALC -->
+    <div id="vehicleCalc" class="hidden">
+      <button id="resetVehicles">Reset</button>
+      <br>
+      <label for="vehicleSelect">Select Vehicle:</label>
+      <select id="vehicleSelect">
+        <option value="">-- Choose Vehicle --</option>
+      </select>
+      <br>
+      <label for="buildAmount">Amount:</label>
+      <input type="number" id="buildAmount" value="1" min="1" />
+      <div id="selectedVehicle"></div>
+      <div id="imageholder" class="flex-row">
+        <div id="requiredParts" class="flex-column"></div>
+        <div id="vehicleImage" class="flex-column"></div>
+      </div>
+      <div id="optionalParts"></div>
+      <div id="totalCost">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // UI Toggles
+    const body = document.body;
+    const darkToggle = document.getElementById('darkModeToggle');
+    const switchBtn = document.getElementById('switchView');
+    const buildingCalc = document.getElementById('buildingCalc');
+    const vehicleCalc = document.getElementById('vehicleCalc');
+
+    // Persisted Preferences
+    if (localStorage.getItem('darkMode') === 'true') {
+      body.classList.add('dark');
+      darkToggle.checked = true;
+    }
+    if (localStorage.getItem('activeCalc') === 'vehicle') {
+      buildingCalc.classList.add('hidden');
+      vehicleCalc.classList.remove('hidden');
+      switchBtn.textContent = 'Switch to Building Calculator';
+    }
+
+    darkToggle.addEventListener('change', () => {
+      body.classList.toggle('dark', darkToggle.checked);
+      localStorage.setItem('darkMode', darkToggle.checked);
+    });
+
+    switchBtn.addEventListener('click', () => {
+      const vehicleMode = vehicleCalc.classList.contains('hidden');
+      vehicleCalc.classList.toggle('hidden', !vehicleMode);
+      buildingCalc.classList.toggle('hidden', vehicleMode);
+      switchBtn.textContent = vehicleMode ? 'Switch to Building Calculator' : 'Switch to Vehicle Calculator';
+      localStorage.setItem('activeCalc', vehicleMode ? 'vehicle' : 'building');
+    });
+
+    // BUILDING LOGIC
+    fetch('buildings.json')
+      .then(res => res.json())
+      .then(buildings => {
+        const list = document.getElementById('buildingList');
+        const total = document.getElementById('totalResources');
+        const powerUsed = document.getElementById('powerUsage');
+        const weightUsed = document.getElementById('weightUsage');
+        const waterStorage = document.getElementById('waterStorage');
+        const powerGen = document.getElementById('powerGenerated');
+        const desertToggle = document.getElementById('deepDesertToggle');
+
+        // Restore values
+        const savedQty = JSON.parse(localStorage.getItem('buildingQuantities') || '{}');
+        desertToggle.checked = localStorage.getItem('deepDesert') === 'true';
+
+        buildings.forEach((bld, i) => {
+          const div = document.createElement('div');
+          div.className = 'building';
+
+          const fileName = bld.name.toLowerCase().replace(/\s+/g, '-');
+
+          // Construct local image path
+          const imageSrc = `./Buildings/${fileName}.png`;
+
+          const imageTag = `
+            <img src="${imageSrc}" alt="${bld.name}" 
+                style="width:48px; height:auto; margin-right:10px; vertical-align:top;" 
+                onerror="this.style.display='none';"
+            />
+          `;
+
+          div.innerHTML = `
+            <div style="display:flex; align-items:center;">
+              ${imageTag}
+              <div>
+                    <strong>${bld.name}</strong><br>
+                    Power: ${bld.power > 0 ? '+' : ''}${bld.power}<br> 
+                    Water: ${bld.water}<br>          
+                    Weight: ${bld.weight}<br>
+                    Quantity: <input type="number" id="qty-${i}" value="${savedQty[i] || 0}" min="0" style="width: 40px;"/>
+              </div>
+            </div>
+          `;
+
+          list.appendChild(div);
+        });
+
+        function calcBuildings() {
+          const totals = {};
+          let used = 0, generated = 0, totalWeight = 0, totalWater = 0;
+          const saveQty = {};
+          buildings.forEach((bld, i) => {
+            const qty = parseInt(document.getElementById(`qty-${i}`).value) || 0;
+            saveQty[i] = qty;
+            const power = bld.power * qty;
+            power >= 0 ? generated += power : used += Math.abs(power);
+            totalWeight += bld.weight * qty;
+            totalWater += bld.water * qty;
+            bld.components.forEach(c => {
+              const amt = desertToggle.checked ? Math.ceil(c.quantity / 2) : c.quantity;
+              totals[c.item] = (totals[c.item] || 0) + amt * qty;
+            });
+          });
+
+          total.innerHTML = Object.entries(totals).map(([item, qty]) => {
+            let totalDisplay = ''
+            const icon = `/dune/Icons/${item.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.png`;
+            if (qty <= 0) {
+              totalDisplay = '';
+            } else {
+              totalDisplay = `<li><img class="icon" src="${icon}" /> ${qty} x ${item}</li>`;
+            }
+            return totalDisplay;
+          }).join('');
+          powerUsed.textContent = used;
+          powerGen.textContent = generated;
+          powerUsed.className = 'power-display ' + (used > generated ? 'red' : 'green');
+          powerGen.className = 'power-display ' + (used > generated ? 'red' : 'green');
+          waterStorage.textContent = totalWater.toFixed(0) + "ml";
+          weightUsed.textContent = totalWeight.toFixed(1) + "v";
+
+          localStorage.setItem('buildingQuantities', JSON.stringify(saveQty));
+          localStorage.setItem('deepDesert', desertToggle.checked);
+        }
+
+        list.addEventListener('input', calcBuildings);
+        desertToggle.addEventListener('change', calcBuildings);
+        document.getElementById('resetBuildings').addEventListener('click', () => {
+          Array.from(list.querySelectorAll('input[type=number]')).forEach(input => input.value = 0);
+          desertToggle.checked = false;
+          localStorage.removeItem('buildingQuantities');
+          localStorage.removeItem('deepDesert');
+          calcBuildings();
+        });
+
+        calcBuildings();
+      });
+
+    // VEHICLE LOGIC
+    fetch('vehicles.json')
+      .then(res => res.json())
+      .then(data => {
+        const select = document.getElementById('vehicleSelect');
+        const amountInput = document.getElementById('buildAmount');
+        const selVeh = document.getElementById('selectedVehicle');
+        const reqParts = document.getElementById('requiredParts');
+        const optParts = document.getElementById('optionalParts');
+        const costDiv = document.getElementById('totalCost');
+        const imageDiv = document.getElementById('vehicleImage');
+
+        const types = [...new Set(data.map(v => v.type))];
+        types.forEach(t => {
+          const opt = document.createElement('option');
+          opt.value = t;
+          opt.textContent = t;
+          select.appendChild(opt);
+        });
+
+        // Restore
+        select.value = localStorage.getItem('vehType') || '';
+        amountInput.value = localStorage.getItem('vehAmount') || '1';
+
+        function render() {
+          const type = select.value;
+          const amt = parseInt(amountInput.value) || 1;
+          const match = data.filter(v => v.type === type);
+          if (!match.length) return;
+
+          localStorage.setItem('vehType', type);
+          localStorage.setItem('vehAmount', amt);
+
+          selVeh.innerHTML = `<strong>Selected:</strong> ${type}`;
+          const name = type.split(' ').pop().toLowerCase();
+          imageDiv.innerHTML = `<img class="vehicle-img" src="/dune/vehicles/${name}.png" />`;
+
+          reqParts.innerHTML = '<strong>Required Parts:</strong><ul>' +
+            match.filter(v => v.required).map(v => `<li>${(v.amount || 1) * amt}x ${v.name}</li>`).join('') + '</ul>';
+
+          const optional = match.filter(v => !v.required);
+          optParts.innerHTML = '<strong>Optional Parts:</strong><form id="optForm"><ul>' +
+            optional.map((v, i) => {
+              const checked = JSON.parse(localStorage.getItem('vehOpts') || '[]').includes(i);
+              return `<li><label><input type="checkbox" name="opt" value="${i}" ${checked ? 'checked' : ''}/> ${(v.amount || 1) * amt}x ${v.name}</label></li>`;
+            }).join('') + '</ul></form>';
+
+          function updateCost() {
+            const selected = Array.from(document.querySelectorAll('#optForm input:checked')).map(e => parseInt(e.value));
+            localStorage.setItem('vehOpts', JSON.stringify(selected));
+            const matCosts = {};
+            [...match.filter(v => v.required), ...optional.filter((_, i) => selected.includes(i))].forEach(v => {
+              const mult = (v.amount || 1) * amt;
+              v.components.forEach(c => {
+                matCosts[c.item] = (matCosts[c.item] || 0) + c.quantity * mult;
+              });
+            });
+            costDiv.innerHTML = '<strong>Total Cost:</strong><ul>' +
+              Object.entries(matCosts).map(([item, qty]) => {
+                const icon = `/dune/Icons/${item.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.png`;
+                return `<li><img class="icon" src="${icon}" /> ${qty} x ${item}</li>`;
+              }).join('');
+            document.getElementById('resetVehicles').onclick = () => {
+              localStorage.removeItem('vehType');
+              localStorage.removeItem('vehAmount');
+              localStorage.removeItem('vehOpts');
+              select.value = '';
+              amountInput.value = '1';
+              selVeh.innerHTML = reqParts.innerHTML = optParts.innerHTML = costDiv.innerHTML = imageDiv.innerHTML = '';
+            };
+          }
+
+          document.getElementById('optForm').addEventListener('change', updateCost);
+          updateCost();
+        }
+
+        select.addEventListener('change', render);
+        amountInput.addEventListener('input', render);
+        if (select.value) render();
+      });
+  </script>
+</body>
+
+</html>

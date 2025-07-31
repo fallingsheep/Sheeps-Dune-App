@@ -1,0 +1,4262 @@
+[
+  {
+    "name": "Assault Ornithopter Cabin Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 34
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Cabin Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Chassis Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Chassis Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Cockpit Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 34
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Cockpit Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Engine Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 675
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 50
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 14
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 21
+      },
+      {
+        "item": "Hydraulic Piston",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Engine Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 18
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Tri-Forged Hydraulic Piston",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Generator Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 675
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 50
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 30
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 14
+      },
+      {
+        "item": "Military Power Regulator",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Generator Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Overclocked Power Regulator",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Rocket Launcher Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1010
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 72
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 40
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 36
+      },
+      {
+        "item": "Range Finder",
+        "quantity": 15
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Assault",
+    "required": false
+  },
+  {
+    "name": "Assault Ornithopter Rocket Launcher Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 54
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 67
+      },
+      {
+        "item": "Precision Range Finder",
+        "quantity": 13
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 81
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Assault",
+    "required": false
+  },
+  {
+    "name": "Assault Ornithopter Storage Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1013
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 72
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 40
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 36
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Assault",
+    "required": false
+  },
+  {
+    "name": "Assault Ornithopter Tail Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 675
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 72
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Tail Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Thruster Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1010
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 80
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 50
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 36
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Assault",
+    "required": false
+  },
+  {
+    "name": "Assault Ornithopter Thruster Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 95
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 68
+      },
+      {
+        "item": "Improved Holtzman Actuator",
+        "quantity": 17
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 81
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Assault",
+    "required": false
+  },
+  {
+    "name": "Assault Ornithopter Wing Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 8
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 5
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 4
+      },
+      {
+        "item": "Industrial Pump",
+        "quantity": 2
+      }
+    ],
+    "amount": 6,
+    "type": "Mk5 Assault",
+    "required": true
+  },
+  {
+    "name": "Assault Ornithopter Wing Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 250
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 10
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 6
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 8
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 9
+      },
+      {
+        "item": "Industrial Pump",
+        "quantity": 3
+      }
+    ],
+    "amount": 6,
+    "type": "Mk6 Assault",
+    "required": true
+  },
+  {
+    "name": "Buggy Booster Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 200
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 17
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 25
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Booster Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 510
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 40
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 30
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 31
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Booster Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1010
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 80
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 50
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 35
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Booster Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 95
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 68
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 67
+      },
+      {
+        "item": "Improved Holtzman Actuator",
+        "quantity": 17
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 81
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Chassis Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 21
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 13
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Chassis Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 55
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 16
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 18
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Chassis Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Chassis Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Cutteray Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 200
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 25
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 17
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 23
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Cutteray Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 510
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 27
+      },
+      {
+        "item": "Ray Amplifier",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Cutteray Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1010
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 100
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 40
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 35
+      },
+      {
+        "item": "Ray Amplifier",
+        "quantity": 23
+      },
+      {
+        "item": "Thermoelectric Cooler",
+        "quantity": 11
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Cutteray Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 115
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 54
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 67
+      },
+      {
+        "item": "Thermo-Responsive Ray Amplifier",
+        "quantity": 13
+      },
+      {
+        "item": "Thermoelectric Cooler",
+        "quantity": 15
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 81
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Engine Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 20
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 13
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Engine Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 35
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 18
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 11
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Engine Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 675
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 50
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 14
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 21
+      },
+      {
+        "item": "Hydraulic Piston",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Engine Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Tri-Forged Hydraulic Piston",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Hull Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 13
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Hull Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 55
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 16
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 18
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 21
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Hull Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 34
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Hull Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy PSU Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 20
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 13
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy PSU Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 35
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 18
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy PSU Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 675
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 50
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Military Power Regulator",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy PSU Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Overclocked Power Regulator",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Rear Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 21
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 13
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 13
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Rear Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 55
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 16
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 18
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 21
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Rear Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 34
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Rear Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Rocket Launcher Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1010
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 40
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 36
+      },
+      {
+        "item": "Range Finder",
+        "quantity": 15
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Rocket Launcher Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 54
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 67
+      },
+      {
+        "item": "Precision Range Finder",
+        "quantity": 13
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 81
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Storage Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 200
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 12
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 17
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Storage Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 510
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 16
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 14
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Storage Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 845
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 18
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Storage Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 86
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 27
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 34
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 81
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Tread Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 45
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 5
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 7
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 4
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Tread Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 9
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 6
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 5
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Tread Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 170
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 12
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 7
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 6
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Tread Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 250
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 15
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 9
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 12
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 14
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": true
+  },
+  {
+    "name": "Buggy Utility Rear Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 13
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 13
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Utility Rear Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 55
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 16
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 18
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 21
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Utility Rear Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 34
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": false
+  },
+  {
+    "name": "Buggy Utility Rear Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": false
+  },
+  {
+    "name": "Carrier Ornithopter Chassis Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Carrier",
+    "required": true
+  },
+  {
+    "name": "Carrier Ornithopter Engine Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 18
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Tri-Forged Hydraulic Piston",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Carrier",
+    "required": true
+  },
+  {
+    "name": "Carrier Ornithopter Generator Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 18
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Overclocked Power Regulator",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Carrier",
+    "required": true
+  },
+  {
+    "name": "Carrier Ornithopter Main Hull Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 100
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 28
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Carrier",
+    "required": true
+  },
+  {
+    "name": "Carrier Ornithopter Side Hull Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 100
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 28
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Carrier",
+    "required": true
+  },
+  {
+    "name": "Carrier Ornithopter Tail Hull Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 100
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Carrier",
+    "required": true
+  },
+  {
+    "name": "Carrier Ornithopter Thruster Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 95
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 68
+      },
+      {
+        "item": "Improved Holtzman Actuator",
+        "quantity": 17
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 81
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Carrier",
+    "required": false
+  },
+  {
+    "name": "Carrier Ornithopter Wing Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 250
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 8
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 5
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 6
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 8
+      },
+      {
+        "item": "Industrial Pump",
+        "quantity": 2
+      }
+    ],
+    "amount": 8,
+    "type": "Mk6 Carrier",
+    "required": true
+  },
+  {
+    "name": "Mohandis Sandbike Engine Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 200
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 17
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 20
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 14
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 17
+      },
+      {
+        "item": "Spice-infused Steel Dust",
+        "quantity": 17
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Night Rider Sandbike Boost Mk2",
+    "image": "",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 26
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 17
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 17
+      },
+      {
+        "item": "Spice-infused Iron Dust",
+        "quantity": 13
+      }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": false
+  },
+  {
+    "name": "Sandbike Backseat Mk1",
+    "image": "",
+    "components": [
+      {
+        "item": "Copper Ingot",
+        "quantity": 12
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk1 Sandbike",
+    "required": false
+  },
+  {
+    "name": "Sandbike Booster Mk2",
+    "image": "",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 23
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 15
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": false
+  },
+  {
+    "name": "Sandbike Booster Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 200
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 29
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 17
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 25
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Sandbike",
+    "required": false
+  },
+  {
+    "name": "Sandbike Booster Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 510
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 40
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 31
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 14
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Sandbike",
+    "required": false
+  },
+  {
+    "name": "Sandbike Booster Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1010
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 80
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 50
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 15
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 36
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Sandbike",
+    "required": false
+  },
+  {
+    "name": "Sandbike Booster Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 95
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 68
+      },
+      {
+        "item": "Improved Holtzman Actuator",
+        "quantity": 17
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 67
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 81
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandbike",
+    "required": false
+  },
+  {
+    "name": "Sandbike Chassis Mk1",
+    "image": "",
+    "components": [
+      {
+        "item": "Copper Ingot",
+        "quantity": 12
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 5
+      }
+    ],
+    "amount": 1,
+    "type": "Mk1 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Chassis Mk2",
+    "image": "",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 20
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 8
+      }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Chassis Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 25
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 12
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 11
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Chassis Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 45
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 16
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 18
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Chassis Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Chassis Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 27
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Engine Mk1",
+    "image": "",
+    "components": [
+      {
+        "item": "Copper Ingot",
+        "quantity": 5
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 3
+      }
+    ],
+    "amount": 1,
+    "type": "Mk1 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Engine Mk2",
+    "image": "",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 10
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 5
+      }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Engine Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 10
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 16
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 11
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Engine Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 338
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 20
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 11
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 18
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Engine Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 675
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 14
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 21
+      },
+      {
+        "item": "Hydraulic Piston",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Engine Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 18
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Tri-Forged Hydraulic Piston",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Hull Mk1",
+    "image": "",
+    "components": [
+      {
+        "item": "Copper Ingot",
+        "quantity": 12
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 5
+      }
+    ],
+    "amount": 1,
+    "type": "Mk1 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Hull Mk2",
+    "image": "",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 20
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 8
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Hull Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 25
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 12
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 11
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 13
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Hull Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 45
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 16
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 18
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 21
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Hull Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 34
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Hull Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Inventory Mk1",
+    "image": "",
+    "components": [
+      {
+        "item": "Copper Ingot",
+        "quantity": 12
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk1 Sandbike",
+    "required": false
+  },
+  {
+    "name": "Sandbike Inventory Mk2",
+    "image": "",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 23
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": false
+  },
+  {
+    "name": "Sandbike PSU Mk1",
+    "image": "",
+    "components": [
+      {
+        "item": "Copper Ingot",
+        "quantity": 5
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 3
+      }
+    ],
+    "amount": 1,
+    "type": "Mk1 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike PSU Mk2",
+    "image": "",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 10
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 8
+      }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike PSU Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 135
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 10
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 12
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 11
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike PSU Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 338
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 20
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 16
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 18
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike PSU Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 675
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Military Power Regulator",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike PSU Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 30
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 27
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Overclocked Regulator",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Scanner Mk2",
+    "image": "",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 20
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 11
+      }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": false
+  },
+  {
+    "name": "Sandbike Tread Mk1",
+    "image": "",
+    "components": [
+      {
+        "item": "Copper Ingot",
+        "quantity": 3
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 1
+      }
+    ],
+    "amount": 1,
+    "type": "Mk1 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Tread Mk2",
+    "image": "",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 5
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 4
+      }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Tread Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 45
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 6
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 5
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 4
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Tread Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 110
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 12
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 7
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 6
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Tread Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 225
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 16
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 9
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandbike Tread Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 300
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 20
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 12
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 15
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 14
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandbike",
+    "required": true
+  },
+  {
+    "name": "Sandcrawler Cabin Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 13
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 27
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandcrawler",
+    "required": true
+  },
+  {
+    "name": "Sandcrawler Centrifuge Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 35
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandcrawler",
+    "required": true
+  },
+  {
+    "name": "Sandcrawler Chassis Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 80
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandcrawler",
+    "required": true
+  },
+  {
+    "name": "Sandcrawler Engine Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 80
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 18
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Tri-Forged Hydraulic Piston",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandcrawler",
+    "required": true
+  },
+  {
+    "name": "Sandcrawler PSU Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Overclocked Power Regulator",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandcrawler",
+    "required": true
+  },
+  {
+    "name": "Sandcrawler Tread Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 250
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 15
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 9
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 12
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 14
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandcrawler",
+    "required": true
+  },
+  {
+    "name": "Sandcrawler Vacuum Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Advanced Machinery",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandcrawler",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Chassis Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 45
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 10
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 14
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Chassis Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Chassis Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Carbide Scraps",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Cockpit Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 45
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 10
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 14
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 11
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Cockpit Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 72
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 34
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Cockpit Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Engine Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 338
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 35
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 14
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 6
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 8
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Engine Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 675
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 48
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 14
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 21
+      },
+      {
+        "item": "Hydraulic Piston",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Engine Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 18
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Tri-Forged Hydraulic Piston",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Generator Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 338
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 35
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 16
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 14
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Generator Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 675
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 50
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 20
+      },
+      {
+        "item": "Military Power Regulator",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Generator Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 36
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 54
+      },
+      {
+        "item": "Overclocked Power Regulator",
+        "quantity": 9
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Hull Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 45
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 10
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 14
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 11
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 7
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Hull Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 680
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 72
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 20
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 25
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 34
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Hull Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1050
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 45
+      },
+      {
+        "item": "Plasteel Composite Armor Plating",
+        "quantity": 30
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 55
+      },
+      {
+        "item": "Diamondine Dust",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Rocket Launcher Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1010
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 70
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 40
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 36
+      },
+      {
+        "item": "Range Finder",
+        "quantity": 15
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 10
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Scout",
+    "required": false
+  },
+  {
+    "name": "Scout Ornithopter Rocket Launcher Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 54
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 67
+      },
+      {
+        "item": "Precision Range Finder",
+        "quantity": 13
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 81
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Scout",
+    "required": false
+  },
+  {
+    "name": "Scout Ornithopter Scan Module",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 507
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 55
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 31
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 27
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 23
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Scout",
+    "required": false
+  },
+  {
+    "name": "Scout Ornithopter Scan Module",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 507
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 55
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 31
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 27
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 23
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Scout",
+    "required": false
+  },
+  {
+    "name": "Scout Ornithopter Scan Module",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 507
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 55
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 31
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 27
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 23
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Scout",
+    "required": false
+  },
+  {
+    "name": "Scout Ornithopter Storage Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 510
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 55
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 30
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 27
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Scout",
+    "required": false
+  },
+  {
+    "name": "Scout Ornithopter Thruster Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 510
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 60
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 40
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 27
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 31
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Scout",
+    "required": false
+  },
+  {
+    "name": "Scout Ornithopter Thruster Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1010
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 80
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 50
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 15
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Scout",
+    "required": false
+  },
+  {
+    "name": "Scout Ornithopter Thruster Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 95
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 68
+      },
+      {
+        "item": "Improved Holtzman Actuator",
+        "quantity": 17
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 81
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Scout",
+    "required": false
+  },
+  {
+    "name": "Scout Ornithopter Wing Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 340
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 9
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 4
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 3
+      },
+      {
+        "item": "Industrial Pump",
+        "quantity": 2
+      }
+    ],
+    "amount": 4,
+    "type": "Mk4 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Wing Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 170
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 12
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 7
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 6
+      },
+      {
+        "item": "Industrial Pump",
+        "quantity": 3
+      }
+    ],
+    "amount": 4,
+    "type": "Mk5 Scout",
+    "required": true
+  },
+  {
+    "name": "Scout Ornithopter Wing Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 250
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 15
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 9
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 12
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 14
+      },
+      {
+        "item": "Industrial Pump",
+        "quantity": 4
+      }
+    ],
+    "amount": 4,
+    "type": "Mk6 Scout",
+    "required": true
+  }
+]

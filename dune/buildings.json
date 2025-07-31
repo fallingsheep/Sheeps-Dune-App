@@ -1,0 +1,947 @@
+[
+  {
+    "name": "Sub-Fief Console",
+    "image": "/dune/console.webp",
+    "components": [
+      {
+        "item": "Salvaged Metal",
+        "quantity": 25,
+        "weight":0
+      }
+    ],
+    "power": -15,
+    "weight":3.8,
+    "water":0
+  },
+  {
+    "name": "Advanced Sub-Fief Console",
+    "image": "/dune/advanced-console.webp",
+    "components": [
+      {
+        "item": "Salvaged Metal",
+        "quantity": 40,
+        "weight":0
+      }
+    ],
+    "power": -15,
+    "weight":6,
+    "water":0
+  },
+  {
+    "name": "Fuel-Powered Generator",
+    "image": "/dune/generator.webp",
+    "components": [
+      {
+        "item": "Salvaged Metal",
+        "quantity": 45,
+        "weight":0
+      }
+    ],
+    "power": 75,
+    "weight":6.8,
+    "water":0
+  },
+  {
+    "name": "Wind Turbine Omnidirectional",
+    "image": "/dune/wind-turbine-omni.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 45,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 65,
+        "weight":0
+      },
+      {
+        "item": "Calibrated Servok",
+        "quantity": 20,
+        "weight":0
+      }
+    ],
+    "power": 150,
+    "weight":89.5,
+    "water":0
+  },
+  {
+    "name": "Wind Turbine Directional",
+    "image": "/dune/wind-turbine-dir.webp",
+    "components": [
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 120,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 160,
+        "weight":0
+      },
+      {
+        "item": "Calibrated Servok",
+        "quantity": 50,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 3,
+        "weight":0
+      }
+    ],
+    "power": 350,
+    "weight":273.6,
+    "water":0
+  },
+  {
+    "name": "Spice-Powered Generator",
+    "image": "/dune/spice-generator.webp",
+    "components": [
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 430,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 180,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 270,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 100,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 300,
+        "weight":0
+      },
+      {
+        "item": "Advanced Machinery",
+        "quantity": 40,
+        "weight":0
+      }
+    ],
+    "power": 1000,
+    "weight":816,
+    "water":0
+  },
+  {
+    "name": "Repair Station",
+    "image": "/dune/repair-station.webp",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 40,
+        "weight":0
+      }
+    ],
+    "power": -20,
+    "weight":16,
+    "water":0
+  },
+  {
+    "name": "Recycler",
+    "image": "/dune/recycler.webp",
+    "components": [
+      {
+        "item": "Copper Ingot",
+        "quantity": 30,
+        "weight":0
+      }
+    ],
+    "power": -15,
+    "weight":7.5,
+    "water":0
+  },
+  {
+    "name": "Windtrap",
+    "image": "/dune/windtrap.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 90,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 30,
+        "weight":0
+      },
+      {
+        "item": "Calibrated Servok",
+        "quantity": 20,
+        "weight":0
+      }
+    ],
+    "power": -75,
+    "weight":50,
+    "water":0
+  },
+  {
+    "name": "Large Windtrap",
+    "image": "/dune/large-windtrap.webp",
+    "components": [
+      {
+        "item": "Silicone Block",
+        "quantity": 250,
+        "weight":0
+      },
+      {
+        "item": "Calibrated Servok",
+        "quantity": 70,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 5,
+        "weight":0
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 240,
+        "weight":0
+      }
+    ],
+    "power": -135,
+    "weight":249,
+    "water":0
+  },
+  {
+    "name": "Pentashield Surface Vertical",
+    "image": "/dune/pentashield-vert.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 2,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 20,
+        "weight":0
+      },
+      {
+        "item": "Calibrated Servok",
+        "quantity": 6,
+        "weight":0
+      }
+    ],
+    "power": -6,
+    "weight":21.6,
+    "water":0
+  },
+  {
+    "name": "Pentashield Surface Horizontal",
+    "image": "/dune/pentashield-horiz.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 2,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 20,
+        "weight":0
+      },
+      {
+        "item": "Calibrated Servok",
+        "quantity": 6,
+        "weight":0
+      }
+    ],
+    "power": -3,
+    "weight":21.6,
+    "water":0
+  },
+  {
+    "name": "Fabricator",
+    "image": "/dune/fabricator.webp",
+    "components": [
+      {
+        "item": "Salvaged Metal",
+        "quantity": 75,
+        "weight":0
+      }
+    ],
+    "power": -10,
+    "weight":11.3,
+    "water":0
+  },
+  {
+    "name": "Garment Fabricator",
+    "image": "/dune/garment-fabricator.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 40,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 30,
+        "weight":0
+      }
+    ],
+    "power": -40,
+    "weight":23,
+    "water":0
+  },
+  {
+    "name": "Advanced Garment Fabricator",
+    "image": "/dune/adv-garment-fabricator.webp",
+    "components": [
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 140,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 180,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 100,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 45,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 150,
+        "weight":0
+      },
+      {
+        "item": "Armor Plating",
+        "quantity": 115,
+        "weight":0
+      }
+    ],
+    "power": -150,
+    "weight":338.5,
+    "water":0
+  },
+  {
+    "name": "Survival Fabricator",
+    "image": "/dune/survival-fabricator.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 40,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 30,
+        "weight":0
+      }
+    ],
+    "power": -40,
+    "weight":23,
+    "water":0
+  },
+  {
+    "name": "Advanced Survival Fabricator",
+    "image": "/dune/advanced-survival-fabricator.webp",
+    "components": [
+      {
+        "item": "Silicone Block",
+        "quantity": 180,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 100,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 45,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 150,
+        "weight":0
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 140,
+        "weight":0
+      },
+      {
+        "item": "Thermoelectric Cooler",
+        "quantity": 30,
+        "weight":0
+      }
+    ],
+    "power": -150,
+    "weight":330,
+    "water":0
+  },
+  {
+    "name": "Weapons Fabricator",
+    "image": "/dune/weapons-fabricator.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 40,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 30,
+        "weight":0
+      }
+    ],
+    "power": -40,
+    "weight":23,
+    "water":0
+  },
+  {
+    "name": "Advanced Weapons Fabricator",
+    "image": "/dune/adv-weapons-fabricator.webp",
+    "components": [
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 140,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 180,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 100,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 45,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 150,
+        "weight":0
+      },
+      {
+        "item": "Military Power Regulator",
+        "quantity": 40,
+        "weight":0
+      }
+    ],
+    "power": -150,
+    "weight":331,
+    "water":0
+  },
+  {
+    "name": "Vehicles Fabricator",
+    "image": "/dune/vehicles-fabricator.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 40,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 30,
+        "weight":0
+      }
+    ],
+    "power": -40,
+    "weight":23,
+    "water":0
+  },
+  {
+    "name": "Advanced Vehicles Fabricator",
+    "image": "/dune/adv-vehicles-fabricator.webp",
+    "components": [
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 140,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 180,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 100,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 45,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 150,
+        "weight":0
+      },
+      {
+        "item": "Industrial Pump",
+        "quantity": 50,
+        "weight":0
+      }
+    ],
+    "power": -150,
+    "weight":332,
+    "water":0
+  },
+  {
+    "name": "Blood Purifier",
+    "image": "/dune/blood-purifier.webp",
+    "components": [
+      {
+        "item": "Salvaged Metal",
+        "quantity": 70,
+        "weight":0
+      }
+    ],
+    "power": -10,
+    "weight":10.5,
+    "water":0
+  },
+  {
+    "name": "Improved Blood Purifier",
+    "image": "/dune/improved-blood-purifier.webp",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 50,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 16,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 20,
+        "weight":0
+      }
+    ],
+    "power": -35,
+    "weight":23.6,
+    "water":0
+  },
+  {
+    "name": "Small Ore Refinery",
+    "image": "/dune/small-ore-refinery.webp",
+    "components": [
+      {
+        "item": "Salvaged Metal",
+        "quantity": 90,
+        "weight":0
+      }
+    ],
+    "power": -15,
+    "weight":13.5,
+    "water":0
+  },
+  {
+    "name": "Medium Ore Refinery",
+    "image": "/dune/medium-ore-refinery.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 125,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 60,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 50,
+        "weight":0
+      }
+    ],
+    "power": -45,
+    "weight":127.5,
+    "water":0
+  },
+  {
+    "name": "Large Ore Refinery",
+    "image": "/dune/large-ore-refinery.webp",
+    "components": [
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 380,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 540,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 400,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 200,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 745,
+        "weight":0
+      },
+      {
+        "item": "Advanced Machinery",
+        "quantity": 40,
+        "weight":0
+      }
+    ],
+    "power": -350,
+    "weight":1283,
+    "water":0
+  },
+  {
+    "name": "Small Chemical Refinery",
+    "image": "/dune/small-chemical-refinery.webp",
+    "components": [
+      {
+        "item": "Copper Ingot",
+        "quantity": 45,
+        "weight":0
+      }
+    ],
+    "power": -15,
+    "weight":11.3,
+    "water":0
+  },
+  {
+    "name": "Medium Chemical Refinery",
+    "image": "/dune/medium-chemical-refinery.webp",
+    "components": [
+      {
+        "item": "Silicone Block",
+        "quantity": 90,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 50,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 35,
+        "weight":0
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 150,
+        "weight":0
+      }
+    ],
+    "power": -350,
+    "weight":156,
+    "water":0
+  },
+  {
+    "name": "Spice Refinery",
+    "image": "/dune/spice-refinery.webp",
+    "components": [
+      {
+        "item": "Silicone Block",
+        "quantity": 130,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 80,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 70,
+        "weight":0
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 160,
+        "weight":0
+      }
+    ],
+    "power": -200,
+    "weight":244,
+    "water":0
+  },
+  {
+    "name": "Medium Spice Refinery",
+    "image": "/dune/med-spice-refinery.webp",
+    "components": [
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 285,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 225,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 135,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 100,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 190,
+        "weight":0
+      }
+    ],
+    "power": -350,
+    "weight":534.5,
+    "water":0
+  },
+  {
+    "name": "Large Spice Refinery",
+    "image": "/dune/large-spice-refinery.webp",
+    "components": [
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 950,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 1080,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 1000,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 350,
+        "weight":0
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 1110,
+        "weight":0
+      },
+      {
+        "item": "Advanced Machinery",
+        "quantity": 55,
+        "weight":0
+      }
+    ],
+    "power": -500,
+    "weight":2408.5,
+    "water":0
+  },
+  {
+    "name": "Fremen Deathstill",
+    "image": "/dune/fremen-deathstill.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 60,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 28,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 32,
+        "weight":0
+      }
+    ],
+    "power": -200,
+    "weight":36,
+    "water":0
+  },
+  {
+    "name": "Advanced Fremen Deathstill",
+    "image": "/dune/advanced-fremen-deathstill.webp",
+    "components": [
+      {
+        "item": "Silicone Block",
+        "quantity": 170,
+        "weight":0
+      },
+      {
+        "item": "Complex Machinery",
+        "quantity": 70,
+        "weight":0
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 240,
+        "weight":0
+      }
+    ],
+    "power": -350,
+    "weight":240,
+    "water":0
+  },
+  {
+    "name": "Small Storage Container",
+    "image": "/dune/small-storage.webp",
+    "components": [
+      {
+        "item": "Salvaged Metal",
+        "quantity": 35,
+        "weight":0
+      }
+    ],
+    "power": 0,
+    "weight":5.3,
+    "water":0
+  },
+  {
+    "name": "Chest",
+    "image": "/dune/chest.webp",
+    "components": [
+      {
+        "item": "Iron Ingot",
+        "quantity": 20,
+        "weight":0
+      }
+    ],
+    "power": 0,
+    "weight":8,
+    "water":0
+  },
+  {
+    "name": "Storage Container",
+    "image": "/dune/storage-container.webp",
+    "components": [
+      {
+        "item": "Silicone Block",
+        "quantity": 8,
+        "weight":0
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 45,
+        "weight":0
+      }
+    ],
+    "power": 0,
+    "weight":32.3,
+    "water":0
+  },
+  {
+    "name": "Medium Storage Container",
+    "image": "/dune/med-storage-container.webp",
+    "components": [
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 70,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 14,
+        "weight":0
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 4,
+        "weight":0
+      }
+    ],
+    "power": 0,
+    "weight":72.2,
+    "water":0
+  },
+  {
+    "name": "Water Cistern",
+    "image": "/dune/water-cistern.webp",
+    "components": [
+      {
+        "item": "Copper Ingot",
+        "quantity": 25,
+        "weight":0
+      }
+    ],
+    "power": 0,
+    "weight":6.3,
+    "water":1750
+  },
+  {
+    "name": "Medium Water Cistern",
+    "image": "/dune/medium-water-cistern.webp",
+    "components": [
+      {
+        "item": "Steel Ingot",
+        "quantity": 60,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 30,
+        "weight":0
+      }
+    ],
+    "power": 0,
+    "weight":33,
+    "water":25000
+  },
+  {
+    "name": "Large Water Cistern",
+    "image": "/dune/large-water-cistern.webp",
+    "components": [
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 150,
+        "weight":0
+      },
+      {
+        "item": "Silicone Block",
+        "quantity": 160,
+        "weight":0
+      },
+      {
+        "item": "Industrial Pump",
+        "quantity": 25,
+        "weight":0
+      }
+    ],
+    "power": 0,
+    "weight": 153.5,
+    "water":100000
+  }
+]
