@@ -135,6 +135,22 @@ ul {
     margin-bottom: 1em;
 }
 
+.value {
+  color: #a85f2f; /* light mode color */
+  font-weight: bold;
+}
+.buildTitle {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.buildFont{
+  font-size: 0.8rem;
+}
+
+body.dark .value {
+  color: #f4d28f; /* dark mode color */
+}
+
 @media (max-width: 600px) {
     body {
         padding: 10px;

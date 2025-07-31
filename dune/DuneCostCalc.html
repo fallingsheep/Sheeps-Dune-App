@@ -37,15 +37,20 @@ export to csv
       <label><input type="checkbox" id="deepDesertToggle" /> Deep Desert 50% cost</label>
       <div id="buildingList" class="building-grid"></div>
       <div class="totals">
-        <h3>Total Resources Required:</h3>
+        <strong>Total Resources Required:</strong>
         <ul id="totalResources"></ul>
-        <h3>Total Power: </h3>
+        <strong>Total Power: </strong>
+        <br>
         <img class="icon" src="/dune/Icons/power.png" />
         <span id="powerUsage" class="power-display">0</span> used / <span id="powerGenerated"
           class="power-display">0</span> generated
-        <h3>Total Weight: </h3>
+        <br><br>
+        <strong>Total Weight: </strong>
+        <br>
         <span id="weightUsage" class="weight-display">0v</span>
-        <h3>Water Storage: </h3>
+        <br><br>
+        <strong>Water Storage: </strong>
+        <br>
         <span id="waterStorage" class="water-display">0ml</span>
 
       </div>
@@ -61,7 +66,7 @@ export to csv
       </select>
       <br>
       <label for="buildAmount">Amount:</label>
-      <input type="number" id="buildAmount" value="1" min="1" />
+      <input type="number" id="buildAmount" value="1" min="1" style="width: 40px;"/>
       <div id="selectedVehicle"></div>
       <div id="imageholder" class="flex-row">
         <div id="requiredParts" class="flex-column"></div>
@@ -141,11 +146,13 @@ export to csv
             <div style="display:flex; align-items:center;">
               ${imageTag}
               <div>
-                    <strong>${bld.name}</strong><br>
-                    Power: ${bld.power > 0 ? '+' : ''}${bld.power}<br> 
-                    Water: ${bld.water}<br>          
-                    Weight: ${bld.weight}<br>
-                    Quantity: <input type="number" id="qty-${i}" value="${savedQty[i] || 0}" min="0" style="width: 40px;"/>
+                <span class="buildTitle">${bld.name}</span><br>
+                <span class="buildFont">
+                  Power: <span class="value">${bld.power > 0 ? '+' : ''}${bld.power}</span><br> 
+                  Water: <span class="value">${bld.water}ml</span><br>          
+                  Weight: <span class="value">${bld.weight.toFixed(1)}v</span><br>
+                  Quantity: <input type="number" id="qty-${i}" value="${savedQty[i] || 0}" min="0" style="width: 40px;"/>
+                </span>
               </div>
             </div>
           `;
@@ -176,16 +183,16 @@ export to csv
             if (qty <= 0) {
               totalDisplay = '';
             } else {
-              totalDisplay = `<li><img class="icon" src="${icon}" /> ${qty} x ${item}</li>`;
+              totalDisplay = `<li><img class="icon" src="${icon}" /> <span class='buildFont'><span class='value'>${qty}x</span> ${item}</span></li>`;
             }
             return totalDisplay;
           }).join('');
-          powerUsed.textContent = used;
-          powerGen.textContent = generated;
+          powerUsed.innerHTML = "<span class='buildFont'>"+used+"</span>";
+          powerGen.innerHTML = "<span class='buildFont'>"+generated+"</span>";
           powerUsed.className = 'power-display ' + (used > generated ? 'red' : 'green');
           powerGen.className = 'power-display ' + (used > generated ? 'red' : 'green');
-          waterStorage.textContent = totalWater.toFixed(0) + "ml";
-          weightUsed.textContent = totalWeight.toFixed(1) + "v";
+          waterStorage.innerHTML = "<span class='buildFont'><span class='value'>" + totalWater.toFixed(0) + "ml </span></span>";
+          weightUsed.innerHTML = "<span class='buildFont'><span class='value'>" + totalWeight.toFixed(1) + "v </span></span>";
 
           localStorage.setItem('buildingQuantities', JSON.stringify(saveQty));
           localStorage.setItem('deepDesert', desertToggle.checked);
@@ -237,18 +244,18 @@ export to csv
           localStorage.setItem('vehType', type);
           localStorage.setItem('vehAmount', amt);
 
-          selVeh.innerHTML = `<strong>Selected:</strong> ${type}`;
+          //selVeh.innerHTML = `<strong>Selected:</strong> ${type}`;
           const name = type.split(' ').pop().toLowerCase();
           imageDiv.innerHTML = `<img class="vehicle-img" src="/dune/vehicles/${name}.png" />`;
 
           reqParts.innerHTML = '<strong>Required Parts:</strong><ul>' +
-            match.filter(v => v.required).map(v => `<li>${(v.amount || 1) * amt}x ${v.name}</li>`).join('') + '</ul>';
+            match.filter(v => v.required).map(v => `<li><span class="value">${(v.amount || 1) * amt}x</span> ${v.name}</li>`).join('') + '</ul>';
 
           const optional = match.filter(v => !v.required);
           optParts.innerHTML = '<strong>Optional Parts:</strong><form id="optForm"><ul>' +
             optional.map((v, i) => {
               const checked = JSON.parse(localStorage.getItem('vehOpts') || '[]').includes(i);
-              return `<li><label><input type="checkbox" name="opt" value="${i}" ${checked ? 'checked' : ''}/> ${(v.amount || 1) * amt}x ${v.name}</label></li>`;
+              return `<li><label><input type="checkbox" name="opt" value="${i}" ${checked ? 'checked' : ''}/> <span class="value">${(v.amount || 1) * amt}x</span> ${v.name}</label></li>`;
             }).join('') + '</ul></form>';
 
           function updateCost() {
@@ -264,7 +271,7 @@ export to csv
             costDiv.innerHTML = '<strong>Total Cost:</strong><ul>' +
               Object.entries(matCosts).map(([item, qty]) => {
                 const icon = `/dune/Icons/${item.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.png`;
-                return `<li><img class="icon" src="${icon}" /> ${qty} x ${item}</li>`;
+                return `<li><img class="icon" src="${icon}" /><span class="value">${qty}x</span> ${item}</li>`;
               }).join('');
             document.getElementById('resetVehicles').onclick = () => {
               localStorage.removeItem('vehType');
