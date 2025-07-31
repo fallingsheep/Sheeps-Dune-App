@@ -167,6 +167,8 @@ export to csv
             />
           `;
 
+
+
           div.innerHTML = `
             <div>
               <div class="buildTitle" style="margin-bottom: 5px;">${bld.name}</div>
@@ -193,10 +195,19 @@ export to csv
           selectedDisplay.innerHTML = ''; // Clear list
 
           buildings.forEach((bld, i) => {
+            let fileName = bld.name.toLowerCase().replace(/\s+/g, '-');
+            let imageSrc = `./Buildings/${fileName}.png`;
+            let imageTagSmall = `
+            <img src="${imageSrc}" alt="${bld.name}" 
+                class="building-image-small"
+                onerror="this.style.display='none';"
+            />
+          `;
+
             const qty = parseInt(document.getElementById(`qty-${i}`).value) || 0;
             if (qty > 0) {
               const li = document.createElement('li');
-              li.innerHTML = `<span class="buildFont"><span class="value">${qty}x</span> ${bld.name}</span>`;
+              li.innerHTML = `<span class="buildFont"><span class="value">${imageTagSmall} ${qty}x</span> ${bld.name}</span>`;
               selectedDisplay.appendChild(li);
             }
           });
