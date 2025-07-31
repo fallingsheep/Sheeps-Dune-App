@@ -37,22 +37,28 @@ export to csv
       <label><input type="checkbox" id="deepDesertTop" /> Deep Desert 50% cost</label>
       <br><br>
       <div id="buildingList" class="building-grid"></div>
-      <div class="totals">
-        <strong>Total Resources Required:</strong>
-        <ul id="totalResources"></ul>
-        <strong>Total Power: </strong>
-        <br>
-        <img class="icon" src="/dune/Icons/power.png" />
-        <span id="powerUsage" class="power-display">0</span> used / <span id="powerGenerated"
-          class="power-display">0</span> generated
-        <br><br>
-        <strong>Total Weight: </strong>
-        <br>
-        <span id="weightUsage" class="weight-display">0v</span>
-        <br><br>
-        <strong>Water Storage: </strong>
-        <br>
-        <span id="waterStorage" class="water-display">0ml</span>
+      <div class="totals-flex">
+        <div class="totals">
+          <strong>Total Resources Required:</strong>
+          <ul id="totalResources"></ul>
+          <strong>Total Power: </strong><br>
+          <img class="icon" src="/dune/Icons/power.png" />
+          <span id="powerUsage" class="power-display">0</span> used /
+          <span id="powerGenerated" class="power-display">0</span> generated
+          <br><br>
+          <strong>Total Weight: </strong><br>
+          <span id="weightUsage" class="weight-display">0v</span>
+          <br><br>
+          <strong>Water Storage: </strong><br>
+          <span id="waterStorage" class="water-display">0ml</span>
+        </div>
+        <div class="totals">
+          <div class="selected-block">
+            <strong>Selected Buildings:</strong>
+            <br><br>
+            <ul id="selectedBuildings" class="buildings-display"></ul>
+          </div>
+        </div>
       </div>
       <br>
       <button class="resetBuildings">Reset</button>
@@ -156,22 +162,25 @@ export to csv
 
           const imageTag = `
             <img src="${imageSrc}" alt="${bld.name}" 
-                style="width:48px; height:auto; margin-right:10px; vertical-align:top;" 
+                class="building-image"
                 onerror="this.style.display='none';"
             />
           `;
 
           div.innerHTML = `
-            <div style="display:flex; align-items:center;">
-              ${imageTag}
-              <div>
-                <span class="buildTitle">${bld.name}</span><br>
-                <span class="buildFont">
-                  Power: <span class="value">${bld.power > 0 ? '+' : ''}${bld.power}</span><br> 
-                  Water: <span class="value">${bld.water}ml</span><br>          
-                  Weight: <span class="value">${bld.weight.toFixed(1)}v</span><br>
-                  Quantity: <input type="number" id="qty-${i}" value="${savedQty[i] || 0}" min="0" style="width: 40px;"/>
-                </span>
+            <div>
+              <div class="buildTitle" style="margin-bottom: 5px;">${bld.name}</div>
+              <div style="display: flex; align-items: center;">
+                <div>
+                  <span class="buildFont">
+                    Power: <span class="value">${bld.power > 0 ? '+' : ''}${bld.power}</span><br> 
+                    Water: <span class="value">${bld.water}ml</span><br>          
+                    Weight: <span class="value">${bld.weight.toFixed(1)}v</span><br>
+                    <span class="quantityBuild">Quantity:</span> 
+                    <input type="number" id="qty-${i}" value="${savedQty[i] || 0}" min="0" style="width: 40px;"/>
+                  </span>
+                </div>
+                ${imageTag}
               </div>
             </div>
           `;
@@ -180,6 +189,22 @@ export to csv
         });
 
         function calcBuildings() {
+          const selectedDisplay = document.getElementById('selectedBuildings');
+          selectedDisplay.innerHTML = ''; // Clear list
+
+          buildings.forEach((bld, i) => {
+            const qty = parseInt(document.getElementById(`qty-${i}`).value) || 0;
+            if (qty > 0) {
+              const li = document.createElement('li');
+              li.innerHTML = `<span class="buildFont"><span class="value">${qty}x</span> ${bld.name}</span>`;
+              selectedDisplay.appendChild(li);
+            }
+          });
+
+          if (!selectedDisplay.children.length) {
+            selectedDisplay.innerHTML = '<em>No buildings selected</em>';
+          }
+
           const totals = {};
           let used = 0, generated = 0, totalWeight = 0, totalWater = 0;
           const saveQty = {};
