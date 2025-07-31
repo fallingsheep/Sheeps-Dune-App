@@ -30,7 +30,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Cabin Mk6",
@@ -67,7 +68,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Chassis Mk5",
@@ -96,7 +98,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Chassis Mk6",
@@ -129,7 +132,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Cockpit Mk5",
@@ -162,7 +166,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Cockpit Mk6",
@@ -199,7 +204,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Engine Mk5",
@@ -232,7 +238,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Engine Mk6",
@@ -269,7 +276,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Generator Mk5",
@@ -298,7 +306,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Generator Mk6",
@@ -331,7 +340,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Rocket Launcher Mk5",
@@ -364,7 +374,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Assault",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Rocket Launcher Mk6",
@@ -397,7 +408,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Assault",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Storage Mk5",
@@ -422,7 +434,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Assault",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Tail Mk5",
@@ -447,7 +460,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Tail Mk6",
@@ -484,7 +498,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Thruster Mk5",
@@ -513,7 +528,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Assault",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Thruster Mk6",
@@ -542,7 +558,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Assault",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Wing Mk5",
@@ -571,7 +588,8 @@
     ],
     "amount": 6,
     "type": "Mk5 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Assault Ornithopter Wing Mk6",
@@ -604,7 +622,8 @@
     ],
     "amount": 6,
     "type": "Mk6 Assault",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Booster Mk3",
@@ -633,7 +652,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Booster Mk4",
@@ -662,7 +682,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Booster Mk5",
@@ -691,7 +712,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Booster Mk6",
@@ -724,7 +746,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Chassis Mk3",
@@ -749,7 +772,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Chassis Mk4",
@@ -778,7 +802,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Chassis Mk5",
@@ -807,7 +832,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Chassis Mk6",
@@ -844,7 +870,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Cutteray Mk3",
@@ -873,7 +900,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Cutteray Mk4",
@@ -902,7 +930,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Cutteray Mk5",
@@ -935,7 +964,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Cutteray Mk6",
@@ -972,7 +1002,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Engine Mk3",
@@ -1001,7 +1032,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Engine Mk4",
@@ -1030,7 +1062,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Engine Mk5",
@@ -1063,7 +1096,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Engine Mk6",
@@ -1100,7 +1134,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Hull Mk3",
@@ -1125,7 +1160,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Hull Mk4",
@@ -1158,7 +1194,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Hull Mk5",
@@ -1191,7 +1228,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Hull Mk6",
@@ -1228,7 +1266,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy PSU Mk3",
@@ -1253,7 +1292,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy PSU Mk4",
@@ -1278,7 +1318,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy PSU Mk5",
@@ -1307,7 +1348,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy PSU Mk6",
@@ -1340,7 +1382,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Rear Mk3",
@@ -1369,7 +1412,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Rear Mk4",
@@ -1402,7 +1446,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Rear Mk5",
@@ -1435,7 +1480,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Rear Mk6",
@@ -1472,7 +1518,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Rocket Launcher Mk5",
@@ -1505,7 +1552,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Rocket Launcher Mk6",
@@ -1538,7 +1586,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Storage Mk3",
@@ -1563,7 +1612,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Storage Mk4",
@@ -1588,7 +1638,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Storage Mk5",
@@ -1613,7 +1664,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Storage Mk6",
@@ -1642,7 +1694,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Tread Mk3",
@@ -1667,7 +1720,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Tread Mk4",
@@ -1692,7 +1746,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Tread Mk5",
@@ -1717,7 +1772,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Tread Mk6",
@@ -1746,7 +1802,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Buggy Utility Rear Mk3",
@@ -1775,7 +1832,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Utility Rear Mk4",
@@ -1808,7 +1866,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Utility Rear Mk5",
@@ -1841,7 +1900,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Buggy Utility Rear Mk6",
@@ -1878,7 +1938,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Buggy",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Carrier Ornithopter Chassis Mk6",
@@ -1911,7 +1972,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Carrier",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Carrier Ornithopter Engine Mk6",
@@ -1948,7 +2010,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Carrier",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Carrier Ornithopter Generator Mk6",
@@ -1981,7 +2044,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Carrier",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Carrier Ornithopter Main Hull Mk6",
@@ -2018,7 +2082,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Carrier",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Carrier Ornithopter Side Hull Mk6",
@@ -2055,7 +2120,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Carrier",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Carrier Ornithopter Tail Hull Mk6",
@@ -2092,7 +2158,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Carrier",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Carrier Ornithopter Thruster Mk6",
@@ -2121,7 +2188,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Carrier",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Carrier Ornithopter Wing Mk6",
@@ -2154,7 +2222,8 @@
     ],
     "amount": 8,
     "type": "Mk6 Carrier",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Mohandis Sandbike Engine Mk3",
@@ -2187,7 +2256,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Night Rider Sandbike Boost Mk2",
@@ -2212,7 +2282,8 @@
     ],
     "amount": 1,
     "type": "Mk2 Sandbike",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Sandbike Backseat Mk1",
@@ -2229,7 +2300,8 @@
     ],
     "amount": 1,
     "type": "Mk1 Sandbike",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Sandbike Booster Mk2",
@@ -2250,7 +2322,8 @@
     ],
     "amount": 1,
     "type": "Mk2 Sandbike",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Sandbike Booster Mk3",
@@ -2279,7 +2352,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Sandbike",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Sandbike Booster Mk4",
@@ -2308,7 +2382,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Sandbike",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Sandbike Booster Mk5",
@@ -2337,7 +2412,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Sandbike",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Sandbike Booster Mk6",
@@ -2370,7 +2446,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandbike",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Sandbike Chassis Mk1",
@@ -2387,7 +2464,8 @@
     ],
     "amount": 1,
     "type": "Mk1 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Chassis Mk2",
@@ -2404,7 +2482,8 @@
     ],
     "amount": 1,
     "type": "Mk2 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Chassis Mk3",
@@ -2429,7 +2508,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Chassis Mk4",
@@ -2458,7 +2538,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Chassis Mk5",
@@ -2487,7 +2568,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Chassis Mk6",
@@ -2520,7 +2602,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Engine Mk1",
@@ -2537,7 +2620,8 @@
     ],
     "amount": 1,
     "type": "Mk1 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Engine Mk2",
@@ -2554,7 +2638,8 @@
     ],
     "amount": 1,
     "type": "Mk2 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Engine Mk3",
@@ -2583,7 +2668,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Engine Mk4",
@@ -2612,7 +2698,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Engine Mk5",
@@ -2645,7 +2732,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Engine Mk6",
@@ -2682,7 +2770,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Hull Mk1",
@@ -2699,7 +2788,8 @@
     ],
     "amount": 1,
     "type": "Mk1 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Hull Mk2",
@@ -2720,7 +2810,8 @@
     ],
     "amount": 1,
     "type": "Mk2 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Hull Mk3",
@@ -2749,7 +2840,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Hull Mk4",
@@ -2782,7 +2874,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Hull Mk5",
@@ -2815,7 +2908,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Hull Mk6",
@@ -2852,7 +2946,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Inventory Mk1",
@@ -2869,7 +2964,8 @@
     ],
     "amount": 1,
     "type": "Mk1 Sandbike",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Sandbike Inventory Mk2",
@@ -2886,7 +2982,8 @@
     ],
     "amount": 1,
     "type": "Mk2 Sandbike",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Sandbike PSU Mk1",
@@ -2903,7 +3000,8 @@
     ],
     "amount": 1,
     "type": "Mk1 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike PSU Mk2",
@@ -2920,7 +3018,8 @@
     ],
     "amount": 1,
     "type": "Mk2 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike PSU Mk3",
@@ -2945,7 +3044,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike PSU Mk4",
@@ -2970,7 +3070,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike PSU Mk5",
@@ -2999,7 +3100,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike PSU Mk6",
@@ -3032,7 +3134,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Scanner Mk2",
@@ -3049,7 +3152,8 @@
     ],
     "amount": 1,
     "type": "Mk2 Sandbike",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Sandbike Tread Mk1",
@@ -3066,7 +3170,8 @@
     ],
     "amount": 1,
     "type": "Mk1 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Tread Mk2",
@@ -3083,7 +3188,8 @@
     ],
     "amount": 1,
     "type": "Mk2 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Tread Mk3",
@@ -3108,7 +3214,8 @@
     ],
     "amount": 1,
     "type": "Mk3 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Tread Mk4",
@@ -3133,7 +3240,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Tread Mk5",
@@ -3158,7 +3266,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandbike Tread Mk6",
@@ -3187,7 +3296,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandbike",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandcrawler Cabin Mk6",
@@ -3220,7 +3330,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandcrawler",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandcrawler Centrifuge Mk6",
@@ -3257,7 +3368,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandcrawler",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandcrawler Chassis Mk6",
@@ -3290,7 +3402,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandcrawler",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandcrawler Engine Mk6",
@@ -3327,7 +3440,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandcrawler",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandcrawler PSU Mk6",
@@ -3360,7 +3474,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandcrawler",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandcrawler Tread Mk6",
@@ -3389,7 +3504,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandcrawler",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Sandcrawler Vacuum Mk6",
@@ -3422,7 +3538,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Sandcrawler",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Chassis Mk4",
@@ -3451,7 +3568,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Chassis Mk5",
@@ -3480,7 +3598,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Chassis Mk6",
@@ -3513,7 +3632,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Cockpit Mk4",
@@ -3546,7 +3666,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Cockpit Mk5",
@@ -3579,7 +3700,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Cockpit Mk6",
@@ -3616,7 +3738,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Engine Mk4",
@@ -3645,7 +3768,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Engine Mk5",
@@ -3678,7 +3802,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Engine Mk6",
@@ -3715,7 +3840,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Generator Mk4",
@@ -3740,7 +3866,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Generator Mk5",
@@ -3769,7 +3896,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Generator Mk6",
@@ -3802,7 +3930,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Hull Mk4",
@@ -3835,7 +3964,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Hull Mk5",
@@ -3868,7 +3998,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Hull Mk6",
@@ -3905,7 +4036,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Rocket Launcher Mk5",
@@ -3938,7 +4070,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Scout",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Rocket Launcher Mk6",
@@ -3971,7 +4104,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Scout",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Scan Module",
@@ -4000,7 +4134,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Scout",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Scan Module",
@@ -4029,7 +4164,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Scout",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Scan Module",
@@ -4058,7 +4194,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Scout",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Storage Mk4",
@@ -4083,7 +4220,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Scout",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Thruster Mk4",
@@ -4112,7 +4250,8 @@
     ],
     "amount": 1,
     "type": "Mk4 Scout",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Thruster Mk5",
@@ -4137,7 +4276,8 @@
     ],
     "amount": 1,
     "type": "Mk5 Scout",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Thruster Mk6",
@@ -4166,7 +4306,8 @@
     ],
     "amount": 1,
     "type": "Mk6 Scout",
-    "required": false
+    "required": false,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Wing Mk4",
@@ -4195,7 +4336,8 @@
     ],
     "amount": 4,
     "type": "Mk4 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Wing Mk5",
@@ -4224,7 +4366,8 @@
     ],
     "amount": 4,
     "type": "Mk5 Scout",
-    "required": true
+    "required": true,
+    "unique": false
   },
   {
     "name": "Scout Ornithopter Wing Mk6",
@@ -4257,6 +4400,472 @@
     ],
     "amount": 4,
     "type": "Mk6 Scout",
-    "required": true
+    "required": true,
+    "unique": false
+  },
+  {
+    "name": "Focused Buggy Cutteray Mk6",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1580
+      },
+      {
+        "item": "Plastanium Ingot",
+        "quantity": 130
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 62
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 77
+      },
+      {
+        "item": "Spice Melange",
+        "quantity": 162
+      },
+      {
+        "item": "Thermoelectric Cooler",
+        "quantity": 35
+      },
+      {
+        "item": "Thermo-Responsive Ray Amplifier",
+        "quantity": 15
+      },
+      {
+        "item": "Spice-infused Plastanium Dust",
+        "quantity": 31
+      }
+    ],
+    "amount": 1,
+    "type": "Mk6 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Bigger Buggy Boot Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 200
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 31
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 10
+      },
+      {
+        "item": "Advanced Servoks",
+        "quantity": 14
+      },
+      {
+        "item": "Spice-Infused Steel Dust",
+        "quantity": 17
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Focused Buggy Cutteray Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1010
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 40
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 110
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 50
+      },
+      {
+        "item": "Ray Amplifier",
+        "quantity": 26
+      },
+      {
+        "item": "Thermoelectric Cooler",
+        "quantity": 13
+      },
+      {
+        "item": "Spice-infused Duraluminum Dust",
+        "quantity": 26
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Steady Assault Boost Module Mk5",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 1010
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 41
+      },
+      {
+        "item": "Duraluminum Ingot",
+        "quantity": 90
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 60
+      },
+      {
+        "item": "Holtzman Actuator",
+        "quantity": 17
+      },
+      {
+        "item": "Spice-infused Duraluminum Dust",
+        "quantity": 26
+      }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Focused Buggy Cutteray Mk3",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 200
+      },
+      {
+        "item": "Steel Ingot",
+        "quantity": 41
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 20
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 26
+      },
+      {
+        "item": "Ray Amplifier",
+        "quantity": 13
+      },
+      {
+        "item": "Spice-Infused Steel Dust",
+        "quantity": 17
+      }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Focused Buggy Cutteray Mk4",
+    "image": "",
+    "components": [
+      {
+        "item": "Water",
+        "quantity": 510
+      },
+      {
+        "item": "Aluminum Ingot",
+        "quantity": 85
+      },
+      {
+        "item": "Cobalt Paste",
+        "quantity": 31
+      },
+      {
+        "item": "Particle Capacitor",
+        "quantity": 35
+      },
+      {
+        "item": "Ray Amplifier",
+        "quantity": 17
+      },
+      {
+        "item": "Spice-infused Aluminum Dust",
+        "quantity": 22
+      }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Bigger Buggy Boot Mk4",
+    "image": "",
+    "components": [
+      { "item": "Iron Ingot", "quantity": 26 },
+      { "item": "Particle Capacitor", "quantity": 17 },
+      { "item": "Holtzman Actuator", "quantity": 17 },
+      { "item": "Spice-Infused Iron Dust", "quantity": 13 }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Bigger Buggy Boot Mk5",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 1010 },
+      { "item": "Duraluminum Ingot", "quantity": 85 },
+      { "item": "Advanced Servoks", "quantity": 25 },
+      { "item": "Cobalt Paste", "quantity": 25 },
+      { "item": "Spice-infused Duraluminum Dust", "quantity": 19 }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Bluddshot Buggy Engine Mk5",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 1010 },
+      { "item": "Complex Machinery", "quantity": 36 },
+      { "item": "Cobalt Paste", "quantity": 40 },
+      { "item": "Duraluminum Ingot", "quantity": 85 },
+      { "item": "Particle Capacitor", "quantity": 25 },
+      { "item": "Hydraulic Piston", "quantity": 13 },
+      { "item": "Spice-infused Duraluminum Dust", "quantity": 26 }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Rattler Boost Module Mk3",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 200 },
+      { "item": "Steel Ingot", "quantity": 35 },
+      { "item": "Particle Capacitor", "quantity": 35 },
+      { "item": "Cobalt Paste", "quantity": 20 },
+      { "item": "Holtzman Actuator", "quantity": 25 }
+    ],
+    "amount": 1,
+    "type": "Mk3 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Bluddshot Buggy Engine Mk4",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 510 },
+      { "item": "Complex Machinery", "quantity": 26 },
+      { "item": "Aluminum Ingot", "quantity": 60 },
+      { "item": "Cobalt Paste", "quantity": 30 },
+      { "item": "Particle Capacitor", "quantity": 18 },
+      { "item": "Spice-infused Aluminum Dust", "quantity": 22 }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Rattler Boost Module Mk5",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 1010 },
+      { "item": "Cobalt Paste", "quantity": 41 },
+      { "item": "Duraluminum Ingot", "quantity": 90 },
+      { "item": "Particle Capacitor", "quantity": 60 },
+      { "item": "Holtzman Actuator", "quantity": 17 },
+      { "item": "Spice-infused Duraluminum Dust", "quantity": 26 }
+    ],
+    "amount": 1,
+    "type": "Mk5 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Rattler Boost Module Mk4",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 510 },
+      { "item": "Aluminum Ingot", "quantity": 70 },
+      { "item": "Cobalt Paste", "quantity": 30 },
+      { "item": "Particle Capacitor", "quantity": 45 },
+      { "item": "Holtzman Actuator", "quantity": 36 },
+      { "item": "Spice-infused Aluminum Dust", "quantity": 22 }
+    ],
+    "amount": 1,
+    "type": "Mk4 Buggy",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Mohandis Sandbike Engine Mk4",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 507 },
+      { "item": "Complex Machinery", "quantity": 26 },
+      { "item": "Aluminum Ingot", "quantity": 60 },
+      { "item": "Cobalt Paste", "quantity": 31 },
+      { "item": "Particle Capacitor", "quantity": 18 },
+      { "item": "Spice-infused Aluminum Dust", "quantity": 22 }
+    ],
+    "amount": 1,
+    "type": "Mk4 Sandbike",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Night Rider Sandbike Boost Mk5",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 1010 },
+      { "item": "Cobalt Paste", "quantity": 41 },
+      { "item": "Duraluminum Ingot", "quantity": 90 },
+      { "item": "Particle Capacitor", "quantity": 60 },
+      { "item": "Holtzman Actuator", "quantity": 17 },
+      { "item": "Spice-infused Duraluminum Dust", "quantity": 26 }
+    ],
+    "amount": 1,
+    "type": "Mk5 Sandbike",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Night Rider Sandbike Boost Mk6",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 1580 },
+      { "item": "Spice Melange", "quantity": 186 },
+      { "item": "Cobalt Paste", "quantity": 77 },
+      { "item": "Particle Capacitor", "quantity": 78 },
+      { "item": "Plastanium Ingot", "quantity": 110 },
+      { "item": "Improved Holtzman Actuator", "quantity": 20 },
+      { "item": "Spice-infused Plastanium Dust", "quantity": 31 }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandbike",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Night Rider Sandbike Boost Mk4",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 510 },
+      { "item": "Aluminum Ingot", "quantity": 70 },
+      { "item": "Cobalt Paste", "quantity": 31 },
+      { "item": "Particle Capacitor", "quantity": 45 },
+      { "item": "Holtzman Actuator", "quantity": 36 },
+      { "item": "Spice-infused Aluminum Dust", "quantity": 22 }
+    ],
+    "amount": 1,
+    "type": "Mk4 Sandbike",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Night Rider Sandbike Boost Mk2",
+    "image": "",
+    "components": [
+      { "item": "Iron Ingot", "quantity": 26 },
+      { "item": "Particle Capacitor", "quantity": 17 },
+      { "item": "Holtzman Actuator", "quantity": 17 },
+      { "item": "Spice-Infused Iron Dust", "quantity": 13 }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Mohandis Sandbike Engine Mk2",
+    "image": "",
+    "components": [
+      { "item": "Iron Ingot", "quantity": 15 },
+      { "item": "Particle Capacitor", "quantity": 9 },
+      { "item": "Spice-Infused Iron Dust", "quantity": 7 }
+    ],
+    "amount": 1,
+    "type": "Mk2 Sandbike",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Walker Sandcrawler Engine Mk6",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 1580 },
+      { "item": "Spice Melange", "quantity": 186 },
+      { "item": "Cobalt Paste", "quantity": 77 },
+      { "item": "Particle Capacitor", "quantity": 31 },
+      { "item": "Plastanium Ingot", "quantity": 100 },
+      { "item": "Advanced Machinery", "quantity": 30 },
+      { "item": "Tri-Forged Hydraulic Piston", "quantity": 15 },
+      { "item": "Spice-infused Plastanium Dust", "quantity": 31 }
+    ],
+    "amount": 1,
+    "type": "Mk6 Sandcrawler",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Stormrider Boost Module Mk6",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 1580 },
+      { "item": "Spice Melange", "quantity": 186 },
+      { "item": "Cobalt Paste", "quantity": 77 },
+      { "item": "Particle Capacitor", "quantity": 31 },
+      { "item": "Plastanium Ingot", "quantity": 100 },
+      { "item": "Advanced Machinery", "quantity": 30 },
+      { "item": "Tri-Forged Hydraulic Piston", "quantity": 15 },
+      { "item": "Spice-infused Plastanium Dust", "quantity": 31 }
+    ],
+    "amount": 1,
+    "type": "Mk6 Boost Module",
+    "required": false,
+    "unique": true
+  },
+  {
+    "name": "Albatross Wing Module Mk5",
+    "image": "",
+    "components": [
+      { "item": "Water", "quantity": 250 },
+      { "item": "Industrial Pump", "quantity": 5 },
+      { "item": "Cobalt Paste", "quantity": 10 },
+      { "item": "Duraluminum Ingot", "quantity": 20 },
+      { "item": "Advanced Servoks", "quantity": 13 },
+      { "item": "Spice-infused Duraluminum Dust", "quantity": 7 }
+    ],
+    "amount": 1,
+    "type": "Mk5 Scout",
+    "required": false,
+    "unique": true
   }
 ]
