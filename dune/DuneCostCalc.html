@@ -33,8 +33,9 @@ export to csv
 
     <!-- BUILDING CALC -->
     <div id="buildingCalc">
-      <button id="resetBuildings">Reset</button>
-      <label><input type="checkbox" id="deepDesertToggle" /> Deep Desert 50% cost</label>
+      <button class="resetBuildings">Reset</button>
+      <label><input type="checkbox" id="deepDesertTop" /> Deep Desert 50% cost</label>
+      <br><br>
       <div id="buildingList" class="building-grid"></div>
       <div class="totals">
         <strong>Total Resources Required:</strong>
@@ -52,13 +53,15 @@ export to csv
         <strong>Water Storage: </strong>
         <br>
         <span id="waterStorage" class="water-display">0ml</span>
-
       </div>
+      <br>
+      <button class="resetBuildings">Reset</button>
+      <label><input type="checkbox" id="deepDesertBottom" /> Deep Desert 50% cost</label>
     </div>
 
     <!-- VEHICLE CALC -->
     <div id="vehicleCalc" class="hidden">
-      <button id="resetVehicles">Reset</button>
+      <button id="resetVehiclestop">Reset</button>
       <br>
       <label for="vehicleSelect">Select Vehicle:</label>
       <select id="vehicleSelect">
@@ -66,7 +69,7 @@ export to csv
       </select>
       <br>
       <label for="buildAmount">Amount:</label>
-      <input type="number" id="buildAmount" value="1" min="1" style="width: 40px;"/>
+      <input type="number" id="buildAmount" value="1" min="1" style="width: 40px;" />
       <div id="selectedVehicle"></div>
       <div id="imageholder" class="flex-row">
         <div id="requiredParts" class="flex-column"></div>
@@ -75,6 +78,8 @@ export to csv
       <div id="optionalParts"></div>
       <div id="totalCost">
       </div>
+      <br>
+      <button id="resetVehicles">Reset</button>
     </div>
   </div>
 
@@ -120,11 +125,25 @@ export to csv
         const weightUsed = document.getElementById('weightUsage');
         const waterStorage = document.getElementById('waterStorage');
         const powerGen = document.getElementById('powerGenerated');
-        const desertToggle = document.getElementById('deepDesertToggle');
+        const desertTop = document.getElementById('deepDesertTop');
+        const desertBottom = document.getElementById('deepDesertBottom');
 
         // Restore values
         const savedQty = JSON.parse(localStorage.getItem('buildingQuantities') || '{}');
-        desertToggle.checked = localStorage.getItem('deepDesert') === 'true';
+        desertTop.checked = localStorage.getItem('deepDesertTop') === 'true';
+        desertBottom.checked = localStorage.getItem('deepDesertBottom') === 'true';
+
+        // Sync both checkboxes and recalc when either changes
+        const syncDesertToggles = (source) => {
+          const value = source.checked;
+          desertTop.checked = value;
+          desertBottom.checked = value;
+          localStorage.setItem('deepDesert', value);
+          calcBuildings();
+        };
+
+        desertTop.addEventListener('change', () => syncDesertToggles(desertTop));
+        desertBottom.addEventListener('change', () => syncDesertToggles(desertBottom));
 
         buildings.forEach((bld, i) => {
           const div = document.createElement('div');
@@ -172,7 +191,7 @@ export to csv
             totalWeight += bld.weight * qty;
             totalWater += bld.water * qty;
             bld.components.forEach(c => {
-              const amt = desertToggle.checked ? Math.ceil(c.quantity / 2) : c.quantity;
+              const amt = desertTop.checked ? Math.ceil(c.quantity / 2) : c.quantity;
               totals[c.item] = (totals[c.item] || 0) + amt * qty;
             });
           });
@@ -187,25 +206,32 @@ export to csv
             }
             return totalDisplay;
           }).join('');
-          powerUsed.innerHTML = "<span class='buildFont'>"+used+"</span>";
-          powerGen.innerHTML = "<span class='buildFont'>"+generated+"</span>";
+          powerUsed.innerHTML = "<span class='buildFont'>" + used + "</span>";
+          powerGen.innerHTML = "<span class='buildFont'>" + generated + "</span>";
           powerUsed.className = 'power-display ' + (used > generated ? 'red' : 'green');
           powerGen.className = 'power-display ' + (used > generated ? 'red' : 'green');
           waterStorage.innerHTML = "<span class='buildFont'><span class='value'>" + totalWater.toFixed(0) + "ml </span></span>";
           weightUsed.innerHTML = "<span class='buildFont'><span class='value'>" + totalWeight.toFixed(1) + "v </span></span>";
 
           localStorage.setItem('buildingQuantities', JSON.stringify(saveQty));
-          localStorage.setItem('deepDesert', desertToggle.checked);
+          localStorage.setItem('deepDesertTop', desertTop.checked);
+          localStorage.setItem('deepDesertBottom', desertBottom.checked);
         }
 
         list.addEventListener('input', calcBuildings);
-        desertToggle.addEventListener('change', calcBuildings);
-        document.getElementById('resetBuildings').addEventListener('click', () => {
-          Array.from(list.querySelectorAll('input[type=number]')).forEach(input => input.value = 0);
-          desertToggle.checked = false;
-          localStorage.removeItem('buildingQuantities');
-          localStorage.removeItem('deepDesert');
-          calcBuildings();
+        desertTop.addEventListener('change', calcBuildings);
+        desertBottom.addEventListener('change', calcBuildings);
+
+        document.querySelectorAll('.resetBuildings').forEach(btn => {
+          btn.addEventListener('click', () => {
+            Array.from(document.querySelectorAll('#buildingList input[type=number]')).forEach(input => input.value = 0);
+            desertTop.checked = false;
+            desertBottom.checked = false;
+            localStorage.removeItem('buildingQuantities');
+            localStorage.removeItem('deepDesertTop');
+            localStorage.removeItem('deepDesertBottom');
+            calcBuildings();
+          });
         });
 
         calcBuildings();
@@ -274,6 +300,14 @@ export to csv
                 return `<li><img class="icon" src="${icon}" /><span class="value">${qty}x</span> ${item}</li>`;
               }).join('');
             document.getElementById('resetVehicles').onclick = () => {
+              localStorage.removeItem('vehType');
+              localStorage.removeItem('vehAmount');
+              localStorage.removeItem('vehOpts');
+              select.value = '';
+              amountInput.value = '1';
+              selVeh.innerHTML = reqParts.innerHTML = optParts.innerHTML = costDiv.innerHTML = imageDiv.innerHTML = '';
+            };
+            document.getElementById('resetVehiclestop').onclick = () => {
               localStorage.removeItem('vehType');
               localStorage.removeItem('vehAmount');
               localStorage.removeItem('vehOpts');
