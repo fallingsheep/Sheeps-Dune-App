@@ -1,0 +1,1651 @@
+[
+  {
+    "name": "Advanced Machinery",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Complex Machinery",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Cobalt Paste",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Advanced Machinery",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Advanced Servoks",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "An Old Imperial component used in fabrication.",
+    "craftedAt": []
+  },
+  {
+    "name": "Armor Plating",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Atmospheric Filtered Fabric",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Insulated Fabric",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Plant Fiber",
+            "quantity": 2
+          }
+        ],
+        "produces": [
+          {
+            "item": "Atmospheric Filtered Fabric",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ballistic Weave Fabric",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Sandtrout Leathers",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 2
+          }
+        ],
+        "produces": [
+          {
+            "item": "Ballistic Weave Fabric",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Blade Parts",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Calibrated Servok",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Carbide blade parts",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Carbide Scraps",
+            "quantity": 2
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Blade Parts",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Carbide blade parts",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Carbide Scraps",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Complex Machinery",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Diamodine blade parts",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Diamondine Dust",
+            "quantity": 2
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Blade Parts",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Diamodine blade parts",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diamondine Dust",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "EMF Generator",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A Fremen component used in fabrication.",
+    "craftedAt": []
+  },
+  {
+    "name": "Fluid Efficient Industrial Pump",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Industrial Pump",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 2
+          }
+        ],
+        "produces": [
+          {
+            "item": "Fluid Efficient Industrial Pump",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fluted Heavy Caliber Compressor",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Heavy Caliber Compressor",
+            "quantity": 2
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Gun Parts",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Fluted Heavy Caliber Compressor",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fluted Light Caliber Compressor",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Light Caliber Compressor",
+            "quantity": 2
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Gun Parts",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Fluted Light Caliber Compressor",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Gun Parts",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Heavy Caliber Compressor",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Holtzman Actuator",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Hydraulic Piston",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A component used in vehicle fabrication.",
+    "craftedAt": []
+  },
+  {
+    "name": "Improved Holtzman Actuator",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Holtzman Actuator",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Cobalt Paste",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Improved Holtzman Actuator",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Improved Watertube",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Stillsuit Tubing",
+            "quantity": 2
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 2
+          }
+        ],
+        "produces": [
+          {
+            "item": "Improved Watertube",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Industrial Pump",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Insulated Fabric",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Irradiated Core",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Irradiated Slag",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Duraluminum Ingot",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Irradiated Core",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Irradiated Slag",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Light Caliber Compressor",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Mechanical Parts",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A Great House component used in fabrication.",
+    "craftedAt": []
+  },
+  {
+    "name": "Micro-sandwich Fabric",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A Fremen component used in fabrication.",
+    "craftedAt": []
+  },
+  {
+    "name": "Military Power Regulator",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A component used in vehicle fabrication.",
+    "craftedAt": []
+  },
+  {
+    "name": "Muad'Dib Corpse",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Off-world Medical Supplies",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Opafire Gem",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "One of the rare opaline jewels of Hagal.",
+    "craftedAt": []
+  },
+  {
+    "name": "Overclocked Power Regulator",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Military Power Regulator",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Cobalt Paste",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Overclocked Power Regulator",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Particle Capacitor",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "An Old Imperial component used in fabrication.",
+    "craftedAt": []
+  },
+  {
+    "name": "Plasteel Composite Armor Plating",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Armor Plating",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Spice Melange",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Plasteel Composite Armor Plating",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plasteel Composite Blade Parts",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Blade Parts",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Spice Melange",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Plasteel Composite Blade Parts",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plasteel Composite Gun Parts",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Gun Parts",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Spice Melange",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Plasteel Composite Gun Parts",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plasteel Microflora Fiber",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A Great House component used in fabrication.",
+    "craftedAt": []
+  },
+  {
+    "name": "Plasteel Plate",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": []
+  },
+  {
+    "name": "Precision Range Finder",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Range Finder",
+            "quantity": 2
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Gun Parts",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Precision Range Finder",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Range Finder",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Ray Amplifier",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Sandtrout Leathers",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Ship Manifest",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "Detailed records of cargo, crew, and routes.",
+    "craftedAt": []
+  },
+  {
+    "name": "Spice-infused Aluminum Dust",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component used in unique items.",
+    "craftedAt": []
+  },
+  {
+    "name": "Spice-infused Copper Dust",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component used in unique items.",
+    "craftedAt": []
+  },
+  {
+    "name": "Spice-infused Duraluminum Dust",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component used in unique items.",
+    "craftedAt": []
+  },
+  {
+    "name": "Spice-infused Iron Dust",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component used in unique items.",
+    "craftedAt": []
+  },
+  {
+    "name": "Spice-infused Plastanium Dust",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component used in unique items.",
+    "craftedAt": []
+  },
+  {
+    "name": "Spice-infused Steel Dust",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component used in unique items.",
+    "craftedAt": []
+  },
+  {
+    "name": "Stillsuit Tubing",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A fabrication component found in loot.",
+    "craftedAt": []
+  },
+  {
+    "name": "Thermo-Responsive Ray Amplifier",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Ray Amplifier",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Copper Ingot",
+            "quantity": 2
+          }
+        ],
+        "produces": [
+          {
+            "item": "Thermo-Responsive Ray Amplifier",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Thermoelectric Cooler",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found on the Deep Desert Shield Wall.",
+    "craftedAt": []
+  },
+  {
+    "name": "Tri-Forged Hydraulic Piston",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A crafting component found in the Deep Desert.",
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "ingredients": [
+          {
+            "item": "Hydraulic Piston",
+            "quantity": 3
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2
+          },
+          {
+            "item": "Duraluminum Ingot",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Tri-Forged Hydraulic Piston",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Worm Tooth",
+    "type": "component",
+    "StackSize": 1,
+    "Volume": 0.0,
+    "description": "A crafting component obtained from dying to the sandworm.",
+    "craftedAt": []
+  },
+  {
+    "name": "Agave Seeds",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "Harvested from cactus crowns.",
+    "craftedAt": []
+  },
+  {
+    "name": "Aluminum Ore",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.6,
+    "description": "Ore from Aluminum deposits.",
+    "craftedAt": []
+  },
+  {
+    "name": "Basalt Stone",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.15,
+    "description": "Base material for plastone.",
+    "craftedAt": []
+  },
+  {
+    "name": "Carbon Ore",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "description": "Ore from Carbon deposits.",
+    "craftedAt": []
+  },
+  {
+    "name": "Copper Ore",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "description": "Ore from Copper deposits.",
+    "craftedAt": []
+  },
+  {
+    "name": "Corpse",
+    "type": "component",
+    "StackSize": 1,
+    "Volume": 75.0,
+    "description": "Dead body that can be used in a Deathstill.",
+    "craftedAt": []
+  },
+  {
+    "name": "Erythrite Crystal",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.4,
+    "description": "Crystal from Erythrite deposits.",
+    "craftedAt": []
+  },
+  {
+    "name": "Flour Sand",
+    "type": "component",
+    "StackSize": 1000,
+    "Volume": 0.1,
+    "description": "Fine sand collected on the open sands.",
+    "craftedAt": []
+  },
+  {
+    "name": "Fuel Cell",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "description": "Energy unit used to power bases.",
+    "craftedAt": []
+  },
+  {
+    "name": "Granite Stone",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "A common building material.",
+    "craftedAt": []
+  },
+  {
+    "name": "Iron Ore",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.3,
+    "description": "Ore from Iron deposits.",
+    "craftedAt": []
+  },
+  {
+    "name": "Jasmium Crystal",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.4,
+    "description": "Crystal from Jasmium deposits.",
+    "craftedAt": []
+  },
+  {
+    "name": "Mouse Corpse",
+    "type": "component",
+    "StackSize": 1,
+    "Volume": 5.0,
+    "description": "A dead mouse, which can act as a source of blood.",
+    "craftedAt": []
+  },
+  {
+    "name": "Salvaged Metal",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.15,
+    "description": "Mixed metals, recovered from wreckage.",
+    "craftedAt": []
+  },
+  {
+    "name": "Spice Residue",
+    "type": "component",
+    "StackSize": 1000,
+    "Volume": 0.08,
+    "description": "Leftovers, more valuable than gold.",
+    "craftedAt": [
+      {
+        "station": "Spice Refinery",
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 100
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 5
+          }
+        ],
+        "produces": [
+          {
+            "item": "Spice Residue",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Medium Spice Refinery",
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 750
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 50
+          }
+        ],
+        "produces": [
+          {
+            "item": "Spice Residue",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Large Spice Refinery",
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 10000
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 300
+          }
+        ],
+        "produces": [
+          {
+            "item": "Spice Residue",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stravidium Mass",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.5,
+    "description": "Refine in a Chemical Refinery.",
+    "craftedAt": []
+  },
+  {
+    "name": "Titanium Ore",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.9,
+    "description": "Refine in a Medium Ore Refinery.",
+    "craftedAt": []
+  },
+  {
+    "name": "Advanced Particulate Filter",
+    "type": "component",
+    "StackSize": 5,
+    "Volume": 5.0,
+    "description": "An advanced filter crafted in an Advanced Survival Fabricator.",
+    "craftedAt": []
+  },
+  {
+    "name": "Aluminum Ingot",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.7,
+    "description": "Refined Aluminum used in fabrication.",
+    "craftedAt": [
+      {
+        "station": "Medium Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Aluminum Ore",
+            "quantity": 7
+          }
+        ],
+        "produces": [
+          {
+            "item": "Aluminum Ingot",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Large Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Aluminum Ore",
+            "quantity": 4
+          }
+        ],
+        "produces": [
+          {
+            "item": "Aluminum Ingot",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cobalt Paste",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 1.0,
+    "description": "Cobalt paste refined from Erythrite Crystal.",
+    "craftedAt": [
+      {
+        "station": "Small Chemical Refinery",
+        "ingredients": [
+          {
+            "item": "Erythrite Crystal",
+            "quantity": 3
+          }
+        ],
+        "produces": [
+          {
+            "item": "Cobalt Paste",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Medium Chemical Refinery",
+        "ingredients": [
+          {
+            "item": "Erythrite Crystal",
+            "quantity": 2
+          }
+        ],
+        "produces": [
+          {
+            "item": "Cobalt Paste",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Copper Ingot",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.25,
+    "description": "Refined Copper used in fabrication.",
+    "craftedAt": [
+      {
+        "station": "Large Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Copper Ore",
+            "quantity": 2
+          },
+          {
+            "item": "Copper Ingot",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Copper Ingot",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Medium Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Copper Ore",
+            "quantity": 3
+          },
+          {
+            "item": "Copper Ingot",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Copper Ingot",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Small Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Copper Ore",
+            "quantity": 4
+          },
+          {
+            "item": "Copper Ingot",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Copper Ingot",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Duraluminum Ingot",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.9,
+    "description": "Refined Duraluminum used in fabrication.",
+    "craftedAt": [
+      {
+        "station": "Large Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Jasmium Crystal",
+            "quantity": 3
+          },
+          {
+            "item": "Aluminum Ingot",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Duraluminum Ingot",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Medium Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Jasmium Crystal",
+            "quantity": 4
+          },
+          {
+            "item": "Aluminum Ingot",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Duraluminum Ingot",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Industrial-grade Lubricant",
+    "type": "component",
+    "StackSize": 100,
+    "Volume": 0.2,
+    "description": "An advanced lubricant refined in Chemical Refineries.",
+    "craftedAt": []
+  },
+  {
+    "name": "Iron Ingot",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.4,
+    "description": "Refined Iron used in fabrication.",
+    "craftedAt": [
+      {
+        "station": "Small Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Iron Ore",
+            "quantity": 5
+          }
+        ],
+        "produces": [
+          {
+            "item": "Iron Ingot",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Large Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Iron Ore",
+            "quantity": 3
+          }
+        ],
+        "produces": [
+          {
+            "item": "Iron Ingot",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Medium Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Iron Ore",
+            "quantity": 4
+          }
+        ],
+        "produces": [
+          {
+            "item": "Iron Ingot",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Large Vehicle Fuel Cell",
+    "type": "component",
+    "StackSize": 1,
+    "Volume": 5.0,
+    "description": "Refined Fuel Cells used to power vehicles.",
+    "craftedAt": []
+  },
+  {
+    "name": "Low-grade Lubricant",
+    "type": "component",
+    "StackSize": 100,
+    "Volume": 0.2,
+    "description": "A basic lubricant refined in Chemical Refineries.",
+    "craftedAt": []
+  },
+  {
+    "name": "Makeshift Filter",
+    "type": "component",
+    "StackSize": 5,
+    "Volume": 5.0,
+    "description": "A basic filter crafted in a Survival Fabricator.",
+    "craftedAt": []
+  },
+  {
+    "name": "Medium Sized Vehicle Fuel Cell",
+    "type": "component",
+    "StackSize": 1,
+    "Volume": 3.3333333,
+    "description": "Refined Fuel Cells used to power vehicles.",
+    "craftedAt": []
+  },
+  {
+    "name": "Particulate Filter",
+    "type": "component",
+    "StackSize": 5,
+    "Volume": 5.0,
+    "description": "An improved filter crafted in a Survival Fabricator.",
+    "craftedAt": []
+  },
+  {
+    "name": "Plastanium Ingot",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 1.0,
+    "description": "Titanium ore refined with stravidium fiber.",
+    "craftedAt": [
+      {
+        "station": "Medium Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Titanium Ore",
+            "quantity": 6
+          },
+          {
+            "item": "Stravidium Fiber",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Plastanium Ingot",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Large Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Titanium Ore",
+            "quantity": 4
+          },
+          {
+            "item": "Stravidium Fiber",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Plastanium Ingot",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plastone",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "description": "An advanced building material.",
+    "craftedAt": []
+  },
+  {
+    "name": "Silicone Block",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "description": "Flour sand refined into plastic.",
+    "craftedAt": [
+      {
+        "station": "Medium Chemical Refinery",
+        "ingredients": [
+          {
+            "item": "Flour Sand",
+            "quantity": 3
+          }
+        ],
+        "produces": [
+          {
+            "item": "Silicone Block",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Small Chemical Refinery",
+        "ingredients": [
+          {
+            "item": "Flour Sand",
+            "quantity": 5
+          }
+        ],
+        "produces": [
+          {
+            "item": "Silicone Block",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Small Vehicle Fuel Cell",
+    "type": "component",
+    "StackSize": 1,
+    "Volume": 2.0,
+    "description": "Refined Fuel Cells used to power vehicles.",
+    "craftedAt": []
+  },
+  {
+    "name": "Spice Melange",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "description": "Nothing is worth more.",
+    "craftedAt": [
+      {
+        "station": "Medium Spice Refinery",
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 750
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 50
+          }
+        ],
+        "produces": [
+          {
+            "item": "Spice Melange",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Spice Refinery",
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 100
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 5
+          }
+        ],
+        "produces": [
+          {
+            "item": "Spice Melange",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Large Spice Refinery",
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 10000
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 1000
+          }
+        ],
+        "produces": [
+          {
+            "item": "Spice Melange",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Spice-infused Fuel Cell",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "description": "A fuel made from spice residue in a Medium Chemical Refinery.",
+    "craftedAt": []
+  },
+  {
+    "name": "Standard Filter",
+    "type": "component",
+    "StackSize": 5,
+    "Volume": 5.0,
+    "description": "A standard filter crafted in a Survival Fabricator.",
+    "craftedAt": []
+  },
+  {
+    "name": "Steel Ingot",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.5,
+    "description": "Refined Steel used in fabrication.",
+    "craftedAt": [
+      {
+        "station": "Small Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Carbon Ore",
+            "quantity": 4
+          },
+          {
+            "item": "Iron Ingot",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Steel Ingot",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Medium Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Carbon Ore",
+            "quantity": 3
+          },
+          {
+            "item": "Iron Ingot",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Steel Ingot",
+            "quantity": 1
+          }
+        ]
+      },
+      {
+        "station": "Large Ore Refinery",
+        "ingredients": [
+          {
+            "item": "Carbon Ore",
+            "quantity": 2
+          },
+          {
+            "item": "Iron Ingot",
+            "quantity": 1
+          }
+        ],
+        "produces": [
+          {
+            "item": "Steel Ingot",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Stravidium Fiber",
+    "type": "component",
+    "StackSize": 500,
+    "Volume": 0.6,
+    "description": "Refined from stravidium mass.",
+    "craftedAt": [
+      {
+        "station": "Medium Chemical Refinery",
+        "ingredients": [
+          {
+            "item": "Stravidium Mass",
+            "quantity": 3
+          }
+        ],
+        "produces": [
+          {
+            "item": "Stravidium Fiber",
+            "quantity": 1
+          }
+        ]
+      }
+    ]
+  }
+]

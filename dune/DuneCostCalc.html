@@ -301,7 +301,8 @@ export to csv
         const costDiv = document.getElementById('totalCost');
         const imageDiv = document.getElementById('vehicleImage');
 
-        const types = [...new Set(data.map(v => v.type))];
+       const types = [...new Set(data.flatMap(v => v.type.split(',').map(t => t.trim())))];
+
         types.forEach(t => {
           const opt = document.createElement('option');
           opt.value = t;
@@ -316,7 +317,7 @@ export to csv
         function render() {
           const type = select.value;
           const amt = parseInt(amountInput.value) || 1;
-          const match = data.filter(v => v.type === type);
+          const match = data.filter(v => v.type.split(',').map(t => t.trim()).includes(type));
           if (!match.length) return;
 
           localStorage.setItem('vehType', type);
