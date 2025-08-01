@@ -9,6 +9,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -15,
     "weight":3.8,
     "water":0
@@ -23,6 +25,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -15,
     "weight":6,
     "water":0
@@ -37,6 +41,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": 75,
     "weight":6.8,
     "water":0
@@ -61,6 +67,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": 150,
     "weight":89.5,
     "water":0
@@ -90,6 +98,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": 350,
     "weight":273.6,
     "water":0
@@ -129,6 +139,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": 1000,
     "weight":816,
     "water":0
@@ -143,6 +155,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -20,
     "weight":16,
     "water":0
@@ -157,6 +171,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -15,
     "weight":7.5,
     "water":0
@@ -181,6 +197,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -75,
     "weight":50,
     "water":0
@@ -210,6 +228,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -135,
     "weight":249,
     "water":0
@@ -234,6 +254,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -6,
     "weight":21.6,
     "water":0
@@ -258,6 +280,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -3,
     "weight":21.6,
     "water":0
@@ -272,6 +296,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -10,
     "weight":11.3,
     "water":0
@@ -291,6 +317,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -40,
     "weight":23,
     "water":0
@@ -330,6 +358,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -150,
     "weight":338.5,
     "water":0
@@ -349,6 +379,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -40,
     "weight":23,
     "water":0
@@ -388,6 +420,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -150,
     "weight":330,
     "water":0
@@ -407,6 +441,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -40,
     "weight":23,
     "water":0
@@ -446,6 +482,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -150,
     "weight":331,
     "water":0
@@ -465,6 +503,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -40,
     "weight":23,
     "water":0
@@ -504,6 +544,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -150,
     "weight":332,
     "water":0
@@ -518,6 +560,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -10,
     "weight":10.5,
     "water":0
@@ -542,6 +586,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -35,
     "weight":23.6,
     "water":0
@@ -556,6 +602,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -15,
     "weight":13.5,
     "water":0
@@ -580,6 +628,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -45,
     "weight":127.5,
     "water":0
@@ -619,6 +669,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -350,
     "weight":1283,
     "water":0
@@ -633,6 +685,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -15,
     "weight":11.3,
     "water":0
@@ -662,6 +716,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -350,
     "weight":156,
     "water":0
@@ -691,6 +747,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -200,
     "weight":244,
     "water":0
@@ -725,6 +783,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -350,
     "weight":534.5,
     "water":0
@@ -764,6 +824,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -500,
     "weight":2408.5,
     "water":0
@@ -788,6 +850,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -200,
     "weight":36,
     "water":0
@@ -812,6 +876,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": -350,
     "weight":240,
     "water":0
@@ -826,6 +892,8 @@
         "weight":0
       }
     ],
+    "storage": 250,
+    "storageslots": 10,
     "power": 0,
     "weight":5.3,
     "water":0
@@ -840,6 +908,8 @@
         "weight":0
       }
     ],
+    "storage": 750,
+    "storageslots": 20,
     "power": 0,
     "weight":8,
     "water":0
@@ -859,6 +929,8 @@
         "weight":0
       }
     ],
+    "storage": 1750,
+    "storageslots": 45,
     "power": 0,
     "weight":32.3,
     "water":0
@@ -883,6 +955,8 @@
         "weight":0
       }
     ],
+    "storage": 3500,
+    "storageslots": 100,
     "power": 0,
     "weight":72.2,
     "water":0
@@ -897,6 +971,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": 0,
     "weight":6.3,
     "water":1750
@@ -916,6 +992,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": 0,
     "weight":33,
     "water":25000
@@ -940,6 +1018,8 @@
         "weight":0
       }
     ],
+    "storage": 0,
+    "storageslots": 0,
     "power": 0,
     "weight": 153.5,
     "water":100000
