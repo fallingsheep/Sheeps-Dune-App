@@ -124,11 +124,39 @@ ul {
 }
 
 .power-display.green {
-  color: #33aa33;
+  color: #1b991bff !important;
 }
 
 .power-display.red {
-  color: #cc2222;
+  color: #ff4444 !important;
+}
+
+.water-display {
+  color: #0074c2ff;
+  font-weight: bold;
+}
+
+#optForm li.conflict span {
+  color: #ff4444 !important;
+  font-weight: bold;
+}
+
+#optForm li.conflict {
+  color: #ff4444 !important;
+  font-weight: bold;
+}
+
+.strikeout {
+  text-decoration: line-through;
+  color: #999;
+  opacity: 0.7;
+}
+
+#conflictWarning {
+  color: #ff4444 !important;
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 0.9rem;
 }
 
 #resetBuildings {
