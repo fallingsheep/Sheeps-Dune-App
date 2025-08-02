@@ -1430,7 +1430,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk3 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -1501,7 +1501,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk4 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -1572,7 +1572,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk5 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -1647,7 +1647,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk6 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -2006,7 +2006,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk3 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -2077,7 +2077,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk4 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -2152,7 +2152,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk5 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -2231,7 +2231,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk6 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -3620,7 +3620,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk3 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -3687,7 +3687,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk4 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -3754,7 +3754,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk5 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -3825,7 +3825,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk6 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -4168,7 +4168,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk3 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -4243,7 +4243,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk4 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -4318,7 +4318,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk5 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -4397,7 +4397,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk6 Buggy",
+    "type": "Mk6 Buggy,Mk5 Buggy,Mk4 Buggy,Mk3 Buggy",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -4672,7 +4672,7 @@
     ]
   },
   {
-    "name": "Carrier Ornithopter Main Hull Mk6",
+    "name": "Carrier Ornithopter Cockpit Mk6",
     "image": "",
     "components": [
       {
@@ -5068,7 +5068,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk1 Sandbike",
+    "type": "Mk1 Sandbike, Mk2 Sandbike, Mk3 Sandbike, Mk4 Sandbike, Mk5 Sandbike, Mk6 Sandbike",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -5131,7 +5131,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk2 Sandbike",
+    "type": "Mk1 Sandbike, Mk2 Sandbike, Mk3 Sandbike, Mk4 Sandbike, Mk5 Sandbike, Mk6 Sandbike",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -5202,7 +5202,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk3 Sandbike",
+    "type": "Mk1 Sandbike, Mk2 Sandbike, Mk3 Sandbike, Mk4 Sandbike, Mk5 Sandbike, Mk6 Sandbike",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -5273,7 +5273,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk4 Sandbike",
+    "type": "Mk1 Sandbike, Mk2 Sandbike, Mk3 Sandbike, Mk4 Sandbike, Mk5 Sandbike, Mk6 Sandbike",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -5344,7 +5344,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk5 Sandbike",
+    "type": "Mk1 Sandbike, Mk2 Sandbike, Mk3 Sandbike, Mk4 Sandbike, Mk5 Sandbike, Mk6 Sandbike",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -5419,7 +5419,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk6 Sandbike",
+    "type": "Mk1 Sandbike, Mk2 Sandbike, Mk3 Sandbike, Mk4 Sandbike, Mk5 Sandbike, Mk6 Sandbike",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -6716,7 +6716,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk1 Sandbike",
+    "type": "Mk1 Sandbike, Mk2 Sandbike, Mk3 Sandbike, Mk4 Sandbike, Mk5 Sandbike, Mk6 Sandbike",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -6775,7 +6775,7 @@
       }
     ],
     "amount": 1,
-    "type": "Mk2 Sandbike",
+    "type": "Mk1 Sandbike, Mk2 Sandbike, Mk3 Sandbike, Mk4 Sandbike, Mk5 Sandbike, Mk6 Sandbike",
     "required": false,
     "unique": false,
     "Volume": 0,
@@ -9081,7 +9081,7 @@
     ]
   },
   {
-    "name": "Scout Ornithopter Hull Mk4",
+    "name": "Scout Ornithopter Tail Mk4",
     "image": "",
     "components": [
       {
@@ -9231,7 +9231,7 @@
     ]
   },
   {
-    "name": "Scout Ornithopter Hull Mk6",
+    "name": "Scout Ornithopter Tail Mk6",
     "image": "",
     "components": [
       {
