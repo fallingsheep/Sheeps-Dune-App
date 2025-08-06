@@ -7,6 +7,12 @@ const resourcesTab = document.getElementById("resourcesTab");
 const btnBuildings = document.getElementById("btnBuildings");
 const btnVehicles = document.getElementById("btnVehicles");
 const btnResources = document.getElementById("btnResources");
+const btnFilterAll = document.getElementById("btnFilterAll");
+const btnFilterMisc = document.getElementById("btnFilterMisc");
+const btnFilterWater = document.getElementById("btnFilterWater");
+const btnFilterPower = document.getElementById("btnFilterPower");
+const btnFilterFabricator = document.getElementById("btnFilterFabricator");
+
 
 // Persisted Preferences
 if (localStorage.getItem("darkMode") === "true") {
@@ -49,17 +55,45 @@ function setView(mode) {
   localStorage.setItem("activeCalc", mode);
 }
 
-function toggleUsedIn(id) {
+function toggleUsedIn(id, btn) {
   const el = document.getElementById(id);
   if (el) {
-    el.style.display = el.style.display === "none" ? "block" : "none";
+    const isHidden = el.style.display === "none";
+    el.style.display = isHidden ? "block" : "none";
+    if (btn) {
+      btn.textContent = isHidden ? "Hide Used In" : "Show Used In";
+    }
   }
+}
+
+function setFilter(filter) {
+  const isAll = filter === "all";
+  const isMisc = filter === "misc";
+  const IsWater = filter === "water";
+  const isPower = filter === "power";
+  const isFabricator = filter === "fabricator";
+
+  btnFilterAll.classList.toggle("active", isAll);
+  btnFilterMisc.classList.toggle("active", isMisc);
+  btnFilterWater.classList.toggle("active", IsWater);
+  btnFilterPower.classList.toggle("active", isPower);
+  btnFilterFabricator.classList.toggle("active", isFabricator);
+
+  localStorage.setItem("activeFilter", filter);
 }
 
 // Apply initial state from localStorage
 setView(localStorage.getItem("activeCalc") || "building");
 
+// Apply intial filter
+setFilter(localStorage.getItem("activeFilter") || "all");
+
 // Button listeners
 btnBuildings.addEventListener("click", () => setView("building"));
 btnVehicles.addEventListener("click", () => setView("vehicle"));
 btnResources.addEventListener("click", () => setView("resources"));
+btnFilterAll.addEventListener("click", () => setFilter("all"));
+btnFilterMisc.addEventListener("click", () => setFilter("misc"));
+btnFilterWater.addEventListener("click", () => setFilter("water"));
+btnFilterPower.addEventListener("click", () => setFilter("power"));
+btnFilterFabricator.addEventListener("click", () => setFilter("fabricator"));

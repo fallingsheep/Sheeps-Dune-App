@@ -9,6 +9,7 @@
         "weight":0
       }
     ],
+    "buildtype":"misc",
     "storage": 0,
     "storageslots": 0,
     "power": -15,
@@ -27,6 +28,7 @@
         "weight":0
       }
     ],
+    "buildtype":"misc",
     "storage": 0,
     "storageslots": 0,
     "power": -15,
@@ -45,6 +47,7 @@
         "weight":0
       }
     ],
+    "buildtype":"power",
     "storage": 0,
     "storageslots": 0,
     "power": 75,
@@ -73,6 +76,7 @@
         "weight":0
       }
     ],
+    "buildtype":"power",
     "storage": 0,
     "storageslots": 0,
     "power": 150,
@@ -106,6 +110,7 @@
         "weight":0
       }
     ],
+    "buildtype":"power",
     "storage": 0,
     "storageslots": 0,
     "power": 350,
@@ -149,6 +154,7 @@
         "weight":0
       }
     ],
+    "buildtype":"power",
     "storage": 0,
     "storageslots": 0,
     "power": 1000,
@@ -167,6 +173,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -20,
@@ -185,6 +192,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -15,
@@ -213,6 +221,7 @@
         "weight":0
       }
     ],
+    "buildtype":"water",
     "storage": 0,
     "storageslots": 0,
     "power": -75,
@@ -246,6 +255,7 @@
         "weight":0
       }
     ],
+    "buildtype":"water",
     "storage": 0,
     "storageslots": 0,
     "power": -135,
@@ -274,6 +284,7 @@
         "weight":0
       }
     ],
+    "buildtype":"misc",
     "storage": 0,
     "storageslots": 0,
     "power": -6,
@@ -302,6 +313,7 @@
         "weight":0
       }
     ],
+    "buildtype":"misc",
     "storage": 0,
     "storageslots": 0,
     "power": -3,
@@ -320,6 +332,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -10,
@@ -343,6 +356,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -40,
@@ -386,6 +400,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -150,
@@ -409,6 +424,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -40,
@@ -452,6 +468,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -150,
@@ -475,6 +492,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -40,
@@ -518,6 +536,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -150,
@@ -541,6 +560,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -40,
@@ -584,6 +604,7 @@
         "weight":0
       }
     ],
+    "buildtype":"fabricator",
     "storage": 0,
     "storageslots": 0,
     "power": -150,
@@ -602,6 +623,7 @@
         "weight":0
       }
     ],
+    "buildtype":"water",
     "storage": 0,
     "storageslots": 0,
     "power": -10,
@@ -630,6 +652,7 @@
         "weight":0
       }
     ],
+    "buildtype":"water",
     "storage": 0,
     "storageslots": 0,
     "power": -35,
@@ -648,6 +671,7 @@
         "weight":0
       }
     ],
+    "buildtype":"refine",
     "storage": 0,
     "storageslots": 0,
     "power": -15,
@@ -676,6 +700,7 @@
         "weight":0
       }
     ],
+    "buildtype":"refine",
     "storage": 0,
     "storageslots": 0,
     "power": -45,
@@ -719,6 +744,7 @@
         "weight":0
       }
     ],
+    "buildtype":"refine",
     "storage": 0,
     "storageslots": 0,
     "power": -350,
@@ -737,6 +763,7 @@
         "weight":0
       }
     ],
+    "buildtype":"refine",
     "storage": 0,
     "storageslots": 0,
     "power": -15,
@@ -770,6 +797,7 @@
         "weight":0
       }
     ],
+    "buildtype":"refine",
     "storage": 0,
     "storageslots": 0,
     "power": -350,
@@ -803,6 +831,7 @@
         "weight":0
       }
     ],
+    "buildtype":"refine",
     "storage": 0,
     "storageslots": 0,
     "power": -200,
@@ -841,6 +870,7 @@
         "weight":0
       }
     ],
+    "buildtype":"refine",
     "storage": 0,
     "storageslots": 0,
     "power": -350,
@@ -884,6 +914,7 @@
         "weight":0
       }
     ],
+    "buildtype":"refine",
     "storage": 0,
     "storageslots": 0,
     "power": -500,
@@ -912,6 +943,7 @@
         "weight":0
       }
     ],
+    "buildtype":"water",
     "storage": 0,
     "storageslots": 0,
     "power": -200,
@@ -940,6 +972,7 @@
         "weight":0
       }
     ],
+    "buildtype":"water",
     "storage": 0,
     "storageslots": 0,
     "power": -350,
@@ -958,6 +991,7 @@
         "weight":0
       }
     ],
+    "buildtype":"storage",
     "storage": 250,
     "storageslots": 10,
     "power": 0,
@@ -976,6 +1010,7 @@
         "weight":0
       }
     ],
+    "buildtype":"storage",
     "storage": 750,
     "storageslots": 20,
     "power": 0,
@@ -999,6 +1034,7 @@
         "weight":0
       }
     ],
+    "buildtype":"storage",
     "storage": 1750,
     "storageslots": 45,
     "power": 0,
@@ -1027,6 +1063,7 @@
         "weight":0
       }
     ],
+    "buildtype":"storage",
     "storage": 3500,
     "storageslots": 100,
     "power": 0,
@@ -1045,11 +1082,14 @@
         "weight":0
       }
     ],
+    "buildtype":"water",
     "storage": 0,
     "storageslots": 0,
     "power": 0,
     "weight":6.3,
-    "water":1750
+    "water":1750,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Medium Water Cistern",
@@ -1066,11 +1106,14 @@
         "weight":0
       }
     ],
+    "buildtype":"water",
     "storage": 0,
     "storageslots": 0,
     "power": 0,
     "weight":33,
-    "water":25000
+    "water":25000,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Large Water Cistern",
@@ -1092,10 +1135,13 @@
         "weight":0
       }
     ],
+    "buildtype":"water",
     "storage": 0,
     "storageslots": 0,
     "power": 0,
     "weight": 153.5,
-    "water":100000
+    "water":100000,
+    "burntime":0,
+    "fueltype":""
   }
 ]
