@@ -546,7 +546,7 @@
       "Radiation Suit Mk6",
       "Seeker Helmet",
       "Tabr Softstep Boots",
-      "Wayfinder Helm",
+      "Wayfinder Helm (1)",
       "Yueh's Reaper Gloves"
     ]
   },
@@ -605,14 +605,7 @@
     "StackSize": 500,
     "Volume": 0.1,
     "craftedAt": [],
-    "usedIn": [
-      "Wind Turbine Directional",
-      "Wind Turbine Omnidirectional",
-      "Pentashield Surface Vertical",
-      "Pentashield Surface Horizontal",
-      "Large Windtrap",
-      "Windtrap"
-    ]
+    "usedIn": []
   },
   {
     "name": "Carbide blade parts",
@@ -892,7 +885,7 @@
       "Sandcrawler Tread Mk6",
       "Sandcrawler Vacuum Mk6",
       "Sandflies Carver",
-      "Scorchbolt",
+      "Scorchbolt (1)",
       "Scout Ornithopter Chassis Mk4",
       "Scout Ornithopter Chassis Mk5",
       "Scout Ornithopter Chassis Mk6",
@@ -1052,7 +1045,7 @@
       "Thermo-Responsive Ray Amplifier",
       "Vehicle Backup Tool",
       "Way of the Fallen",
-      "Welding Torch Mk1"
+      "Welding Torch Mk1 (1)"
     ]
   },
   {
@@ -1272,9 +1265,9 @@
       "Holtzman Shield Mk5",
       "Hummingbird Wing Module Mk5",
       "Imperial Stillsuit Body",
-      "Imperial Stillsuit Boots",
-      "Imperial Stillsuit Gloves",
-      "Imperial Stillsuit Mask",
+      "Imperial Stillsuit Boots (1)",
+      "Imperial Stillsuit Gloves (1)",
+      "Imperial Stillsuit Mask (1)",
       "Impure Extractor Mk5",
       "Iodine Pill",
       "Irradiated Core",
@@ -1333,7 +1326,7 @@
       "Saturnine Stillsuit Garment",
       "Saturnine Stillsuit Gloves",
       "Saturnine Stillsuit Mask",
-      "Scorchbolt",
+      "Scorchbolt (1)",
       "Scout Ornithopter Chassis Mk5",
       "Scout Ornithopter Cockpit Mk5",
       "Scout Ornithopter Engine Mk5",
@@ -1589,7 +1582,7 @@
       "Industrial-grade Lubricant",
       "Large Vehicle Fuel Cell",
       "Low-grade Lubricant",
-      "Medium Vehicle Fuel Cell",
+      "Medium Sized Vehicle Fuel Cell",
       "Missile",
       "Rocket",
       "Small Vehicle Fuel Cell",
@@ -1658,7 +1651,7 @@
       "Precision Range Finder",
       "Relentless",
       "Ripper",
-      "Scorchbolt",
+      "Scorchbolt (1)",
       "Scrubber",
       "Seb's Kisser",
       "Shadrath's Edge",
@@ -1932,7 +1925,7 @@
       "Hummingbird Wing Module Mk5",
       "Impure Extractor Mk5",
       "Industrial Dew Scythe Mk4",
-      "Scorchbolt",
+      "Scorchbolt (1)",
       "Scout Ornithopter Wing Mk4",
       "Scout Ornithopter Wing Mk5",
       "Scout Ornithopter Wing Mk6",
@@ -2345,7 +2338,7 @@
       "Ripper",
       "Salusan Vengeance",
       "Sardaukar Intimidator",
-      "Scorchbolt",
+      "Scorchbolt (1)",
       "Scrubber",
       "Seb's Kisser",
       "Seethe",
@@ -2376,7 +2369,7 @@
     ]
   },
   {
-    "name": "Medium Vehicle Fuel Cell",
+    "name": "Medium Sized Vehicle Fuel Cell",
     "StackSize": 1,
     "Volume": 3.3333333,
     "craftedAt": [
@@ -2442,12 +2435,12 @@
       "Hollower Stillsuit Mask",
       "Imperial Stillsuit Body",
       "Imperial Stillsuit Boots",
-      "Imperial Stillsuit Boots",
+      "Imperial Stillsuit Boots (1)",
       "Imperial Stillsuit Garment",
       "Imperial Stillsuit Gloves",
-      "Imperial Stillsuit Gloves",
+      "Imperial Stillsuit Gloves (1)",
       "Imperial Stillsuit Mask",
-      "Imperial Stillsuit Mask",
+      "Imperial Stillsuit Mask (1)",
       "Kel's Stillsuit Boots",
       "Kel's Stillsuit Garment",
       "Kel's Stillsuit Gloves",
@@ -2519,13 +2512,20 @@
     ]
   },
   {
-    "name": "Muad'Dib Corpse",
+    "name": "Mouse Corpse",
     "StackSize": 1,
     "Volume": 5.0,
     "craftedAt": [],
     "usedIn": [
       "Melange Spiced Food"
     ]
+  },
+  {
+    "name": "Muad%27Dib Corpse",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": []
   },
   {
     "name": "Off-world Medical Supplies",
@@ -2967,7 +2967,7 @@
       "Villari's Stillsuit Mask",
       "Walker Sandcrawler Engine Mk6",
       "Way of the Misr",
-      "Wayfinder Helm",
+      "Wayfinder Helm (1)",
       "Young Sparky Mk6",
       "Yueh's Reaper Gloves"
     ]
@@ -3373,7 +3373,7 @@
       "Trooper's Fatigues Leggings",
       "Veil of the Sisterhood",
       "Wayfinder Helm",
-      "Wayfinder Helm",
+      "Wayfinder Helm (1)",
       "Yueh's Reaper Gloves"
     ]
   },
@@ -3550,10 +3550,10 @@
       "Improvised Maula Pistol",
       "Improvised Power Pack",
       "Incendiary Gel",
-      "Light Darts",
+      "Light Darts (1)",
       "Respawn Beacon",
       "Scrap Metal Knife",
-      "Scrap Metal Knife",
+      "Scrap Metal Knife (1)",
       "Small Blood Sack",
       "Solido Replicator",
       "Welding Wire"
@@ -3789,12 +3789,12 @@
       "Idaho's Charge",
       "Imperial Stillsuit Body",
       "Imperial Stillsuit Boots",
-      "Imperial Stillsuit Boots",
+      "Imperial Stillsuit Boots (1)",
       "Imperial Stillsuit Garment",
       "Imperial Stillsuit Gloves",
-      "Imperial Stillsuit Gloves",
+      "Imperial Stillsuit Gloves (1)",
       "Imperial Stillsuit Mask",
-      "Imperial Stillsuit Mask",
+      "Imperial Stillsuit Mask (1)",
       "Improved Reaper Gloves",
       "Improved Suspensor Jacket",
       "Improved Watertube",
@@ -3997,7 +3997,7 @@
       "Way of the Misr",
       "Way of the Wanderer",
       "Wayfinder Helm",
-      "Wayfinder Helm",
+      "Wayfinder Helm (1)",
       "Wormsong Echo",
       "Yueh's Reaper Gloves",
       "Zaal's Companion"
@@ -4167,9 +4167,9 @@
       "Hajra Literjon Mk5",
       "Hummingbird Wing Module Mk5",
       "Imperial Stillsuit Body",
-      "Imperial Stillsuit Boots",
-      "Imperial Stillsuit Gloves",
-      "Imperial Stillsuit Mask",
+      "Imperial Stillsuit Boots (1)",
+      "Imperial Stillsuit Gloves (1)",
+      "Imperial Stillsuit Mask (1)",
       "Impure Extractor Mk5",
       "Jolt-knife",
       "Jolt-sword",
@@ -4200,7 +4200,7 @@
       "Saturnine Stillsuit Garment",
       "Saturnine Stillsuit Gloves",
       "Saturnine Stillsuit Mask",
-      "Scorchbolt",
+      "Scorchbolt (1)",
       "Scrubber",
       "Shaded Hood",
       "Shaitan's Tongue",
@@ -4407,7 +4407,7 @@
       "Villari's Stillsuit Mask",
       "Walker Sandcrawler Engine Mk6",
       "Way of the Misr",
-      "Wayfinder Helm",
+      "Wayfinder Helm (1)",
       "Young Sparky Mk6",
       "Yueh's Reaper Gloves"
     ]
@@ -4777,9 +4777,9 @@
       "Batigh Stillsuit Gloves",
       "Batigh Stillsuit Mask",
       "Imperial Stillsuit Body",
-      "Imperial Stillsuit Boots",
-      "Imperial Stillsuit Gloves",
-      "Imperial Stillsuit Mask",
+      "Imperial Stillsuit Boots (1)",
+      "Imperial Stillsuit Gloves (1)",
+      "Imperial Stillsuit Mask (1)",
       "Improved Watertube",
       "Maraqeb Stillsuit Boots",
       "Maraqeb Stillsuit Garment",

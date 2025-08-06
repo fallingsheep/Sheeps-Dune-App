@@ -13,7 +13,9 @@
     "storageslots": 0,
     "power": -15,
     "weight":3.8,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Advanced Sub-Fief Console",
@@ -29,7 +31,9 @@
     "storageslots": 0,
     "power": -15,
     "weight":6,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Fuel-Powered Generator",
@@ -45,7 +49,9 @@
     "storageslots": 0,
     "power": 75,
     "weight":6.8,
-    "water":0
+    "water":0,
+    "burntime":1,
+    "fueltype":"FuelCell"
   },
   {
     "name": "Wind Turbine Omnidirectional",
@@ -71,7 +77,9 @@
     "storageslots": 0,
     "power": 150,
     "weight":89.5,
-    "water":0
+    "water":0,
+    "burntime":1,
+    "fueltype":"Lubricant"
   },
   {
     "name": "Wind Turbine Directional",
@@ -102,7 +110,9 @@
     "storageslots": 0,
     "power": 350,
     "weight":273.6,
-    "water":0
+    "water":0,
+    "burntime":1.5,
+    "fueltype":"Industrial-grade Lubricant"
   },
   {
     "name": "Spice-Powered Generator",
@@ -143,7 +153,9 @@
     "storageslots": 0,
     "power": 1000,
     "weight":816,
-    "water":0
+    "water":0,
+    "burntime":1.5,
+    "fueltype":"Spice-infused Fuel Cell"
   },
   {
     "name": "Repair Station",
@@ -159,7 +171,9 @@
     "storageslots": 0,
     "power": -20,
     "weight":16,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Recycler",
@@ -175,7 +189,9 @@
     "storageslots": 0,
     "power": -15,
     "weight":7.5,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Windtrap",
@@ -201,7 +217,9 @@
     "storageslots": 0,
     "power": -75,
     "weight":50,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Large Windtrap",
@@ -232,7 +250,9 @@
     "storageslots": 0,
     "power": -135,
     "weight":249,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Pentashield Surface Vertical",
@@ -258,7 +278,9 @@
     "storageslots": 0,
     "power": -6,
     "weight":21.6,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Pentashield Surface Horizontal",
@@ -284,7 +306,9 @@
     "storageslots": 0,
     "power": -3,
     "weight":21.6,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Fabricator",
@@ -300,7 +324,9 @@
     "storageslots": 0,
     "power": -10,
     "weight":11.3,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Garment Fabricator",
@@ -321,7 +347,9 @@
     "storageslots": 0,
     "power": -40,
     "weight":23,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Advanced Garment Fabricator",
@@ -362,7 +390,9 @@
     "storageslots": 0,
     "power": -150,
     "weight":338.5,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Survival Fabricator",
@@ -383,7 +413,9 @@
     "storageslots": 0,
     "power": -40,
     "weight":23,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Advanced Survival Fabricator",
@@ -424,7 +456,9 @@
     "storageslots": 0,
     "power": -150,
     "weight":330,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Weapons Fabricator",
@@ -445,7 +479,9 @@
     "storageslots": 0,
     "power": -40,
     "weight":23,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Advanced Weapons Fabricator",
@@ -486,7 +522,9 @@
     "storageslots": 0,
     "power": -150,
     "weight":331,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Vehicles Fabricator",
@@ -507,7 +545,9 @@
     "storageslots": 0,
     "power": -40,
     "weight":23,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Advanced Vehicles Fabricator",
@@ -548,7 +588,9 @@
     "storageslots": 0,
     "power": -150,
     "weight":332,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Blood Purifier",
@@ -564,7 +606,9 @@
     "storageslots": 0,
     "power": -10,
     "weight":10.5,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Improved Blood Purifier",
@@ -590,7 +634,9 @@
     "storageslots": 0,
     "power": -35,
     "weight":23.6,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Small Ore Refinery",
@@ -606,7 +652,9 @@
     "storageslots": 0,
     "power": -15,
     "weight":13.5,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Medium Ore Refinery",
@@ -632,7 +680,9 @@
     "storageslots": 0,
     "power": -45,
     "weight":127.5,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Large Ore Refinery",
@@ -673,7 +723,9 @@
     "storageslots": 0,
     "power": -350,
     "weight":1283,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Small Chemical Refinery",
@@ -689,7 +741,9 @@
     "storageslots": 0,
     "power": -15,
     "weight":11.3,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Medium Chemical Refinery",
@@ -720,7 +774,9 @@
     "storageslots": 0,
     "power": -350,
     "weight":156,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Spice Refinery",
@@ -751,7 +807,9 @@
     "storageslots": 0,
     "power": -200,
     "weight":244,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Medium Spice Refinery",
@@ -787,7 +845,9 @@
     "storageslots": 0,
     "power": -350,
     "weight":534.5,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Large Spice Refinery",
@@ -828,7 +888,9 @@
     "storageslots": 0,
     "power": -500,
     "weight":2408.5,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Fremen Deathstill",
@@ -854,7 +916,9 @@
     "storageslots": 0,
     "power": -200,
     "weight":36,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Advanced Fremen Deathstill",
@@ -880,7 +944,9 @@
     "storageslots": 0,
     "power": -350,
     "weight":240,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Small Storage Container",
@@ -896,7 +962,9 @@
     "storageslots": 10,
     "power": 0,
     "weight":5.3,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Chest",
@@ -912,7 +980,9 @@
     "storageslots": 20,
     "power": 0,
     "weight":8,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Storage Container",
@@ -933,7 +1003,9 @@
     "storageslots": 45,
     "power": 0,
     "weight":32.3,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Medium Storage Container",
@@ -959,7 +1031,9 @@
     "storageslots": 100,
     "power": 0,
     "weight":72.2,
-    "water":0
+    "water":0,
+    "burntime":0,
+    "fueltype":""
   },
   {
     "name": "Water Cistern",

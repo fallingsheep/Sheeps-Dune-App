@@ -76,6 +76,11 @@ input[type='number'] {
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 16px;
 }
+.building-grid-resources {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+}
 
 .building {
   background: var(--inner-bg);
@@ -185,10 +190,24 @@ ul {
   vertical-align: top;
   margin-bottom: 10px;
 }
+.building-image-resources {
+  width: 64px;
+  height: auto;
+  margin-left: 10px;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
 .building-image-small {
   width: 24px;
   height: auto;
   vertical-align: top;
+}
+
+.building .description {
+  font-size: 0.9em;
+  color: #ccc;
+  margin-bottom: 5px;
+  display: block;
 }
 
 body.dark .value {

@@ -1,0 +1,5349 @@
+[
+  {
+    "name": "Advanced Machinery",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Complex Machinery",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Cobalt Paste",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Bluddshot Buggy Engine Mk6",
+      "Mohandis Sandbike Engine Mk6",
+      "Walker Sandcrawler Engine Mk6",
+      "Sandcrawler Vacuum Mk6"
+    ]
+  },
+  {
+    "name": "Advanced Particulate Filter",
+    "StackSize": 5,
+    "Volume": 5.0,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Plastanium Ingot",
+            "quantity": 8.0
+          },
+          {
+            "item": "Plant Fiber",
+            "quantity": 20.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 14.0
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 50.0
+          },
+          {
+            "item": "Spice Melange",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 520.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Advanced Servoks",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Buggy Chassis Mk4",
+      "Buggy Chassis Mk5",
+      "Buggy Chassis Mk6",
+      "Buggy Rear Mk4",
+      "Buggy Rear Mk5",
+      "Buggy Rear Mk6",
+      "Buggy Utility Rear Mk4",
+      "Buggy Utility Rear Mk5",
+      "Buggy Utility Rear Mk6",
+      "Buggy Hull Mk4",
+      "Buggy Hull Mk5",
+      "Buggy Hull Mk6",
+      "Buggy Storage Mk4",
+      "Buggy Storage Mk5",
+      "Buggy Storage Mk6",
+      "Bigger Buggy Boot Mk3",
+      "Bigger Buggy Boot Mk4",
+      "Bigger Buggy Boot Mk5",
+      "Bigger Buggy Boot Mk6",
+      "Buggy Rocket Launcher Mk6",
+      "Buggy Tread Mk4",
+      "Buggy Tread Mk5",
+      "Buggy Tread Mk6",
+      "Assault Ornithopter Storage Mk5",
+      "Scout Ornithopter Chassis Mk5",
+      "Scout Ornithopter Chassis Mk6",
+      "Scout Ornithopter Hull Mk5",
+      "Scout Ornithopter Hull Mk6",
+      "Scout Ornithopter Cockpit Mk5",
+      "Scout Ornithopter Cockpit Mk6",
+      "Scout Ornithopter Rocket Launcher Mk6",
+      "Scout Ornithopter Wing Mk5",
+      "Scout Ornithopter Wing Mk6",
+      "Albatross Wing Module Mk4",
+      "Albatross Wing Module Mk5",
+      "Albatross Wing Module Mk6",
+      "Assault Ornithopter Chassis Mk6",
+      "Assault Ornithopter Cabin Mk6",
+      "Assault Ornithopter Tail Mk6",
+      "Assault Ornithopter Cockpit Mk6",
+      "Assault Ornithopter Rocket Launcher Mk5",
+      "Assault Ornithopter Rocket Launcher Mk6",
+      "Assault Ornithopter Wing Mk6",
+      "Hummingbird Wing Module Mk5",
+      "Hummingbird Wing Module Mk6",
+      "Roc Carrier Wing",
+      "Carrier Ornithopter Side Hull Mk6",
+      "Carrier Ornithopter Chassis Mk6",
+      "Carrier Ornithopter Main Hull Mk6",
+      "Carrier Ornithopter Tail Hull Mk6",
+      "Carrier Ornithopter Wing Mk6",
+      "Scrap Buggy Chassis",
+      "Scrap Buggy Rear Hull",
+      "Scrap Buggy Front Hull",
+      "Scrap Buggy Tread",
+      "Scrap Light Ornithopter Chassis",
+      "Scrap Light Ornithopter Cockpit",
+      "Scrap Light Ornithopter Wing",
+      "Scrap Sandbike Chassis",
+      "Scrap Sandbike Hull",
+      "Scrap Sandbike Tread",
+      "Scrap Sandbike Extra Seat",
+      "Welding Torch Mk3",
+      "Welding Torch Mk5",
+      "Sandbike Chassis Mk2",
+      "Sandbike Chassis Mk3",
+      "Sandbike Chassis Mk4",
+      "Sandbike Chassis Mk5",
+      "Sandbike Chassis Mk6",
+      "Sandbike Backseat Mk1",
+      "Sandbike Hull Mk2",
+      "Sandbike Hull Mk3",
+      "Sandbike Hull Mk4",
+      "Sandbike Hull Mk5",
+      "Sandbike Hull Mk6",
+      "Sandbike Tread Mk2",
+      "Sandbike Tread Mk3",
+      "Sandbike Tread Mk4",
+      "Sandbike Tread Mk5",
+      "Sandbike Tread Mk6",
+      "Sandcrawler Centrifuge Mk6",
+      "Sandcrawler Chassis Mk6",
+      "Sandcrawler Cabin Mk6",
+      "Sandcrawler Vacuum Mk6",
+      "Dampened Sandcrawler Treads",
+      "Sandcrawler Tread Mk6",
+      "Sandbike Hull Mk1",
+      "Sandbike Chassis Mk1",
+      "Sandbike Inventory Mk1",
+      "Sandbike Tread Mk1",
+      "Buggy Rear Mk3",
+      "Buggy Storage Mk3",
+      "Buggy Chassis Mk3",
+      "Buggy Hull Mk3",
+      "Buggy Tread Mk3",
+      "Scout Ornithopter Hull Mk4",
+      "Scout Ornithopter Chassis Mk4",
+      "Scout Ornithopter Cockpit Mk4",
+      "Scout Ornithopter Storage Mk4",
+      "Scout Ornithopter Wing Mk4",
+      "Sandbike Inventory Mk2",
+      "Sandbike Scanner Mk2",
+      "Buggy Utility Rear Mk3",
+      "Assault Ornithopter Cabin Mk5",
+      "Assault Ornithopter Chassis Mk5",
+      "Assault Ornithopter Cockpit Mk5",
+      "Assault Ornithopter Tail Mk5",
+      "Assault Ornithopter Wing Mk5",
+      "Buggy Rocket Launcher Mk5",
+      "Scout Ornithopter Rocket Launcher Mk5"
+    ]
+  },
+  {
+    "name": "Agave Seeds",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Iodine Pill"
+    ]
+  },
+  {
+    "name": "Aluminum Ingot",
+    "StackSize": 500,
+    "Volume": 0.7,
+    "craftedAt": [
+      {
+        "station": "Medium Ore Refinery",
+        "craftingtime": 30.0,
+        "ingredients": [
+          {
+            "item": "Aluminum Ore",
+            "quantity": 7.0
+          },
+          {
+            "item": "Water",
+            "quantity": 200.0
+          }
+        ]
+      },
+      {
+        "station": "Large Ore Refinery",
+        "craftingtime": 20.0,
+        "ingredients": [
+          {
+            "item": "Aluminum Ore",
+            "quantity": 4.0
+          },
+          {
+            "item": "Water",
+            "quantity": 200.0
+          }
+        ]
+      },
+      {
+        "station": "Large Ore Refinery",
+        "craftingtime": 4.0,
+        "ingredients": [
+          {
+            "item": "Jasmium Crystal",
+            "quantity": 3.0
+          },
+          {
+            "item": "Aluminum Ingot",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 650.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Ore Refinery",
+        "craftingtime": 5.0,
+        "ingredients": [
+          {
+            "item": "Jasmium Crystal",
+            "quantity": 4.0
+          },
+          {
+            "item": "Aluminum Ingot",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 650.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Large Blood Sack",
+      "Sinner's Bloodbag",
+      "Blood Extractor Mk4",
+      "Filter Extractor Mk4",
+      "Buggy Booster Mk4",
+      "Buggy Chassis Mk4",
+      "Rattler Boost Module Mk4",
+      "Buggy Engine Mk4",
+      "Bluddshot Buggy Engine Mk4",
+      "Buggy PSU Mk4",
+      "Buggy Rear Mk4",
+      "Buggy Utility Rear Mk4",
+      "Buggy Hull Mk4",
+      "Buggy Storage Mk4",
+      "Bigger Buggy Boot Mk4",
+      "Buggy Tread Mk4",
+      "Buggy Cutteray Mk4",
+      "Focused Buggy Cutteray Mk4",
+      "House Maula Pistol",
+      "House Sword",
+      "Power Gauntlets",
+      "Miner's Blessing",
+      "Improved Reaper Gloves",
+      "Improved Suspensor Jacket",
+      "Compression-Stim Leggings",
+      "Idaho Softstep Boots",
+      "Sentinel Boots",
+      "Sentinel Pants",
+      "Sentinel Gauntlets",
+      "Sentinel Helmet",
+      "Sentinel Jacket",
+      "Quirth's Boots",
+      "Quirth's Pants",
+      "Quirth's Gauntlets",
+      "Quirth's Helmet",
+      "Quirth's Jacket",
+      "Decaliterjon",
+      "Collapsible Dew Reaper Mk4",
+      "Dew Reaper Mk4",
+      "Buoyant Reaper Mk4",
+      "Industrial Dew Scythe Mk4",
+      "The Emperor's Wings Mk4",
+      "House Karpov 38",
+      "House Disruptor Pistol",
+      "Hajra Literjon Mk4",
+      "Shadrath's Drinker",
+      "Spark-Knife",
+      "Duraluminum Ingot",
+      "Experimental Vulcan GAU-94",
+      "Long Shot",
+      "Industrial Cutteray Mk4",
+      "Albatross Wing Module Mk4",
+      "Old Sparky Mk4",
+      "Radiation Suit Mk4",
+      "Sandflies Carver",
+      "Poison Mist",
+      "Abulurd's Rapture",
+      "Stormrider Boost Module Mk4",
+      "Clapper Mk4",
+      "Scrap Light Ornithopter Chassis",
+      "Scrap Light Ornithopter Engine",
+      "Scrap Light Ornithopter Generator",
+      "Scrap Light Ornithopter Cockpit",
+      "Scrap Light Ornithopter Wing",
+      "Sandbike Booster Mk4",
+      "Sandbike Chassis Mk4",
+      "Night Rider Sandbike Boost Mk4",
+      "Sandbike Engine Mk4",
+      "Mohandis Sandbike Engine Mk4",
+      "Sandbike PSU Mk4",
+      "Sandbike Hull Mk4",
+      "Sandbike Tread Mk4",
+      "House Burst Drillshot",
+      "Ironwatch Special",
+      "Spice Mask",
+      "Compact Compactor Mk4",
+      "Shadrath's Stillsuit Boots",
+      "Shadrath's Stillsuit Gloves",
+      "Shadrath's Stillsuit Mask",
+      "Shadrath's Stillsuit Garment",
+      "Maraqeb Stillsuit Boots",
+      "Maraqeb Stillsuit Gloves",
+      "Maraqeb Stillsuit Mask",
+      "Maraqeb Stillsuit Garment",
+      "Shadow Hood",
+      "House Drillshot FK7",
+      "Duneman Scout Jacket",
+      "Duneman Scout Boots",
+      "Duneman Scout Gloves",
+      "Duneman Scout Helmet",
+      "Duneman Scout Pants",
+      "House Dirk",
+      "House Rapier",
+      "Scout Ornithopter Hull Mk4",
+      "Scout Ornithopter Chassis Mk4",
+      "Scout Ornithopter Cockpit Mk4",
+      "Scout Ornithopter Engine Mk4",
+      "Scout Ornithopter Storage Mk4",
+      "Scout Ornithopter Generator Mk4",
+      "Scout Ornithopter Wing Mk4",
+      "Duneman Heavy Boots",
+      "Duneman Heavy Pants",
+      "Duneman Heavy Gloves",
+      "Duneman Heavy Mask",
+      "Duneman Heavy Jacket",
+      "Full Suspensor Belt",
+      "House Vulcan GAU-92",
+      "House GRDA 44",
+      "House Disruptor M11",
+      "Native Stillsuit Boots",
+      "Native Stillsuit Gloves",
+      "Native Stillsuit Mask",
+      "Native Stillsuit Body",
+      "Scout Ornithopter Thruster Mk4",
+      "Scout Ornithopter Scan Module",
+      "House Kindjal",
+      "Power Pack Mk4",
+      "House Rafiq Snubnose",
+      "House JABAL Spitdart",
+      "Industrial Static Compactor",
+      "Stammershot",
+      "Pipecleaner",
+      "Denira's Gift",
+      "Firestorm",
+      "Eviscerator",
+      "Shadrath's Edge",
+      "Way of the Fighter",
+      "Spark-sword",
+      "Ceremonial Damasteel Sword",
+      "Standard Filter"
+    ]
+  },
+  {
+    "name": "Aluminum Ore",
+    "StackSize": 500,
+    "Volume": 0.6,
+    "craftedAt": [],
+    "usedIn": [
+      "Aluminum Ingot"
+    ]
+  },
+  {
+    "name": "Armor Plating",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Armor Plating",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Spice Melange",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Buggy Rear Mk4",
+      "Buggy Rear Mk5",
+      "Buggy Utility Rear Mk4",
+      "Buggy Utility Rear Mk5",
+      "Buggy Hull Mk4",
+      "Buggy Hull Mk5",
+      "Iri's Gauntlets",
+      "Shock Gauntlets",
+      "Power Gauntlets",
+      "Station Gauntlets",
+      "Mendek's Boots",
+      "Mendek's Pants",
+      "Mendek's Gauntlets",
+      "Mendek's Helmet",
+      "Mendek's Chestplate",
+      "Swordmasters Boots",
+      "Swordmasters Leggings",
+      "Swordmasters Gauntlets",
+      "Swordmasters Helm",
+      "Swordmasters Tunic",
+      "Trooper's Fatigues Boots",
+      "Trooper's Fatigues Leggings",
+      "Trooper's Fatigues Gauntlets",
+      "Trooper's Fatigues Helmet",
+      "Trooper's Fatigues Chest",
+      "Karak's Boots",
+      "Karak's Pants",
+      "Karak's Gauntlets",
+      "Karak's Helmet",
+      "Karak's Jacket",
+      "Sentinel Boots",
+      "Sentinel Pants",
+      "Sentinel Gauntlets",
+      "Sentinel Helmet",
+      "Sentinel Jacket",
+      "Acheronian Boots",
+      "Acheronian Pants",
+      "Acheronian Gauntlets",
+      "Acheronian Helmet",
+      "Acheronian Chestplate",
+      "Scout Ornithopter Hull Mk5",
+      "Scout Ornithopter Cockpit Mk5",
+      "Oathbreaker Chestpiece",
+      "Oathbreaker Boots",
+      "Oathbreaker Gauntlets",
+      "Oathbreaker Headwrap",
+      "Oathbreaker Pants",
+      "Scrap Buggy Rear Hull",
+      "Scrap Light Ornithopter Cockpit",
+      "Sandbike Hull Mk2",
+      "Sandbike Hull Mk3",
+      "Sandbike Hull Mk4",
+      "Sandbike Hull Mk5",
+      "Sandcrawler Cabin Mk6",
+      "Kirab Heavy Boots",
+      "Kirab Heavy Pants",
+      "Kirab Heavy Gauntlet",
+      "Kirab Heavy Headwrap",
+      "Kirab Heavy Jerkin",
+      "Slaver Heavy Boots",
+      "Slaver Heavy Pants",
+      "Slaver Heavy Gloves",
+      "Slaver Heavy Helmet",
+      "Slaver Heavy Jerkin",
+      "Buggy Rear Mk3",
+      "Scout Ornithopter Hull Mk4",
+      "Scout Ornithopter Cockpit Mk4",
+      "Mercenary Heavy Chestplate",
+      "Mercenary Heavy Boots",
+      "Mercenary Heavy Gloves",
+      "Mercenary Heavy Helmet",
+      "Mercenary Heavy Pants",
+      "Duneman Heavy Boots",
+      "Duneman Heavy Pants",
+      "Duneman Heavy Gloves",
+      "Duneman Heavy Mask",
+      "Duneman Heavy Jacket",
+      "Buggy Utility Rear Mk3",
+      "Assault Ornithopter Cabin Mk5",
+      "Assault Ornithopter Cockpit Mk5",
+      "Plasteel Composite Armor Plating"
+    ]
+  },
+  {
+    "name": "Atmospheric Filtered Fabric",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Insulated Fabric",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plant Fiber",
+            "quantity": 2.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "The Baron's Bloodbag",
+      "Hajra Literjon Mk6",
+      "Massive Blood Sack",
+      "Literjon Mk6"
+    ]
+  },
+  {
+    "name": "Ballistic Weave Fabric",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Sandtrout Leathers",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 2.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Desert Garb",
+      "Hook-claw Gloves",
+      "Yueh's Reaper Gloves",
+      "Adrenal Boots",
+      "Idaho's Charge",
+      "Wayfinder Helm (1)",
+      "Ix-core Leggings",
+      "Seeker Helmet",
+      "Tabr Softstep Boots",
+      "Pincushion Boots",
+      "Pincushion Pants",
+      "Pincushion Gauntlets",
+      "Pincushion Helmet",
+      "Pincushion Chestpiece",
+      "Radiation Suit Mk6",
+      "CHOAM Scout Boots",
+      "CHOAM Scout Pants",
+      "CHOAM Scout Gloves",
+      "CHOAM Scout Helmet",
+      "CHOAM Scout Chestplate"
+    ]
+  },
+  {
+    "name": "Basalt Stone",
+    "StackSize": 500,
+    "Volume": 0.15,
+    "craftedAt": [],
+    "usedIn": [
+      "Plastone"
+    ]
+  },
+  {
+    "name": "Blade Parts",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Blade Parts",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Spice Melange",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      },
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Carbide Scraps",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Blade Parts",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      },
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Diamondine Dust",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Blade Parts",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "House Sword",
+      "Adept Sword",
+      "Artisan Dirk",
+      "Adept Kindjal",
+      "Scipio's Drinker",
+      "Glutton's Drinker",
+      "Shadrath's Drinker",
+      "Pardot's Drinker",
+      "Shock-Knife",
+      "Spark-Knife",
+      "Jolt-knife",
+      "Standard Kindjal",
+      "Pseudo Pulse-Sword",
+      "Searing Shiv",
+      "Poison Mist",
+      "Standard Sword",
+      "House Dirk",
+      "Artisan Kindjal",
+      "House Rapier",
+      "Artisan Sword",
+      "Adept Rapier",
+      "Adept Dirk",
+      "House Kindjal",
+      "Plasteel Composite Blade Parts",
+      "Carbide blade parts",
+      "Diamodine blade parts",
+      "Denira's Gift",
+      "Moisture Sealer",
+      "Kharet Viper",
+      "Shock-sword",
+      "Spark-sword",
+      "Jolt-sword",
+      "Ceremonial Damasteel Sword"
+    ]
+  },
+  {
+    "name": "Calibrated Servok",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": []
+  },
+  {
+    "name": "Carbide blade parts",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Carbide Scraps",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Blade Parts",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Halleck's Pick",
+      "Static Needle",
+      "Replica Pulse-sword"
+    ]
+  },
+  {
+    "name": "Carbide Scraps",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Buggy Chassis Mk4",
+      "Buggy Chassis Mk5",
+      "Buggy Chassis Mk6",
+      "House Sword",
+      "Adept Sword",
+      "Scout Ornithopter Chassis Mk5",
+      "Scout Ornithopter Chassis Mk6",
+      "Assault Ornithopter Chassis Mk6",
+      "Carrier Ornithopter Chassis Mk6",
+      "Poison Mist",
+      "Sandbike Chassis Mk4",
+      "Sandbike Chassis Mk5",
+      "Sandbike Chassis Mk6",
+      "Sandcrawler Chassis Mk6",
+      "House Rapier",
+      "Scout Ornithopter Chassis Mk4",
+      "Assault Ornithopter Chassis Mk5",
+      "Regis Sword",
+      "Regis Rapier",
+      "Carbide blade parts",
+      "Kharet Viper",
+      "Spark-sword",
+      "Jolt-sword",
+      "Ceremonial Damasteel Sword"
+    ]
+  },
+  {
+    "name": "Carbon Ore",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "craftedAt": [],
+    "usedIn": [
+      "Steel Ingot"
+    ]
+  },
+  {
+    "name": "Cobalt Paste",
+    "StackSize": 500,
+    "Volume": 1.0,
+    "craftedAt": [
+      {
+        "station": "Small Chemical Refinery",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Erythrite Crystal",
+            "quantity": 3.0
+          },
+          {
+            "item": "Water",
+            "quantity": 75.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 10.0,
+        "ingredients": [
+          {
+            "item": "Erythrite Crystal",
+            "quantity": 2.0
+          },
+          {
+            "item": "Water",
+            "quantity": 75.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Blood Extractor Mk4",
+      "Impure Extractor Mk5",
+      "Filter Extractor Mk4",
+      "Filter Extractor Mk5",
+      "Buggy Booster Mk4",
+      "Buggy Booster Mk5",
+      "Buggy Booster Mk6",
+      "Buggy Chassis Mk4",
+      "Buggy Chassis Mk5",
+      "Buggy Chassis Mk6",
+      "Rattler Boost Module Mk4",
+      "Rattler Boost Module Mk5",
+      "Rattler Boost Module Mk6",
+      "Buggy Engine Mk4",
+      "Buggy Engine Mk5",
+      "Buggy Engine Mk6",
+      "Bluddshot Buggy Engine Mk3",
+      "Bluddshot Buggy Engine Mk4",
+      "Bluddshot Buggy Engine Mk5",
+      "Bluddshot Buggy Engine Mk6",
+      "Buggy PSU Mk4",
+      "Buggy PSU Mk5",
+      "Buggy PSU Mk6",
+      "Buggy Rear Mk4",
+      "Buggy Rear Mk5",
+      "Buggy Rear Mk6",
+      "Buggy Utility Rear Mk4",
+      "Buggy Utility Rear Mk5",
+      "Buggy Utility Rear Mk6",
+      "Buggy Hull Mk4",
+      "Buggy Hull Mk5",
+      "Buggy Hull Mk6",
+      "Buggy Storage Mk4",
+      "Buggy Storage Mk5",
+      "Buggy Storage Mk6",
+      "Bigger Buggy Boot Mk3",
+      "Bigger Buggy Boot Mk4",
+      "Bigger Buggy Boot Mk5",
+      "Bigger Buggy Boot Mk6",
+      "Buggy Rocket Launcher Mk6",
+      "Buggy Tread Mk4",
+      "Buggy Tread Mk5",
+      "Buggy Tread Mk6",
+      "Buggy Cutteray Mk4",
+      "Buggy Cutteray Mk5",
+      "Buggy Cutteray Mk6",
+      "Focused Buggy Cutteray Mk3",
+      "Focused Buggy Cutteray Mk4",
+      "Focused Buggy Cutteray Mk5",
+      "Focused Buggy Cutteray Mk6",
+      "Arhun K-28 Lasgun",
+      "Focused Reaper Mk5",
+      "Industrial Dew Scythe Mk4",
+      "Scorchbolt (1)",
+      "Sentinel Belt",
+      "The Emperor's Wings Mk3",
+      "The Emperor's Wings Mk4",
+      "The Emperor's Wings Mk5",
+      "The Emperor's Wings Mk6",
+      "Adaptive Holtzman Shield",
+      "Stormrider Boost Module Mk5",
+      "Stormrider Boost Module Mk6",
+      "Assault Ornithopter Storage Mk5",
+      "Industrial Cutteray Mk4",
+      "Cutteray Mk5",
+      "Cutteray Mk3",
+      "Kynes's Cutteray",
+      "Scout Ornithopter Chassis Mk5",
+      "Scout Ornithopter Chassis Mk6",
+      "Scout Ornithopter Engine Mk5",
+      "Scout Ornithopter Engine Mk6",
+      "Scout Ornithopter Generator Mk5",
+      "Scout Ornithopter Generator Mk6",
+      "Scout Ornithopter Hull Mk5",
+      "Scout Ornithopter Hull Mk6",
+      "Scout Ornithopter Cockpit Mk5",
+      "Scout Ornithopter Cockpit Mk6",
+      "Scout Ornithopter Rocket Launcher Mk6",
+      "Scout Ornithopter Wing Mk5",
+      "Scout Ornithopter Wing Mk6",
+      "Albatross Wing Module Mk4",
+      "Albatross Wing Module Mk5",
+      "Albatross Wing Module Mk6",
+      "Steady Assault Boost Module Mk5",
+      "Steady Assault Boost Module Mk6",
+      "Assault Ornithopter Chassis Mk6",
+      "Assault Ornithopter Engine Mk6",
+      "Assault Ornithopter Generator Mk6",
+      "Assault Ornithopter Cabin Mk6",
+      "Assault Ornithopter Tail Mk6",
+      "Assault Ornithopter Cockpit Mk6",
+      "Assault Ornithopter Rocket Launcher Mk5",
+      "Assault Ornithopter Rocket Launcher Mk6",
+      "Assault Ornithopter Wing Mk6",
+      "Hummingbird Wing Module Mk5",
+      "Hummingbird Wing Module Mk6",
+      "Roc Carrier Wing",
+      "Carrier Ornithopter Side Hull Mk6",
+      "Carrier Ornithopter Chassis Mk6",
+      "Carrier Ornithopter Main Hull Mk6",
+      "Carrier Ornithopter Tail Hull Mk6",
+      "Carrier Ornithopter Wing Mk6",
+      "Purifier Power Pack",
+      "Old Sparky Mk3",
+      "Old Sparky Mk4",
+      "Young Sparky Mk5",
+      "Young Sparky Mk6",
+      "Sandcrawler PSU Mk6",
+      "Rattler Boost Module Mk3",
+      "Callie's Breaker",
+      "Sandflies Carver",
+      "Tarl Cutteray",
+      "Shaitan's Tongue",
+      "Stormrider Boost Module Mk4",
+      "Welding Torch Mk3",
+      "Welding Torch Mk5",
+      "Sandbike Booster Mk3",
+      "Sandbike Booster Mk4",
+      "Sandbike Booster Mk5",
+      "Sandbike Booster Mk6",
+      "Sandbike Chassis Mk3",
+      "Sandbike Chassis Mk4",
+      "Sandbike Chassis Mk5",
+      "Sandbike Chassis Mk6",
+      "Night Rider Sandbike Boost Mk3",
+      "Night Rider Sandbike Boost Mk4",
+      "Night Rider Sandbike Boost Mk5",
+      "Night Rider Sandbike Boost Mk6",
+      "Sandbike Engine Mk3",
+      "Sandbike Engine Mk4",
+      "Sandbike Engine Mk5",
+      "Sandbike Engine Mk6",
+      "Mohandis Sandbike Engine Mk3",
+      "Mohandis Sandbike Engine Mk4",
+      "Mohandis Sandbike Engine Mk5",
+      "Mohandis Sandbike Engine Mk6",
+      "Sandbike PSU Mk3",
+      "Sandbike PSU Mk4",
+      "Sandbike PSU Mk5",
+      "Sandbike PSU Mk6",
+      "Sandbike Hull Mk3",
+      "Sandbike Hull Mk4",
+      "Sandbike Hull Mk5",
+      "Sandbike Hull Mk6",
+      "Sandbike Tread Mk3",
+      "Sandbike Tread Mk4",
+      "Sandbike Tread Mk5",
+      "Sandbike Tread Mk6",
+      "Sandcrawler Centrifuge Mk6",
+      "Sandcrawler Chassis Mk6",
+      "Sandcrawler Cabin Mk6",
+      "Sandcrawler Engine Mk6",
+      "Walker Sandcrawler Engine Mk6",
+      "Sandcrawler Vacuum Mk6",
+      "Dampened Sandcrawler Treads",
+      "Sandcrawler Tread Mk6",
+      "Handheld Life Scanner Mk3",
+      "Compact Compactor Mk3",
+      "Compact Compactor Mk4",
+      "Compact Compactor Mk5",
+      "Compact Compactor Mk6",
+      "Planar Suspensor Belt",
+      "Responsive Planar Suspensor Belt",
+      "Power Pack Mk3",
+      "Buggy Rear Mk3",
+      "Buggy Storage Mk3",
+      "Buggy Booster Mk3",
+      "Buggy Chassis Mk3",
+      "Buggy Engine Mk3",
+      "Buggy Hull Mk3",
+      "Buggy PSU Mk3",
+      "Buggy Tread Mk3",
+      "Scout Ornithopter Hull Mk4",
+      "Scout Ornithopter Chassis Mk4",
+      "Scout Ornithopter Cockpit Mk4",
+      "Scout Ornithopter Engine Mk4",
+      "Scout Ornithopter Storage Mk4",
+      "Scout Ornithopter Generator Mk4",
+      "Scout Ornithopter Wing Mk4",
+      "Full Suspensor Belt",
+      "Buggy Utility Rear Mk3",
+      "Buggy Cutteray Mk3",
+      "Scout Ornithopter Thruster Mk4",
+      "Scout Ornithopter Scan Module",
+      "Assault Ornithopter Cabin Mk5",
+      "Assault Ornithopter Chassis Mk5",
+      "Assault Ornithopter Cockpit Mk5",
+      "Assault Ornithopter Engine Mk5",
+      "Assault Ornithopter Generator Mk5",
+      "Assault Ornithopter Tail Mk5",
+      "Assault Ornithopter Wing Mk5",
+      "Power Pack Mk4",
+      "Power Pack Mk5",
+      "Industrial Static Compactor",
+      "Buggy Rocket Launcher Mk5",
+      "Scout Ornithopter Rocket Launcher Mk5",
+      "Assault Ornithopter Thruster Mk5",
+      "Black Market K-28 Lasgun",
+      "Holtzman Shield Mk3",
+      "Holtzman Shield Mk5",
+      "Cutteray Mk6",
+      "Power Pack Mk6",
+      "Omni Static Compactor",
+      "Glasser",
+      "Improved Holtzman Actuator",
+      "Advanced Machinery",
+      "Overclocked Power Regulator",
+      "Carrier Ornithopter Engine Mk6",
+      "Carrier Ornithopter Generator Mk6",
+      "Vaporizer"
+    ]
+  },
+  {
+    "name": "Complex Machinery",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Buggy Engine Mk4",
+      "Buggy Engine Mk5",
+      "Buggy Engine Mk6",
+      "Bluddshot Buggy Engine Mk3",
+      "Bluddshot Buggy Engine Mk4",
+      "Bluddshot Buggy Engine Mk5",
+      "Scout Ornithopter Engine Mk5",
+      "Scout Ornithopter Engine Mk6",
+      "Assault Ornithopter Engine Mk6",
+      "Scrap Buggy Engine",
+      "Scrap Light Ornithopter Engine",
+      "Sandbike Engine Mk3",
+      "Sandbike Engine Mk4",
+      "Sandbike Engine Mk5",
+      "Sandbike Engine Mk6",
+      "Mohandis Sandbike Engine Mk3",
+      "Mohandis Sandbike Engine Mk4",
+      "Mohandis Sandbike Engine Mk5",
+      "Sandcrawler Engine Mk6",
+      "Buggy Engine Mk3",
+      "Scout Ornithopter Engine Mk4",
+      "Scout Ornithopter Scan Module",
+      "Assault Ornithopter Engine Mk5",
+      "Advanced Machinery",
+      "Carrier Ornithopter Engine Mk6"
+    ]
+  },
+  {
+    "name": "Copper Ingot",
+    "StackSize": 500,
+    "Volume": 0.25,
+    "craftedAt": [
+      {
+        "station": "Large Ore Refinery",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Copper Ore",
+            "quantity": 2.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Ore Refinery",
+        "craftingtime": 4.0,
+        "ingredients": [
+          {
+            "item": "Copper Ore",
+            "quantity": 3.0
+          }
+        ]
+      },
+      {
+        "station": "Small Ore Refinery",
+        "craftingtime": 5.0,
+        "ingredients": [
+          {
+            "item": "Copper Ore",
+            "quantity": 4.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Karpov 38",
+      "Kaleff's Drinker",
+      "Cutteray Mk1",
+      "Old Sparky Mk1",
+      "Sandbike PSU Mk1",
+      "Sim's Cutter",
+      "Hajra Literjon Mk1",
+      "Way of the Fallen",
+      "Aren's Chestpiece",
+      "Aren's Boots",
+      "Aren's Gloves",
+      "Aren's Mask",
+      "Aren's Pants",
+      "The Emperor's Wings Mk1",
+      "Scrap Sandbike Chassis",
+      "Scrap Sandbike Engine",
+      "Scrap Sandbike Power Supply Unit",
+      "Scrap Sandbike Hull",
+      "Scrap Sandbike Tread",
+      "Scrap Sandbike Extra Seat",
+      "Welding Torch Mk1 (1)",
+      "Sandbike Backseat Mk1",
+      "Mohandis Sandbike Engine Mk1",
+      "Scavenger Boots",
+      "Scavenger Pants",
+      "Scavenger Gloves",
+      "Scavenger Hood",
+      "Scavenger Chestpiece",
+      "Hollower Stillsuit Boots",
+      "Hollower Stillsuit Gloves",
+      "Hollower Stillsuit Mask",
+      "Hollower Stillsuit Garment",
+      "Kindjal",
+      "Passive Suspensor Belt",
+      "Power Pack Mk1",
+      "Literjon",
+      "Sandbike Engine Mk1",
+      "Sandbike Hull Mk1",
+      "Sandbike Chassis Mk1",
+      "Sandbike Inventory Mk1",
+      "Sandbike Tread Mk1",
+      "Maula Pistol",
+      "Survey Probe",
+      "Survey Probe Launcher",
+      "Thermo-Responsive Ray Amplifier",
+      "Aren's Vengeance",
+      "Vehicle Backup Tool"
+    ]
+  },
+  {
+    "name": "Copper Ore",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "craftedAt": [],
+    "usedIn": [
+      "Copper Ingot"
+    ]
+  },
+  {
+    "name": "Corpse",
+    "StackSize": 1,
+    "Volume": 75.0,
+    "craftedAt": [],
+    "usedIn": []
+  },
+  {
+    "name": "Diamodine blade parts",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Diamondine Dust",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Blade Parts",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Feyd's Drinker",
+      "Replica Pulse-knife",
+      "Cauterizer"
+    ]
+  },
+  {
+    "name": "Diamondine Dust",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Buggy Rear Mk4",
+      "Buggy Rear Mk5",
+      "Buggy Rear Mk6",
+      "Buggy Utility Rear Mk4",
+      "Buggy Utility Rear Mk5",
+      "Buggy Utility Rear Mk6",
+      "Buggy Hull Mk4",
+      "Buggy Hull Mk5",
+      "Buggy Hull Mk6",
+      "Adept Kindjal",
+      "Shadrath's Drinker",
+      "Pardot's Drinker",
+      "Spark-Knife",
+      "Jolt-knife",
+      "Scout Ornithopter Hull Mk5",
+      "Scout Ornithopter Hull Mk6",
+      "Scout Ornithopter Cockpit Mk5",
+      "Scout Ornithopter Cockpit Mk6",
+      "Assault Ornithopter Cabin Mk6",
+      "Assault Ornithopter Tail Mk6",
+      "Assault Ornithopter Cockpit Mk6",
+      "Carrier Ornithopter Side Hull Mk6",
+      "Carrier Ornithopter Main Hull Mk6",
+      "Carrier Ornithopter Tail Hull Mk6",
+      "Sandbike Hull Mk4",
+      "Sandbike Hull Mk5",
+      "Sandbike Hull Mk6",
+      "Sandcrawler Centrifuge Mk6",
+      "House Dirk",
+      "Scout Ornithopter Hull Mk4",
+      "Scout Ornithopter Cockpit Mk4",
+      "Assault Ornithopter Cabin Mk5",
+      "Assault Ornithopter Cockpit Mk5",
+      "Adept Rapier",
+      "Adept Dirk",
+      "House Kindjal",
+      "Regis Dirk",
+      "Regis Kindjal",
+      "Diamodine blade parts",
+      "Denira's Gift",
+      "Moisture Sealer"
+    ]
+  },
+  {
+    "name": "Duraluminum Ingot",
+    "StackSize": 500,
+    "Volume": 0.9,
+    "craftedAt": [
+      {
+        "station": "Large Ore Refinery",
+        "craftingtime": 4.0,
+        "ingredients": [
+          {
+            "item": "Jasmium Crystal",
+            "quantity": 3.0
+          },
+          {
+            "item": "Aluminum Ingot",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 650.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Ore Refinery",
+        "craftingtime": 5.0,
+        "ingredients": [
+          {
+            "item": "Jasmium Crystal",
+            "quantity": 4.0
+          },
+          {
+            "item": "Aluminum Ingot",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 650.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Iodine Pill",
+      "Maas Kharet Bloodbag",
+      "Impure Extractor Mk5",
+      "Filter Extractor Mk5",
+      "Buggy Booster Mk5",
+      "Buggy Chassis Mk5",
+      "Rattler Boost Module Mk5",
+      "Buggy Engine Mk5",
+      "Bluddshot Buggy Engine Mk5",
+      "Buggy PSU Mk5",
+      "Buggy Rear Mk5",
+      "Buggy Utility Rear Mk5",
+      "Buggy Hull Mk5",
+      "Buggy Storage Mk5",
+      "Bigger Buggy Boot Mk5",
+      "Buggy Tread Mk5",
+      "Buggy Cutteray Mk5",
+      "Focused Buggy Cutteray Mk5",
+      "Arhun K-28 Lasgun",
+      "Adept Maula Pistol",
+      "Adept Sword",
+      "Station Gauntlets",
+      "Mendek's Boots",
+      "Mendek's Pants",
+      "Mendek's Gauntlets",
+      "Mendek's Helmet",
+      "Mendek's Chestplate",
+      "Swordmasters Boots",
+      "Swordmasters Leggings",
+      "Swordmasters Gauntlets",
+      "Swordmasters Helm",
+      "Swordmasters Tunic",
+      "Trooper's Fatigues Boots",
+      "Trooper's Fatigues Leggings",
+      "Trooper's Fatigues Gauntlets",
+      "Trooper's Fatigues Helmet",
+      "Trooper's Fatigues Chest",
+      "Boots of the Sisterhood",
+      "Pants of the Sisterhood",
+      "Gloves of the Sisterhood",
+      "Veil of the Sisterhood",
+      "Robe of the Sisterhood",
+      "Station Garb",
+      "Advanced Reaper Gloves",
+      "Mentat's Garment Boots",
+      "Mentat's Garment Leggings",
+      "Mentat's Garment Gauntlets",
+      "Mentat's Garment Helmet",
+      "Mentat's Garment Chest",
+      "Advanced Suspensor Jacket",
+      "Wayfinder Helm",
+      "Stim-Leggings",
+      "Tarl Softstep Boots",
+      "Acheronian Boots",
+      "Acheronian Pants",
+      "Acheronian Gauntlets",
+      "Acheronian Helmet",
+      "Acheronian Chestplate",
+      "Chosen Boots",
+      "Chosen Pants",
+      "Chosen Gauntlets",
+      "Chosen Helmet",
+      "Chosen Chestplate",
+      "Collapsible Dew Reaper Mk5",
+      "Focused Reaper Mk5",
+      "Buoyant Reaper Mk5",
+      "Scorchbolt (1)",
+      "The Emperor's Wings Mk5",
+      "Adept Karpov 38",
+      "Adept Disruptor Pistol",
+      "Cope",
+      "Hajra Literjon Mk5",
+      "Adept Kindjal",
+      "Pardot's Drinker",
+      "Jolt-knife",
+      "Stormrider Boost Module Mk5",
+      "Extravagant Message",
+      "Fivefinger's Tripleshot Rifle",
+      "Thufir's Best",
+      "Assault Ornithopter Storage Mk5",
+      "Cutteray Mk5",
+      "Scout Ornithopter Thruster Mk5",
+      "Scout Ornithopter Chassis Mk5",
+      "Scout Ornithopter Engine Mk5",
+      "Scout Ornithopter Generator Mk5",
+      "Scout Ornithopter Hull Mk5",
+      "Scout Ornithopter Cockpit Mk5",
+      "Scout Ornithopter Wing Mk5",
+      "Albatross Wing Module Mk5",
+      "Steady Assault Boost Module Mk5",
+      "Assault Ornithopter Rocket Launcher Mk5",
+      "Hummingbird Wing Module Mk5",
+      "Young Sparky Mk5",
+      "Radiation Suit Mk5",
+      "Tarl Cutteray",
+      "Shaitan's Tongue",
+      "Syndicate Chestplate",
+      "Syndicate Boots",
+      "Syndicate Gauntlets",
+      "Syndicate Helmet",
+      "Syndicate Pants",
+      "Welding Torch Mk5",
+      "Sandbike Booster Mk5",
+      "Sandbike Chassis Mk5",
+      "Night Rider Sandbike Boost Mk5",
+      "Sandbike Engine Mk5",
+      "Mohandis Sandbike Engine Mk5",
+      "Sandbike PSU Mk5",
+      "Sandbike Hull Mk5",
+      "Sandbike Tread Mk5",
+      "Adept Burst Drillshot",
+      "Relentless",
+      "Compact Compactor Mk5",
+      "Saturnine Stillsuit Boots",
+      "Saturnine Stillsuit Gloves",
+      "Saturnine Stillsuit Mask",
+      "Saturnine Stillsuit Garment",
+      "Batigh Stillsuit Boots",
+      "Batigh Stillsuit Gloves",
+      "Batigh Stillsuit Mask",
+      "Batigh Stillsuit Garment",
+      "Shaded Hood",
+      "Imperial Stillsuit Boots (1)",
+      "Imperial Stillsuit Gloves (1)",
+      "Imperial Stillsuit Mask (1)",
+      "Imperial Stillsuit Body",
+      "Double-sealed Stilltent",
+      "Responsive Planar Suspensor Belt",
+      "Long Range Scanner",
+      "Rocket",
+      "Mercenary Heavy Chestplate",
+      "Mercenary Heavy Boots",
+      "Mercenary Heavy Gloves",
+      "Mercenary Heavy Helmet",
+      "Mercenary Heavy Pants",
+      "Adept Drillshot FK7",
+      "Assault Ornithopter Cabin Mk5",
+      "Assault Ornithopter Chassis Mk5",
+      "Assault Ornithopter Cockpit Mk5",
+      "Assault Ornithopter Engine Mk5",
+      "Assault Ornithopter Generator Mk5",
+      "Assault Ornithopter Tail Mk5",
+      "Assault Ornithopter Wing Mk5",
+      "Atreides Heavy Chestpiece",
+      "Atreides Heavy Pants",
+      "Mercenary Scout Boots",
+      "Mercenary Scout Leggings",
+      "Mercenary Scout Gloves",
+      "Mercenary Scout Helmet",
+      "Mercenary Scout Top",
+      "Adept Rapier",
+      "Adept Dirk",
+      "Power Pack Mk5",
+      "Adept Rafiq Snubnose",
+      "Adept Vulcan GAU-92",
+      "Adept GRDA 44",
+      "Adept JABAL Spitdart",
+      "Mercenary Stillsuit Boots",
+      "Mercenary Stillsuit Gloves",
+      "Mercenary Stillsuit Mask",
+      "Mercenary Stillsuit Body",
+      "Buggy Rocket Launcher Mk5",
+      "Scout Ornithopter Rocket Launcher Mk5",
+      "Assault Ornithopter Thruster Mk5",
+      "Adept Disruptor M11",
+      "Holtzman Shield Mk5",
+      "Missile",
+      "Tri-Forged Hydraulic Piston",
+      "Irradiated Core",
+      "Mendek's Rattle",
+      "Scrubber",
+      "Moisture Sealer",
+      "Kharet Viper",
+      "Starburst",
+      "Syndicate Impaler",
+      "Taqwa's Double",
+      "Way of the Desert",
+      "Piter's Disruptor",
+      "Jolt-sword",
+      "Wormsong Echo",
+      "Duraluminum Welding Wire",
+      "Particulate Filter"
+    ]
+  },
+  {
+    "name": "EMF Generator",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Blood Extractor Mk2",
+      "Blood Extractor Mk4",
+      "Impure Extractor Mk5",
+      "Impure Extractor Mk6",
+      "Filter Extractor Mk3",
+      "Filter Extractor Mk4",
+      "Filter Extractor Mk5",
+      "Filter Extractor Mk6",
+      "Static Compactor",
+      "Collapsible Dew Reaper Mk4",
+      "Collapsible Dew Reaper Mk5",
+      "Collapsible Dew Reaper Mk6",
+      "Focused Reaper Mk5",
+      "Omni Focused Dew Scythe",
+      "Dew Reaper Mk4",
+      "Buoyant Reaper Mk3",
+      "Buoyant Reaper Mk4",
+      "Buoyant Reaper Mk5",
+      "Buoyant Reaper Mk6",
+      "Industrial Dew Scythe Mk4",
+      "Cutteray Mk1",
+      "Cutteray Mk2",
+      "Industrial Cutteray Mk4",
+      "Cutteray Mk5",
+      "Cutteray Mk3",
+      "Kynes's Cutteray",
+      "Sim's Cutter",
+      "Olef's Quickcutter",
+      "Callie's Breaker",
+      "Sandflies Carver",
+      "Tarl Cutteray",
+      "Buoyant Reaper Mk2",
+      "Clapper Mk4",
+      "Handheld Resource Scanner",
+      "Handheld Life Scanner Mk3",
+      "Compact Compactor Mk3",
+      "Compact Compactor Mk4",
+      "Compact Compactor Mk5",
+      "Compact Compactor Mk6",
+      "Long Range Scanner",
+      "Survey Probe Launcher",
+      "Thumper",
+      "Industrial Static Compactor",
+      "Blood Extractor Mk6",
+      "Dew Reaper Mk6",
+      "Dew Scythe Mk6",
+      "Cutteray Mk6",
+      "Omni Static Compactor",
+      "Wormsong Echo",
+      "Song of Shai-Hulud"
+    ]
+  },
+  {
+    "name": "Erythrite Crystal",
+    "StackSize": 500,
+    "Volume": 0.4,
+    "craftedAt": [],
+    "usedIn": [
+      "Cobalt Paste"
+    ]
+  },
+  {
+    "name": "Flour Sand",
+    "StackSize": 1000,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Silicone Block"
+    ]
+  },
+  {
+    "name": "Fluid Efficient Industrial Pump",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Industrial Pump",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 2.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Impure Extractor Mk6",
+      "Filter Extractor Mk6",
+      "Collapsible Dew Reaper Mk6",
+      "Omni Focused Dew Scythe",
+      "Buoyant Reaper Mk6",
+      "Hummingbird Wing Module Mk6",
+      "Roc Carrier Wing",
+      "Blood Extractor Mk6",
+      "Dew Reaper Mk6",
+      "Dew Scythe Mk6",
+      "Glasser",
+      "Vaporizer"
+    ]
+  },
+  {
+    "name": "Fluted Heavy Caliber Compressor",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Heavy Caliber Compressor",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Gun Parts",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Regis Disruptor Pistol",
+      "Seethe",
+      "Plasma Cannon",
+      "Bashar's Command",
+      "Regis Tripleshot Repeating Rifle",
+      "Dunewatcher",
+      "Penetrator",
+      "Regis Burst Drillshot",
+      "Ambition"
+    ]
+  },
+  {
+    "name": "Fluted Light Caliber Compressor",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Light Caliber Compressor",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Gun Parts",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "A Dart for Every Man",
+      "Indara's Lullaby",
+      "Salusan Vengeance",
+      "Shellburster",
+      "Perforator",
+      "Shishakli's Bite",
+      "Way of the Misr",
+      "Sardaukar Intimidator"
+    ]
+  },
+  {
+    "name": "Fuel Cell",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "craftedAt": [
+      {
+        "station": "Small Chemical Refinery",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 25.0
+          }
+        ]
+      },
+      {
+        "station": "Small Chemical Refinery",
+        "craftingtime": 20.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 45.0
+          },
+          {
+            "item": "Water",
+            "quantity": 15.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 10.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 20.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 40.0
+          },
+          {
+            "item": "Water",
+            "quantity": 15.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 80.0
+          },
+          {
+            "item": "Water",
+            "quantity": 30.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 30.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 30.0
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 65.0
+          },
+          {
+            "item": "Irradiated Slag",
+            "quantity": 3.0
+          },
+          {
+            "item": "Water",
+            "quantity": 200.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Small Vehicle Fuel Cell",
+      "Medium Sized Vehicle Fuel Cell",
+      "Large Vehicle Fuel Cell",
+      "Spice-infused Fuel Cell",
+      "Low-grade Lubricant",
+      "Industrial-grade Lubricant",
+      "Incendiary Gel",
+      "Rocket",
+      "Missile"
+    ]
+  },
+  {
+    "name": "Granite Stone",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": []
+  },
+  {
+    "name": "Gun Parts",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Gun Parts",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Spice Melange",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Arhun K-28 Lasgun",
+      "House Maula Pistol",
+      "Adept Maula Pistol",
+      "Scorchbolt (1)",
+      "Standard Karpov 38",
+      "Artisan Karpov 38",
+      "House Karpov 38",
+      "Adept Karpov 38",
+      "Artisan Disruptor Pistol",
+      "House Disruptor Pistol",
+      "Adept Disruptor Pistol",
+      "Cope",
+      "Experimental Vulcan GAU-94",
+      "Extravagant Message",
+      "Fivefinger's Tripleshot Rifle",
+      "Assassin's Rifle",
+      "Long Shot",
+      "Thufir's Best",
+      "The Tapper",
+      "Shaitan's Tongue",
+      "Shredder",
+      "Abulurd's Rapture",
+      "House Burst Drillshot",
+      "Adept Burst Drillshot",
+      "Legion Tattoo",
+      "Seb's Kisser",
+      "Ironwatch Special",
+      "Relentless",
+      "Artisan JABAL Spitdart",
+      "House Drillshot FK7",
+      "Standard Disruptor M11",
+      "Artisan Rafiq Snubnose",
+      "Standard GRDA 44",
+      "House Vulcan GAU-92",
+      "House GRDA 44",
+      "Adept Drillshot FK7",
+      "Artisan Disruptor M11",
+      "House Disruptor M11",
+      "House Rafiq Snubnose",
+      "Adept Rafiq Snubnose",
+      "Adept Vulcan GAU-92",
+      "Standard Maula Pistol",
+      "Artisan Maula Pistol",
+      "Artisan GRDA 44",
+      "Adept GRDA 44",
+      "House JABAL Spitdart",
+      "Adept JABAL Spitdart",
+      "Adept Disruptor M11",
+      "Plasteel Composite Gun Parts",
+      "Fluted Heavy Caliber Compressor",
+      "Fluted Light Caliber Compressor",
+      "Precision Range Finder",
+      "Fila's Regret",
+      "Zaal's Companion",
+      "Stammershot",
+      "Mendek's Rattle",
+      "Pipecleaner",
+      "Scrubber",
+      "Firestorm",
+      "Starburst",
+      "Ripper",
+      "Eviscerator",
+      "Syndicate Impaler",
+      "Shadrath's Edge",
+      "Taqwa's Double",
+      "Way of the Wanderer",
+      "Way of the Lost",
+      "Way of the Fighter",
+      "Way of the Desert",
+      "Piter's Disruptor"
+    ]
+  },
+  {
+    "name": "Heavy Caliber Compressor",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Heavy Caliber Compressor",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Gun Parts",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "House Disruptor Pistol",
+      "Adept Disruptor Pistol",
+      "Cope",
+      "Experimental Vulcan GAU-94",
+      "Extravagant Message",
+      "Fivefinger's Tripleshot Rifle",
+      "Long Shot",
+      "Thufir's Best",
+      "House Burst Drillshot",
+      "Adept Burst Drillshot",
+      "House Drillshot FK7",
+      "House Vulcan GAU-92",
+      "Adept Drillshot FK7",
+      "House Rafiq Snubnose",
+      "Adept Rafiq Snubnose",
+      "Adept Vulcan GAU-92",
+      "House JABAL Spitdart",
+      "Adept JABAL Spitdart",
+      "Regis Vulcan GAU-92",
+      "Regis Rafiq Snubnose",
+      "Regis JABAL Spitdart",
+      "Regis Drillshot FK7",
+      "Fluted Heavy Caliber Compressor"
+    ]
+  },
+  {
+    "name": "Holtzman Actuator",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Holtzman Actuator",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Cobalt Paste",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Buggy Booster Mk4",
+      "Buggy Booster Mk5",
+      "Rattler Boost Module Mk4",
+      "Rattler Boost Module Mk5",
+      "The Emperor's Wings Mk2",
+      "The Emperor's Wings Mk3",
+      "The Emperor's Wings Mk4",
+      "The Emperor's Wings Mk5",
+      "Stormrider Boost Module Mk5",
+      "Scout Ornithopter Thruster Mk5",
+      "Steady Assault Boost Module Mk5",
+      "Night Rider Sandbike Boost Mk2",
+      "Rattler Boost Module Mk3",
+      "Stormrider Boost Module Mk4",
+      "Sandbike Booster Mk3",
+      "Sandbike Booster Mk4",
+      "Sandbike Booster Mk5",
+      "Night Rider Sandbike Boost Mk3",
+      "Night Rider Sandbike Boost Mk4",
+      "Night Rider Sandbike Boost Mk5",
+      "Holtzman Shield Mk2",
+      "Planar Suspensor Belt",
+      "Leap Suspensor Belt",
+      "Responsive Planar Suspensor Belt",
+      "Sandbike Booster Mk2",
+      "Buggy Booster Mk3",
+      "Full Suspensor Belt",
+      "Buggy Cutteray Mk3",
+      "Scout Ornithopter Thruster Mk4",
+      "Assault Ornithopter Thruster Mk5",
+      "Holtzman Shield Mk3",
+      "Holtzman Shield Mk5",
+      "Improved Holtzman Actuator"
+    ]
+  },
+  {
+    "name": "Hydraulic Piston",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Hydraulic Piston",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Duraluminum Ingot",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Buggy Engine Mk5",
+      "Bluddshot Buggy Engine Mk5",
+      "Scout Ornithopter Engine Mk5",
+      "Sandbike Engine Mk5",
+      "Mohandis Sandbike Engine Mk5",
+      "Assault Ornithopter Engine Mk5",
+      "Tri-Forged Hydraulic Piston"
+    ]
+  },
+  {
+    "name": "Improved Holtzman Actuator",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Holtzman Actuator",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Cobalt Paste",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Buggy Booster Mk6",
+      "Rattler Boost Module Mk6",
+      "Idaho's Charge",
+      "The Emperor's Wings Mk6",
+      "Adaptive Holtzman Shield",
+      "Stormrider Boost Module Mk6",
+      "Scout Ornithopter Thruster Mk6",
+      "Assault Ornithopter Thruster Mk6",
+      "Steady Assault Boost Module Mk6",
+      "Steady Carrier Boost Module Mk6",
+      "Purifier Power Pack",
+      "Sandbike Booster Mk6",
+      "Night Rider Sandbike Boost Mk6",
+      "Compact Compactor Mk6",
+      "Carrier Ornithopter Thruster Mk6",
+      "Omni Static Compactor"
+    ]
+  },
+  {
+    "name": "Improved Watertube",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Stillsuit Tubing",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 2.0
+          },
+          {
+            "item": "Water",
+            "quantity": 25.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Imperial Stillsuit Boots",
+      "Imperial Stillsuit Gloves",
+      "Imperial Stillsuit Mask",
+      "Imperial Stillsuit Garment",
+      "Villari's Stillsuit Boots",
+      "Villari's Stillsuit Gloves",
+      "Villari's Stillsuit Mask",
+      "Villari's Stillsuit Garment",
+      "Pardot's Hood",
+      "Shaddam's Bladder",
+      "CHOAM Stillsuit Boots",
+      "CHOAM Stillsuit Gloves",
+      "CHOAM Stillsuit Mask",
+      "CHOAM Stillsuit Body"
+    ]
+  },
+  {
+    "name": "Industrial-grade Lubricant",
+    "StackSize": 100,
+    "Volume": 0.2,
+    "craftedAt": [
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 30.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 6.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 4.0
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 5.0
+          },
+          {
+            "item": "Water",
+            "quantity": 15.0
+          }
+        ]
+      },
+      {
+        "station": "Small Chemical Refinery",
+        "craftingtime": 40.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 8.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 4.0
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 5.0
+          },
+          {
+            "item": "Water",
+            "quantity": 15.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Industrial Pump",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Industrial Pump",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 2.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Blood Extractor Mk4",
+      "Impure Extractor Mk5",
+      "Filter Extractor Mk4",
+      "Filter Extractor Mk5",
+      "Focused Reaper Mk5",
+      "Industrial Dew Scythe Mk4",
+      "Scorchbolt (1)",
+      "Scout Ornithopter Wing Mk5",
+      "Scout Ornithopter Wing Mk6",
+      "Albatross Wing Module Mk4",
+      "Albatross Wing Module Mk5",
+      "Albatross Wing Module Mk6",
+      "Assault Ornithopter Wing Mk6",
+      "Hummingbird Wing Module Mk5",
+      "Carrier Ornithopter Wing Mk6",
+      "Shaitan's Tongue",
+      "Scout Ornithopter Wing Mk4",
+      "Assault Ornithopter Wing Mk5",
+      "Fluid Efficient Industrial Pump"
+    ]
+  },
+  {
+    "name": "Insulated Fabric",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Large Blood Sack",
+      "Sinner's Bloodbag",
+      "Maas Kharet Bloodbag",
+      "Decaliterjon",
+      "Hajra Literjon Mk4",
+      "Hajra Literjon Mk5",
+      "Double-sealed Stilltent",
+      "Atmospheric Filtered Fabric"
+    ]
+  },
+  {
+    "name": "Iron Ingot",
+    "StackSize": 500,
+    "Volume": 0.4,
+    "craftedAt": [
+      {
+        "station": "Small Ore Refinery",
+        "craftingtime": 10.0,
+        "ingredients": [
+          {
+            "item": "Iron Ore",
+            "quantity": 5.0
+          },
+          {
+            "item": "Water",
+            "quantity": 25.0
+          }
+        ]
+      },
+      {
+        "station": "Large Ore Refinery",
+        "craftingtime": 5.0,
+        "ingredients": [
+          {
+            "item": "Iron Ore",
+            "quantity": 3.0
+          },
+          {
+            "item": "Water",
+            "quantity": 25.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Ore Refinery",
+        "craftingtime": 7.0,
+        "ingredients": [
+          {
+            "item": "Iron Ore",
+            "quantity": 4.0
+          },
+          {
+            "item": "Water",
+            "quantity": 25.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Medium Blood Sack",
+      "Scipio's Bloodbag",
+      "Blood Extractor Mk2",
+      "Static Compactor",
+      "Iri's Gauntlets",
+      "Softstep Boots",
+      "Mendia's Boots",
+      "Mendia's Pants",
+      "Mendia's Gauntlets",
+      "Mendia's Wrap",
+      "Mendia's Jacket",
+      "The Emperor's Wings Mk2",
+      "Standard Karpov 38",
+      "Hajra Literjon Mk2",
+      "Scipio's Drinker",
+      "Standard Kindjal",
+      "Steel Ingot",
+      "Cutteray Mk2",
+      "Old Sparky Mk2",
+      "Night Rider Sandbike Boost Mk2",
+      "Pseudo Pulse-Sword",
+      "Olef's Quickcutter",
+      "Buoyant Reaper Mk2",
+      "Oathbreaker Chestpiece",
+      "Oathbreaker Boots",
+      "Oathbreaker Gauntlets",
+      "Oathbreaker Headwrap",
+      "Oathbreaker Pants",
+      "Shredder",
+      "Sandbike Chassis Mk2",
+      "Sandbike Engine Mk2",
+      "Mohandis Sandbike Engine Mk2",
+      "Sandbike PSU Mk2",
+      "Sandbike Hull Mk2",
+      "Sandbike Tread Mk2",
+      "Handheld Resource Scanner",
+      "Legion Tattoo",
+      "Menol's Stillsuit Boots",
+      "Menol's Stillsuit Gloves",
+      "Menol's Stillsuit Mask",
+      "Menol's Stillsuit Garment",
+      "Kirab Heavy Boots",
+      "Kirab Heavy Pants",
+      "Kirab Heavy Gauntlet",
+      "Kirab Heavy Headwrap",
+      "Kirab Heavy Jerkin",
+      "Kirab Scout Boots",
+      "Kirab Scout Pants",
+      "Kirab Scout Gloves",
+      "Kirab Scout Helmet",
+      "Kirab Scout Jacket",
+      "Standard Sword",
+      "Holtzman Shield Mk2",
+      "Leap Suspensor Belt",
+      "Standard Disruptor M11",
+      "Kirab Stillsuit Boots",
+      "Kirab Stillsuit Gloves",
+      "Kirab Stillsuit Mask",
+      "Kirab Stillsuit Body",
+      "Power Pack Mk2",
+      "Standard GRDA 44",
+      "Sandbike Booster Mk2",
+      "Sandbike Inventory Mk2",
+      "Sandbike Scanner Mk2",
+      "Standard Maula Pistol",
+      "Fila's Regret",
+      "Way of the Wanderer"
+    ]
+  },
+  {
+    "name": "Iron Ore",
+    "StackSize": 500,
+    "Volume": 0.3,
+    "craftedAt": [],
+    "usedIn": [
+      "Iron Ingot"
+    ]
+  },
+  {
+    "name": "Irradiated Core",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Irradiated Slag",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Duraluminum Ingot",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Power Harness",
+      "Sentinel Belt",
+      "Young Sparky Mk6",
+      "Power Pack Mk6"
+    ]
+  },
+  {
+    "name": "Irradiated Slag",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Young Sparky Mk5",
+      "Spice-infused Fuel Cell",
+      "Power Pack Mk5",
+      "Irradiated Core"
+    ]
+  },
+  {
+    "name": "Jasmium Crystal",
+    "StackSize": 500,
+    "Volume": 0.4,
+    "craftedAt": [],
+    "usedIn": [
+      "Duraluminum Ingot"
+    ]
+  },
+  {
+    "name": "Large Vehicle Fuel Cell",
+    "StackSize": 1,
+    "Volume": 5.0,
+    "craftedAt": [
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 80.0
+          },
+          {
+            "item": "Water",
+            "quantity": 30.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Light Caliber Compressor",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Light Caliber Compressor",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Gun Parts",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "House Maula Pistol",
+      "Adept Maula Pistol",
+      "House Karpov 38",
+      "Adept Karpov 38",
+      "Abulurd's Rapture",
+      "Ironwatch Special",
+      "Relentless",
+      "House GRDA 44",
+      "House Disruptor M11",
+      "Adept GRDA 44",
+      "Adept Disruptor M11",
+      "Regis Disruptor M11",
+      "Regis Maula Pistol",
+      "Regis Karpov 38",
+      "Regis GRDA 44",
+      "Fluted Light Caliber Compressor",
+      "Stammershot",
+      "Mendek's Rattle",
+      "Pipecleaner",
+      "Scrubber",
+      "Firestorm",
+      "Starburst",
+      "Eviscerator",
+      "Syndicate Impaler",
+      "Shadrath's Edge",
+      "Taqwa's Double",
+      "Way of the Fighter",
+      "Way of the Desert",
+      "Piter's Disruptor"
+    ]
+  },
+  {
+    "name": "Low-grade Lubricant",
+    "StackSize": 100,
+    "Volume": 0.2,
+    "craftedAt": [
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 1.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 4.0
+          }
+        ]
+      },
+      {
+        "station": "Small Chemical Refinery",
+        "craftingtime": 20.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 2.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 4.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Makeshift Filter",
+    "StackSize": 5,
+    "Volume": 5.0,
+    "craftedAt": [
+      {
+        "station": "Survival Fabricator",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Steel Ingot",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plant Fiber",
+            "quantity": 5.0
+          },
+          {
+            "item": "Water",
+            "quantity": 60.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Mechanical Parts",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Karpov 38",
+      "Arhun K-28 Lasgun",
+      "House Maula Pistol",
+      "Adept Maula Pistol",
+      "Scorchbolt (1)",
+      "Standard Karpov 38",
+      "Artisan Karpov 38",
+      "House Karpov 38",
+      "Adept Karpov 38",
+      "Artisan Disruptor Pistol",
+      "House Disruptor Pistol",
+      "Adept Disruptor Pistol",
+      "Regis Disruptor Pistol",
+      "Cope",
+      "Seethe",
+      "Plasma Cannon",
+      "Experimental Vulcan GAU-94",
+      "Extravagant Message",
+      "Bashar's Command",
+      "Fivefinger's Tripleshot Rifle",
+      "Regis Tripleshot Repeating Rifle",
+      "Assassin's Rifle",
+      "Long Shot",
+      "Thufir's Best",
+      "Dunewatcher",
+      "The Tapper",
+      "Shaitan's Tongue",
+      "Way of the Fallen",
+      "Shredder",
+      "Abulurd's Rapture",
+      "The Ancient Way",
+      "Penetrator",
+      "House Burst Drillshot",
+      "Adept Burst Drillshot",
+      "Regis Burst Drillshot",
+      "Ambition",
+      "Legion Tattoo",
+      "Seb's Kisser",
+      "Ironwatch Special",
+      "Relentless",
+      "A Dart for Every Man",
+      "Artisan JABAL Spitdart",
+      "House Drillshot FK7",
+      "Standard Disruptor M11",
+      "Artisan Rafiq Snubnose",
+      "Maula Pistol",
+      "Standard GRDA 44",
+      "House Vulcan GAU-92",
+      "House GRDA 44",
+      "Adept Drillshot FK7",
+      "Artisan Disruptor M11",
+      "House Disruptor M11",
+      "House Rafiq Snubnose",
+      "Adept Rafiq Snubnose",
+      "Adept Vulcan GAU-92",
+      "Standard Maula Pistol",
+      "Artisan Maula Pistol",
+      "Artisan GRDA 44",
+      "Adept GRDA 44",
+      "House JABAL Spitdart",
+      "Adept JABAL Spitdart",
+      "Adept Disruptor M11",
+      "Regis Vulcan GAU-92",
+      "Regis Disruptor M11",
+      "Black Market K-28 Lasgun",
+      "Regis Maula Pistol",
+      "Regis Karpov 38",
+      "Regis Rafiq Snubnose",
+      "Regis Missile Launcher",
+      "Regis GRDA 44",
+      "Regis JABAL Spitdart",
+      "Regis Drillshot FK7",
+      "Glasser",
+      "Aren's Vengeance",
+      "Fila's Regret",
+      "Zaal's Companion",
+      "Stammershot",
+      "Mendek's Rattle",
+      "Indara's Lullaby",
+      "Pipecleaner",
+      "Scrubber",
+      "Salusan Vengeance",
+      "Vaporizer",
+      "Firestorm",
+      "Starburst",
+      "Shellburster",
+      "Ripper",
+      "Eviscerator",
+      "Syndicate Impaler",
+      "Perforator",
+      "Shadrath's Edge",
+      "Taqwa's Double",
+      "Shishakli's Bite",
+      "Way of the Wanderer",
+      "Way of the Lost",
+      "Way of the Fighter",
+      "Way of the Desert",
+      "Way of the Misr",
+      "Piter's Disruptor",
+      "Sardaukar Intimidator"
+    ]
+  },
+  {
+    "name": "Medium Sized Vehicle Fuel Cell",
+    "StackSize": 1,
+    "Volume": 3.3333333,
+    "craftedAt": [
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 40.0
+          },
+          {
+            "item": "Water",
+            "quantity": 15.0
+          }
+        ]
+      },
+      {
+        "station": "Small Chemical Refinery",
+        "craftingtime": 20.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 45.0
+          },
+          {
+            "item": "Water",
+            "quantity": 15.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Micro-sandwich Fabric",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Medium Blood Sack",
+      "Large Blood Sack",
+      "Scipio's Bloodbag",
+      "Glutton's Bloodbag",
+      "Sinner's Bloodbag",
+      "Maas Kharet Bloodbag",
+      "Decaliterjon",
+      "Healkit Mk2",
+      "Healkit Mk4",
+      "Hajra Literjon Mk2",
+      "Hajra Literjon Mk3",
+      "Hajra Literjon Mk4",
+      "Hajra Literjon Mk5",
+      "Scavenger Stillsuit Boots",
+      "Scavenger Stillsuit Gloves",
+      "Scavenger Stillsuit Mask",
+      "Scavenger Stillsuit Body",
+      "Hajra Literjon Mk1",
+      "Hollower Stillsuit Boots",
+      "Hollower Stillsuit Gloves",
+      "Hollower Stillsuit Mask",
+      "Hollower Stillsuit Garment",
+      "Menol's Stillsuit Boots",
+      "Menol's Stillsuit Gloves",
+      "Menol's Stillsuit Mask",
+      "Menol's Stillsuit Garment",
+      "Kel's Stillsuit Boots",
+      "Kel's Stillsuit Gloves",
+      "Kel's Stillsuit Mask",
+      "Kel's Stillsuit Garment",
+      "Shadrath's Stillsuit Boots",
+      "Shadrath's Stillsuit Gloves",
+      "Shadrath's Stillsuit Mask",
+      "Shadrath's Stillsuit Garment",
+      "Saturnine Stillsuit Boots",
+      "Saturnine Stillsuit Gloves",
+      "Saturnine Stillsuit Mask",
+      "Saturnine Stillsuit Garment",
+      "Imperial Stillsuit Boots",
+      "Imperial Stillsuit Gloves",
+      "Imperial Stillsuit Mask",
+      "Imperial Stillsuit Garment",
+      "Maraqeb Stillsuit Boots",
+      "Maraqeb Stillsuit Gloves",
+      "Maraqeb Stillsuit Mask",
+      "Maraqeb Stillsuit Garment",
+      "Batigh Stillsuit Boots",
+      "Batigh Stillsuit Gloves",
+      "Batigh Stillsuit Mask",
+      "Batigh Stillsuit Garment",
+      "Villari's Stillsuit Boots",
+      "Villari's Stillsuit Gloves",
+      "Villari's Stillsuit Mask",
+      "Villari's Stillsuit Garment",
+      "Shadow Hood",
+      "Shaded Hood",
+      "Pardot's Hood",
+      "Shaddam's Bladder",
+      "Imperial Stillsuit Boots (1)",
+      "Imperial Stillsuit Gloves (1)",
+      "Imperial Stillsuit Mask (1)",
+      "Imperial Stillsuit Body",
+      "Double-sealed Stilltent",
+      "Stilltent",
+      "Literjon",
+      "Kirab Stillsuit Boots",
+      "Kirab Stillsuit Gloves",
+      "Kirab Stillsuit Mask",
+      "Kirab Stillsuit Body",
+      "Slaver Stillsuit Boots",
+      "Slaver Stillsuit Golves",
+      "Slaver Stillsuit Mask",
+      "Slaver Stillsuit Body",
+      "Native Stillsuit Boots",
+      "Native Stillsuit Gloves",
+      "Native Stillsuit Mask",
+      "Native Stillsuit Body",
+      "Mercenary Stillsuit Boots",
+      "Mercenary Stillsuit Gloves",
+      "Mercenary Stillsuit Mask",
+      "Mercenary Stillsuit Body",
+      "Healkit Mk6",
+      "CHOAM Stillsuit Boots",
+      "CHOAM Stillsuit Gloves",
+      "CHOAM Stillsuit Mask",
+      "CHOAM Stillsuit Body"
+    ]
+  },
+  {
+    "name": "Military Power Regulator",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Buggy PSU Mk5",
+      "Scout Ornithopter Generator Mk5",
+      "Sandbike PSU Mk5",
+      "Assault Ornithopter Generator Mk5",
+      "Overclocked Power Regulator"
+    ]
+  },
+  {
+    "name": "Mouse Corpse",
+    "StackSize": 1,
+    "Volume": 5.0,
+    "craftedAt": [],
+    "usedIn": [
+      "Melange Spiced Food"
+    ]
+  },
+  {
+    "name": "Muad%27Dib Corpse",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": []
+  },
+  {
+    "name": "Off-world Medical Supplies",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Healkit Mk4",
+      "Healkit Mk6"
+    ]
+  },
+  {
+    "name": "Opafire Gem",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": []
+  },
+  {
+    "name": "Overclocked Power Regulator",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Military Power Regulator",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Cobalt Paste",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Buggy PSU Mk6",
+      "Scout Ornithopter Generator Mk6",
+      "Assault Ornithopter Generator Mk6",
+      "Sandcrawler PSU Mk6",
+      "Sandbike PSU Mk6",
+      "Carrier Ornithopter Generator Mk6"
+    ]
+  },
+  {
+    "name": "Particle Capacitor",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Buggy Booster Mk4",
+      "Buggy Booster Mk5",
+      "Buggy Booster Mk6",
+      "Rattler Boost Module Mk4",
+      "Rattler Boost Module Mk5",
+      "Rattler Boost Module Mk6",
+      "Buggy Engine Mk4",
+      "Buggy Engine Mk5",
+      "Buggy Engine Mk6",
+      "Bluddshot Buggy Engine Mk3",
+      "Bluddshot Buggy Engine Mk4",
+      "Bluddshot Buggy Engine Mk5",
+      "Bluddshot Buggy Engine Mk6",
+      "Buggy PSU Mk4",
+      "Buggy PSU Mk5",
+      "Buggy PSU Mk6",
+      "Buggy Cutteray Mk4",
+      "Buggy Cutteray Mk5",
+      "Buggy Cutteray Mk6",
+      "Focused Buggy Cutteray Mk3",
+      "Focused Buggy Cutteray Mk4",
+      "Focused Buggy Cutteray Mk5",
+      "Focused Buggy Cutteray Mk6",
+      "Sentinel Belt",
+      "The Emperor's Wings Mk2",
+      "The Emperor's Wings Mk3",
+      "The Emperor's Wings Mk4",
+      "The Emperor's Wings Mk5",
+      "The Emperor's Wings Mk6",
+      "Adaptive Holtzman Shield",
+      "Stormrider Boost Module Mk5",
+      "Stormrider Boost Module Mk6",
+      "Scout Ornithopter Thruster Mk5",
+      "Scout Ornithopter Thruster Mk6",
+      "Scout Ornithopter Engine Mk5",
+      "Scout Ornithopter Engine Mk6",
+      "Scout Ornithopter Generator Mk5",
+      "Scout Ornithopter Generator Mk6",
+      "Assault Ornithopter Thruster Mk6",
+      "Steady Assault Boost Module Mk5",
+      "Steady Assault Boost Module Mk6",
+      "Assault Ornithopter Engine Mk6",
+      "Assault Ornithopter Generator Mk6",
+      "Steady Carrier Boost Module Mk6",
+      "Purifier Power Pack",
+      "Old Sparky Mk1",
+      "Old Sparky Mk2",
+      "Old Sparky Mk3",
+      "Old Sparky Mk4",
+      "Young Sparky Mk5",
+      "Young Sparky Mk6",
+      "Sandcrawler PSU Mk6",
+      "Sandbike PSU Mk1",
+      "Night Rider Sandbike Boost Mk2",
+      "Rattler Boost Module Mk3",
+      "The Emperor's Wings Mk1",
+      "Stormrider Boost Module Mk4",
+      "Scrap Buggy Engine",
+      "Scrap Buggy PSU",
+      "Scrap Light Ornithopter Engine",
+      "Scrap Light Ornithopter Generator",
+      "Scrap Sandbike Engine",
+      "Scrap Sandbike Power Supply Unit",
+      "Sandbike Booster Mk3",
+      "Sandbike Booster Mk4",
+      "Sandbike Booster Mk5",
+      "Sandbike Booster Mk6",
+      "Night Rider Sandbike Boost Mk3",
+      "Night Rider Sandbike Boost Mk4",
+      "Night Rider Sandbike Boost Mk5",
+      "Night Rider Sandbike Boost Mk6",
+      "Sandbike Engine Mk2",
+      "Sandbike Engine Mk3",
+      "Sandbike Engine Mk4",
+      "Sandbike Engine Mk5",
+      "Sandbike Engine Mk6",
+      "Mohandis Sandbike Engine Mk1",
+      "Mohandis Sandbike Engine Mk2",
+      "Mohandis Sandbike Engine Mk3",
+      "Mohandis Sandbike Engine Mk4",
+      "Mohandis Sandbike Engine Mk5",
+      "Mohandis Sandbike Engine Mk6",
+      "Sandbike PSU Mk2",
+      "Sandbike PSU Mk3",
+      "Sandbike PSU Mk4",
+      "Sandbike PSU Mk5",
+      "Sandbike PSU Mk6",
+      "Sandcrawler Engine Mk6",
+      "Walker Sandcrawler Engine Mk6",
+      "Passive Suspensor Belt",
+      "Power Pack Mk1",
+      "Holtzman Shield Mk2",
+      "Planar Suspensor Belt",
+      "Leap Suspensor Belt",
+      "Sandbike Engine Mk1",
+      "Responsive Planar Suspensor Belt",
+      "Power Pack Mk2",
+      "Power Pack Mk3",
+      "Sandbike Booster Mk2",
+      "Buggy Booster Mk3",
+      "Buggy Engine Mk3",
+      "Buggy PSU Mk3",
+      "Scout Ornithopter Engine Mk4",
+      "Scout Ornithopter Generator Mk4",
+      "Full Suspensor Belt",
+      "Buggy Cutteray Mk3",
+      "Scout Ornithopter Thruster Mk4",
+      "Scout Ornithopter Scan Module",
+      "Assault Ornithopter Engine Mk5",
+      "Assault Ornithopter Generator Mk5",
+      "Power Pack Mk4",
+      "Power Pack Mk5",
+      "Assault Ornithopter Thruster Mk5",
+      "Carrier Ornithopter Thruster Mk6",
+      "Holtzman Shield Mk3",
+      "Holtzman Shield Mk5",
+      "Power Pack Mk6",
+      "Carrier Ornithopter Engine Mk6",
+      "Carrier Ornithopter Generator Mk6",
+      "Vehicle Backup Tool"
+    ]
+  },
+  {
+    "name": "Particulate Filter",
+    "StackSize": 5,
+    "Volume": 5.0,
+    "craftedAt": [
+      {
+        "station": "Survival Fabricator",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Duraluminum Ingot",
+            "quantity": 6.0
+          },
+          {
+            "item": "Plant Fiber",
+            "quantity": 15.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 8.0
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 30.0
+          },
+          {
+            "item": "Water",
+            "quantity": 340.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Plastanium Ingot",
+    "StackSize": 500,
+    "Volume": 1.0,
+    "craftedAt": [
+      {
+        "station": "Medium Ore Refinery",
+        "craftingtime": 30.0,
+        "ingredients": [
+          {
+            "item": "Titanium Ore",
+            "quantity": 6.0
+          },
+          {
+            "item": "Stravidium Fiber",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 1250.0
+          }
+        ]
+      },
+      {
+        "station": "Large Ore Refinery",
+        "craftingtime": 20.0,
+        "ingredients": [
+          {
+            "item": "Titanium Ore",
+            "quantity": 4.0
+          },
+          {
+            "item": "Stravidium Fiber",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 1250.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "The Baron's Bloodbag",
+      "Impure Extractor Mk6",
+      "Filter Extractor Mk6",
+      "Buggy Booster Mk6",
+      "Buggy Chassis Mk6",
+      "Rattler Boost Module Mk6",
+      "Buggy Engine Mk6",
+      "Bluddshot Buggy Engine Mk6",
+      "Buggy PSU Mk6",
+      "Buggy Rear Mk6",
+      "Buggy Utility Rear Mk6",
+      "Buggy Hull Mk6",
+      "Buggy Storage Mk6",
+      "Bigger Buggy Boot Mk6",
+      "Buggy Rocket Launcher Mk6",
+      "Buggy Tread Mk6",
+      "Buggy Cutteray Mk6",
+      "Focused Buggy Cutteray Mk6",
+      "The Forge Boots",
+      "The Forge Pants",
+      "The Forge Gloves",
+      "The Forge Helmet",
+      "The Forge Chestpiece",
+      "Circuit Gauntlets",
+      "Power Harness",
+      "Bulwark Boots",
+      "Bulwark Leggings",
+      "Bulwark Gloves",
+      "Bulwark Helmet",
+      "Bulwark Chest",
+      "Fortress Chestpiece",
+      "Desert Garb",
+      "Hook-claw Gloves",
+      "Yueh's Reaper Gloves",
+      "Adrenal Boots",
+      "Idaho's Charge",
+      "Wayfinder Helm (1)",
+      "Ix-core Leggings",
+      "Seeker Helmet",
+      "Tabr Softstep Boots",
+      "Executor's Boots",
+      "Executor's Pants",
+      "Executor's Gauntlets",
+      "Executor's Helmet",
+      "Executor's Chestpiece",
+      "Pincushion Boots",
+      "Pincushion Pants",
+      "Pincushion Gauntlets",
+      "Pincushion Helmet",
+      "Pincushion Chestpiece",
+      "Collapsible Dew Reaper Mk6",
+      "Omni Focused Dew Scythe",
+      "Buoyant Reaper Mk6",
+      "Sentinel Belt",
+      "The Emperor's Wings Mk6",
+      "Regis Disruptor Pistol",
+      "Seethe",
+      "Hajra Literjon Mk6",
+      "Adaptive Holtzman Shield",
+      "Feyd's Drinker",
+      "Replica Pulse-knife",
+      "Stormrider Boost Module Mk6",
+      "Plasma Cannon",
+      "Bashar's Command",
+      "Regis Tripleshot Repeating Rifle",
+      "Dunewatcher",
+      "Kynes's Cutteray",
+      "Scout Ornithopter Thruster Mk6",
+      "Scout Ornithopter Chassis Mk6",
+      "Scout Ornithopter Engine Mk6",
+      "Scout Ornithopter Generator Mk6",
+      "Scout Ornithopter Hull Mk6",
+      "Scout Ornithopter Cockpit Mk6",
+      "Scout Ornithopter Rocket Launcher Mk6",
+      "Scout Ornithopter Wing Mk6",
+      "Albatross Wing Module Mk6",
+      "Assault Ornithopter Thruster Mk6",
+      "Steady Assault Boost Module Mk6",
+      "Assault Ornithopter Chassis Mk6",
+      "Assault Ornithopter Engine Mk6",
+      "Assault Ornithopter Generator Mk6",
+      "Assault Ornithopter Cabin Mk6",
+      "Assault Ornithopter Tail Mk6",
+      "Assault Ornithopter Cockpit Mk6",
+      "Assault Ornithopter Rocket Launcher Mk6",
+      "Assault Ornithopter Wing Mk6",
+      "Hummingbird Wing Module Mk6",
+      "Steady Carrier Boost Module Mk6",
+      "Roc Carrier Wing",
+      "Carrier Ornithopter Side Hull Mk6",
+      "Carrier Ornithopter Chassis Mk6",
+      "Carrier Ornithopter Main Hull Mk6",
+      "Carrier Ornithopter Tail Hull Mk6",
+      "Carrier Ornithopter Wing Mk6",
+      "Purifier Power Pack",
+      "Young Sparky Mk6",
+      "Sandcrawler PSU Mk6",
+      "Radiation Suit Mk6",
+      "The Ancient Way",
+      "Sandbike Booster Mk6",
+      "Sandbike Chassis Mk6",
+      "Night Rider Sandbike Boost Mk6",
+      "Sandbike Engine Mk6",
+      "Mohandis Sandbike Engine Mk6",
+      "Sandbike PSU Mk6",
+      "Sandbike Hull Mk6",
+      "Sandbike Tread Mk6",
+      "Sandcrawler Centrifuge Mk6",
+      "Sandcrawler Chassis Mk6",
+      "Sandcrawler Cabin Mk6",
+      "Sandcrawler Engine Mk6",
+      "Walker Sandcrawler Engine Mk6",
+      "Sandcrawler Vacuum Mk6",
+      "Dampened Sandcrawler Treads",
+      "Sandcrawler Tread Mk6",
+      "Penetrator",
+      "Regis Burst Drillshot",
+      "Ambition",
+      "A Dart for Every Man",
+      "Compact Compactor Mk6",
+      "Imperial Stillsuit Boots",
+      "Imperial Stillsuit Gloves",
+      "Imperial Stillsuit Mask",
+      "Imperial Stillsuit Garment",
+      "Villari's Stillsuit Boots",
+      "Villari's Stillsuit Gloves",
+      "Villari's Stillsuit Mask",
+      "Villari's Stillsuit Garment",
+      "Pardot's Hood",
+      "Shaddam's Bladder",
+      "Carrier Ornithopter Thruster Mk6",
+      "Regis Vulcan GAU-92",
+      "Regis Disruptor M11",
+      "Massive Blood Sack",
+      "Blood Extractor Mk6",
+      "Black Market K-28 Lasgun",
+      "Regis Maula Pistol",
+      "Regis Sword",
+      "CHOAM Heavy Boots",
+      "CHOAM Heavy Greaves",
+      "CHOAM Heavy Gauntlets",
+      "CHOAM Heavy Helmet",
+      "CHOAM Heavy Chestplate",
+      "CHOAM Scout Boots",
+      "CHOAM Scout Pants",
+      "CHOAM Scout Gloves",
+      "CHOAM Scout Helmet",
+      "CHOAM Scout Chestplate",
+      "Dew Reaper Mk6",
+      "Dew Scythe Mk6",
+      "Regis Dirk",
+      "Regis Karpov 38",
+      "Regis Rafiq Snubnose",
+      "Regis Kindjal",
+      "Literjon Mk6",
+      "Cutteray Mk6",
+      "Power Pack Mk6",
+      "Regis Rapier",
+      "Regis Missile Launcher",
+      "Regis GRDA 44",
+      "Regis JABAL Spitdart",
+      "Regis Drillshot FK7",
+      "Omni Static Compactor",
+      "CHOAM Stillsuit Boots",
+      "CHOAM Stillsuit Gloves",
+      "CHOAM Stillsuit Mask",
+      "CHOAM Stillsuit Body",
+      "Glasser",
+      "Carrier Ornithopter Engine Mk6",
+      "Carrier Ornithopter Generator Mk6",
+      "Indara's Lullaby",
+      "Salusan Vengeance",
+      "Cauterizer",
+      "Vaporizer",
+      "Halleck's Pick",
+      "Static Needle",
+      "Shellburster",
+      "Perforator",
+      "Shishakli's Bite",
+      "Way of the Misr",
+      "Sardaukar Intimidator",
+      "Replica Pulse-sword",
+      "Song of Shai-Hulud",
+      "Advanced Particulate Filter"
+    ]
+  },
+  {
+    "name": "Plasteel Composite Armor Plating",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Armor Plating",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Spice Melange",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Buggy Rear Mk6",
+      "Buggy Utility Rear Mk6",
+      "Buggy Hull Mk6",
+      "The Forge Boots",
+      "The Forge Pants",
+      "The Forge Gloves",
+      "The Forge Helmet",
+      "The Forge Chestpiece",
+      "Circuit Gauntlets",
+      "Power Harness",
+      "Bulwark Boots",
+      "Bulwark Leggings",
+      "Bulwark Gloves",
+      "Bulwark Helmet",
+      "Bulwark Chest",
+      "Fortress Chestpiece",
+      "Executor's Boots",
+      "Executor's Pants",
+      "Executor's Gauntlets",
+      "Executor's Helmet",
+      "Executor's Chestpiece",
+      "Scout Ornithopter Hull Mk6",
+      "Scout Ornithopter Cockpit Mk6",
+      "Assault Ornithopter Cabin Mk6",
+      "Assault Ornithopter Tail Mk6",
+      "Assault Ornithopter Cockpit Mk6",
+      "Carrier Ornithopter Side Hull Mk6",
+      "Carrier Ornithopter Main Hull Mk6",
+      "Carrier Ornithopter Tail Hull Mk6",
+      "Purifier Power Pack",
+      "Sandbike Hull Mk6",
+      "Sandcrawler Centrifuge Mk6",
+      "CHOAM Heavy Boots",
+      "CHOAM Heavy Greaves",
+      "CHOAM Heavy Gauntlets",
+      "CHOAM Heavy Helmet",
+      "CHOAM Heavy Chestplate"
+    ]
+  },
+  {
+    "name": "Plasteel Composite Blade Parts",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Blade Parts",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Spice Melange",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Feyd's Drinker",
+      "Replica Pulse-knife",
+      "Regis Sword",
+      "Regis Dirk",
+      "Regis Kindjal",
+      "Regis Rapier",
+      "Cauterizer",
+      "Halleck's Pick",
+      "Static Needle",
+      "Replica Pulse-sword"
+    ]
+  },
+  {
+    "name": "Plasteel Composite Gun Parts",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Gun Parts",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Spice Melange",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Regis Disruptor Pistol",
+      "Seethe",
+      "Plasma Cannon",
+      "Bashar's Command",
+      "Regis Tripleshot Repeating Rifle",
+      "Dunewatcher",
+      "The Ancient Way",
+      "Penetrator",
+      "Regis Burst Drillshot",
+      "Ambition",
+      "A Dart for Every Man",
+      "Regis Vulcan GAU-92",
+      "Regis Disruptor M11",
+      "Black Market K-28 Lasgun",
+      "Regis Maula Pistol",
+      "Regis Karpov 38",
+      "Regis Rafiq Snubnose",
+      "Regis Missile Launcher",
+      "Regis GRDA 44",
+      "Regis JABAL Spitdart",
+      "Regis Drillshot FK7",
+      "Glasser",
+      "Indara's Lullaby",
+      "Salusan Vengeance",
+      "Vaporizer",
+      "Shellburster",
+      "Perforator",
+      "Shishakli's Bite",
+      "Way of the Misr",
+      "Sardaukar Intimidator"
+    ]
+  },
+  {
+    "name": "Plasteel Microflora Fiber",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "House Sword",
+      "Adept Sword",
+      "The Forge Boots",
+      "The Forge Pants",
+      "The Forge Gloves",
+      "The Forge Helmet",
+      "The Forge Chestpiece",
+      "Iri's Gauntlets",
+      "Shock Gauntlets",
+      "Power Gauntlets",
+      "Station Gauntlets",
+      "Circuit Gauntlets",
+      "Power Harness",
+      "Mendek's Boots",
+      "Bulwark Boots",
+      "Mendek's Pants",
+      "Bulwark Leggings",
+      "Mendek's Gauntlets",
+      "Bulwark Gloves",
+      "Mendek's Helmet",
+      "Bulwark Helmet",
+      "Mendek's Chestplate",
+      "Bulwark Chest",
+      "Fortress Chestpiece",
+      "Swordmasters Boots",
+      "Swordmasters Leggings",
+      "Swordmasters Gauntlets",
+      "Swordmasters Helm",
+      "Swordmasters Tunic",
+      "Trooper's Fatigues Boots",
+      "Trooper's Fatigues Leggings",
+      "Trooper's Fatigues Gauntlets",
+      "Trooper's Fatigues Helmet",
+      "Trooper's Fatigues Chest",
+      "Boots of the Sisterhood",
+      "Pants of the Sisterhood",
+      "Gloves of the Sisterhood",
+      "Veil of the Sisterhood",
+      "Robe of the Sisterhood",
+      "Skin-lined Jacket",
+      "Miner's Blessing",
+      "Station Garb",
+      "Desert Garb",
+      "Hook-claw Gloves",
+      "Reaper Gloves",
+      "Improved Reaper Gloves",
+      "Advanced Reaper Gloves",
+      "Yueh's Reaper Gloves",
+      "Mentat's Garment Boots",
+      "Mentat's Garment Leggings",
+      "Mentat's Garment Gauntlets",
+      "Mentat's Garment Helmet",
+      "Mentat's Garment Chest",
+      "Adrenal Boots",
+      "Rigged Suspensor Jacket",
+      "Improved Suspensor Jacket",
+      "Advanced Suspensor Jacket",
+      "Idaho's Charge",
+      "Wayfinder Helm",
+      "Wayfinder Helm (1)",
+      "Compression-Stim Leggings",
+      "Stim-Leggings",
+      "Ix-core Leggings",
+      "Seeker Helmet",
+      "Softstep Boots",
+      "Ta'lab Softstep Boots",
+      "Idaho Softstep Boots",
+      "Tarl Softstep Boots",
+      "Tabr Softstep Boots",
+      "Karak's Boots",
+      "Karak's Pants",
+      "Karak's Gauntlets",
+      "Karak's Helmet",
+      "Karak's Jacket",
+      "Sentinel Boots",
+      "Sentinel Pants",
+      "Sentinel Gauntlets",
+      "Sentinel Helmet",
+      "Sentinel Jacket",
+      "Acheronian Boots",
+      "Acheronian Pants",
+      "Acheronian Gauntlets",
+      "Acheronian Helmet",
+      "Acheronian Chestplate",
+      "Executor's Boots",
+      "Executor's Pants",
+      "Executor's Gauntlets",
+      "Executor's Helmet",
+      "Executor's Chestpiece",
+      "Mendia's Boots",
+      "Mendia's Pants",
+      "Mendia's Gauntlets",
+      "Mendia's Wrap",
+      "Mendia's Jacket",
+      "Inkvine Boots",
+      "Inkvine Pants",
+      "Inkvine Gauntlets",
+      "Inkvine Mask",
+      "Inkvine Jacket",
+      "Quirth's Boots",
+      "Quirth's Pants",
+      "Quirth's Gauntlets",
+      "Quirth's Helmet",
+      "Quirth's Jacket",
+      "Chosen Boots",
+      "Chosen Pants",
+      "Chosen Gauntlets",
+      "Chosen Helmet",
+      "Chosen Chestplate",
+      "Pincushion Boots",
+      "Pincushion Pants",
+      "Pincushion Gauntlets",
+      "Pincushion Helmet",
+      "Pincushion Chestpiece",
+      "Artisan Dirk",
+      "Harkonnen Scout Chestpiece",
+      "Adept Kindjal",
+      "Kaleff's Drinker",
+      "Scipio's Drinker",
+      "Glutton's Drinker",
+      "Shadrath's Drinker",
+      "Pardot's Drinker",
+      "Feyd's Drinker",
+      "Shock-Knife",
+      "Spark-Knife",
+      "Jolt-knife",
+      "Replica Pulse-knife",
+      "Standard Kindjal",
+      "Radiation Suit Mk4",
+      "Pseudo Pulse-Sword",
+      "Searing Shiv",
+      "Syndicate Chestplate",
+      "Syndicate Boots",
+      "Syndicate Gauntlets",
+      "Syndicate Helmet",
+      "Syndicate Pants",
+      "Oathbreaker Chestpiece",
+      "Oathbreaker Boots",
+      "Oathbreaker Gauntlets",
+      "Oathbreaker Headwrap",
+      "Oathbreaker Pants",
+      "Aren's Chestpiece",
+      "Aren's Boots",
+      "Aren's Gloves",
+      "Aren's Mask",
+      "Aren's Pants",
+      "Poison Mist",
+      "Scavenger Boots",
+      "Scavenger Pants",
+      "Scavenger Gloves",
+      "Scavenger Hood",
+      "Scavenger Chestpiece",
+      "Kindjal",
+      "Kirab Heavy Boots",
+      "Kirab Heavy Pants",
+      "Kirab Heavy Gauntlet",
+      "Kirab Heavy Headwrap",
+      "Kirab Heavy Jerkin",
+      "Kirab Scout Boots",
+      "Kirab Scout Pants",
+      "Kirab Scout Gloves",
+      "Kirab Scout Helmet",
+      "Kirab Scout Jacket",
+      "Standard Sword",
+      "Duneman Scout Jacket",
+      "Duneman Scout Boots",
+      "Duneman Scout Gloves",
+      "Duneman Scout Helmet",
+      "Duneman Scout Pants",
+      "Slaver Heavy Boots",
+      "Slaver Heavy Pants",
+      "Slaver Heavy Gloves",
+      "Slaver Heavy Helmet",
+      "Slaver Heavy Jerkin",
+      "Slaver Scout Boots",
+      "Slaver Scout Pants",
+      "Slaver Scout Gloves",
+      "Slaver Scout Mask",
+      "Slaver Scout Jacket",
+      "House Dirk",
+      "Artisan Kindjal",
+      "House Rapier",
+      "Mercenary Heavy Chestplate",
+      "Mercenary Heavy Boots",
+      "Mercenary Heavy Gloves",
+      "Mercenary Heavy Helmet",
+      "Mercenary Heavy Pants",
+      "Duneman Heavy Boots",
+      "Duneman Heavy Pants",
+      "Duneman Heavy Gloves",
+      "Duneman Heavy Mask",
+      "Duneman Heavy Jacket",
+      "Artisan Sword",
+      "Atreides Heavy Chestpiece",
+      "Atreides Heavy Pants",
+      "Mercenary Scout Boots",
+      "Mercenary Scout Leggings",
+      "Mercenary Scout Gloves",
+      "Mercenary Scout Helmet",
+      "Mercenary Scout Top",
+      "Adept Rapier",
+      "Adept Dirk",
+      "House Kindjal",
+      "Regis Sword",
+      "CHOAM Heavy Boots",
+      "CHOAM Heavy Greaves",
+      "CHOAM Heavy Gauntlets",
+      "CHOAM Heavy Helmet",
+      "CHOAM Heavy Chestplate",
+      "CHOAM Scout Boots",
+      "CHOAM Scout Pants",
+      "CHOAM Scout Gloves",
+      "CHOAM Scout Helmet",
+      "CHOAM Scout Chestplate",
+      "Regis Dirk",
+      "Regis Kindjal",
+      "Regis Rapier",
+      "Denira's Gift",
+      "Moisture Sealer",
+      "Cauterizer",
+      "Kharet Viper",
+      "Halleck's Pick",
+      "Static Needle",
+      "Shock-sword",
+      "Spark-sword",
+      "Jolt-sword",
+      "Replica Pulse-sword"
+    ]
+  },
+  {
+    "name": "Plasteel Plate",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Plasteel Composite Armor Plating",
+      "Ballistic Weave Fabric",
+      "Plasteel Composite Blade Parts",
+      "Carbide blade parts",
+      "Diamodine blade parts",
+      "Atmospheric Filtered Fabric",
+      "Plasteel Composite Gun Parts",
+      "Fluted Heavy Caliber Compressor",
+      "Improved Holtzman Actuator",
+      "Tri-Forged Hydraulic Piston",
+      "Fluid Efficient Industrial Pump",
+      "Irradiated Core",
+      "Fluted Light Caliber Compressor",
+      "Advanced Machinery",
+      "Overclocked Power Regulator",
+      "Precision Range Finder",
+      "Thermo-Responsive Ray Amplifier",
+      "Improved Watertube"
+    ]
+  },
+  {
+    "name": "Plastone",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "craftedAt": [
+      {
+        "station": "Large Ore Refinery",
+        "craftingtime": 5.0,
+        "ingredients": [
+          {
+            "item": "Basalt Stone",
+            "quantity": 175.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Ore Refinery",
+        "craftingtime": 10.0,
+        "ingredients": [
+          {
+            "item": "Basalt Stone",
+            "quantity": 200.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      },
+      {
+        "station": "Small Ore Refinery",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Basalt Stone",
+            "quantity": 200.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Precision Range Finder",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Range Finder",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Gun Parts",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Buggy Rocket Launcher Mk6",
+      "Seeker Helmet",
+      "Scout Ornithopter Rocket Launcher Mk6",
+      "Assault Ornithopter Rocket Launcher Mk6",
+      "The Ancient Way"
+    ]
+  },
+  {
+    "name": "Range Finder",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Range Finder",
+            "quantity": 2.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Gun Parts",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Assault Ornithopter Rocket Launcher Mk5",
+      "Buggy Rocket Launcher Mk5",
+      "Scout Ornithopter Rocket Launcher Mk5",
+      "Regis Missile Launcher",
+      "Precision Range Finder"
+    ]
+  },
+  {
+    "name": "Ray Amplifier",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Ray Amplifier",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Copper Ingot",
+            "quantity": 2.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Buggy Cutteray Mk4",
+      "Buggy Cutteray Mk5",
+      "Focused Buggy Cutteray Mk3",
+      "Focused Buggy Cutteray Mk4",
+      "Focused Buggy Cutteray Mk5",
+      "Arhun K-28 Lasgun",
+      "Industrial Cutteray Mk4",
+      "Cutteray Mk5",
+      "Cutteray Mk3",
+      "Callie's Breaker",
+      "Sandflies Carver",
+      "Tarl Cutteray",
+      "Thermo-Responsive Ray Amplifier"
+    ]
+  },
+  {
+    "name": "Salvaged Metal",
+    "StackSize": 500,
+    "Volume": 0.15,
+    "craftedAt": [],
+    "usedIn": [
+      "Light Darts (1)",
+      "Small Blood Sack",
+      "Construction Tool",
+      "Improvised Maula Pistol",
+      "Improvised Blood Extractor",
+      "Glowtube",
+      "Heavy Darts",
+      "Improvised Cutteray",
+      "Incendiary Gel",
+      "Scrap Metal Knife (1)",
+      "Scrap Metal Knife",
+      "Respawn Beacon",
+      "Binoculars",
+      "Solido Replicator",
+      "Improvised Power Pack",
+      "Welding Wire"
+    ]
+  },
+  {
+    "name": "Sandtrout Leathers",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Boots of the Sisterhood",
+      "Pants of the Sisterhood",
+      "Gloves of the Sisterhood",
+      "Veil of the Sisterhood",
+      "Robe of the Sisterhood",
+      "Miner's Blessing",
+      "Station Garb",
+      "Improved Reaper Gloves",
+      "Advanced Reaper Gloves",
+      "Mentat's Garment Boots",
+      "Mentat's Garment Leggings",
+      "Mentat's Garment Gauntlets",
+      "Mentat's Garment Helmet",
+      "Mentat's Garment Chest",
+      "Improved Suspensor Jacket",
+      "Advanced Suspensor Jacket",
+      "Wayfinder Helm",
+      "Compression-Stim Leggings",
+      "Stim-Leggings",
+      "Idaho Softstep Boots",
+      "Tarl Softstep Boots",
+      "Quirth's Boots",
+      "Quirth's Pants",
+      "Quirth's Gauntlets",
+      "Quirth's Helmet",
+      "Quirth's Jacket",
+      "Chosen Boots",
+      "Chosen Pants",
+      "Chosen Gauntlets",
+      "Chosen Helmet",
+      "Chosen Chestplate",
+      "Radiation Suit Mk5",
+      "Syndicate Chestplate",
+      "Syndicate Boots",
+      "Syndicate Gauntlets",
+      "Syndicate Helmet",
+      "Syndicate Pants",
+      "Spice Mask",
+      "Duneman Scout Jacket",
+      "Duneman Scout Boots",
+      "Duneman Scout Gloves",
+      "Duneman Scout Helmet",
+      "Duneman Scout Pants",
+      "Mercenary Scout Boots",
+      "Mercenary Scout Leggings",
+      "Mercenary Scout Gloves",
+      "Mercenary Scout Helmet",
+      "Mercenary Scout Top",
+      "Ballistic Weave Fabric"
+    ]
+  },
+  {
+    "name": "Ship Manifest",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": []
+  },
+  {
+    "name": "Silicone Block",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 10.0,
+        "ingredients": [
+          {
+            "item": "Flour Sand",
+            "quantity": 3.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      },
+      {
+        "station": "Small Chemical Refinery",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Flour Sand",
+            "quantity": 5.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "The Baron's Bloodbag",
+      "Impure Extractor Mk6",
+      "Filter Extractor Mk3",
+      "Filter Extractor Mk6",
+      "House Maula Pistol",
+      "Adept Maula Pistol",
+      "The Forge Boots",
+      "The Forge Pants",
+      "The Forge Gloves",
+      "The Forge Helmet",
+      "The Forge Chestpiece",
+      "Shock Gauntlets",
+      "Power Gauntlets",
+      "Station Gauntlets",
+      "Circuit Gauntlets",
+      "Power Harness",
+      "Mendek's Boots",
+      "Bulwark Boots",
+      "Mendek's Pants",
+      "Bulwark Leggings",
+      "Mendek's Gauntlets",
+      "Bulwark Gloves",
+      "Mendek's Helmet",
+      "Bulwark Helmet",
+      "Mendek's Chestplate",
+      "Bulwark Chest",
+      "Fortress Chestpiece",
+      "Swordmasters Boots",
+      "Swordmasters Leggings",
+      "Swordmasters Gauntlets",
+      "Swordmasters Helm",
+      "Swordmasters Tunic",
+      "Trooper's Fatigues Boots",
+      "Trooper's Fatigues Leggings",
+      "Trooper's Fatigues Gauntlets",
+      "Trooper's Fatigues Helmet",
+      "Trooper's Fatigues Chest",
+      "Boots of the Sisterhood",
+      "Pants of the Sisterhood",
+      "Gloves of the Sisterhood",
+      "Veil of the Sisterhood",
+      "Robe of the Sisterhood",
+      "Skin-lined Jacket",
+      "Miner's Blessing",
+      "Station Garb",
+      "Desert Garb",
+      "Hook-claw Gloves",
+      "Reaper Gloves",
+      "Improved Reaper Gloves",
+      "Advanced Reaper Gloves",
+      "Yueh's Reaper Gloves",
+      "Mentat's Garment Boots",
+      "Mentat's Garment Leggings",
+      "Mentat's Garment Gauntlets",
+      "Mentat's Garment Helmet",
+      "Mentat's Garment Chest",
+      "Adrenal Boots",
+      "Rigged Suspensor Jacket",
+      "Improved Suspensor Jacket",
+      "Advanced Suspensor Jacket",
+      "Idaho's Charge",
+      "Wayfinder Helm",
+      "Wayfinder Helm (1)",
+      "Compression-Stim Leggings",
+      "Stim-Leggings",
+      "Ix-core Leggings",
+      "Seeker Helmet",
+      "Ta'lab Softstep Boots",
+      "Idaho Softstep Boots",
+      "Tarl Softstep Boots",
+      "Tabr Softstep Boots",
+      "Karak's Boots",
+      "Karak's Pants",
+      "Karak's Gauntlets",
+      "Karak's Helmet",
+      "Karak's Jacket",
+      "Sentinel Boots",
+      "Sentinel Pants",
+      "Sentinel Gauntlets",
+      "Sentinel Helmet",
+      "Sentinel Jacket",
+      "Acheronian Boots",
+      "Acheronian Pants",
+      "Acheronian Gauntlets",
+      "Acheronian Helmet",
+      "Acheronian Chestplate",
+      "Executor's Boots",
+      "Executor's Pants",
+      "Executor's Gauntlets",
+      "Executor's Helmet",
+      "Executor's Chestpiece",
+      "Inkvine Boots",
+      "Inkvine Pants",
+      "Inkvine Gauntlets",
+      "Inkvine Mask",
+      "Inkvine Jacket",
+      "Quirth's Boots",
+      "Quirth's Pants",
+      "Quirth's Gauntlets",
+      "Quirth's Helmet",
+      "Quirth's Jacket",
+      "Chosen Boots",
+      "Chosen Pants",
+      "Chosen Gauntlets",
+      "Chosen Helmet",
+      "Chosen Chestplate",
+      "Pincushion Boots",
+      "Pincushion Pants",
+      "Pincushion Gauntlets",
+      "Pincushion Helmet",
+      "Pincushion Chestpiece",
+      "Collapsible Dew Reaper Mk4",
+      "Collapsible Dew Reaper Mk5",
+      "Collapsible Dew Reaper Mk6",
+      "Focused Reaper Mk5",
+      "Omni Focused Dew Scythe",
+      "Dew Reaper Mk4",
+      "Buoyant Reaper Mk3",
+      "Buoyant Reaper Mk4",
+      "Buoyant Reaper Mk5",
+      "Buoyant Reaper Mk6",
+      "Industrial Dew Scythe Mk4",
+      "Standard Karpov 38",
+      "Artisan Karpov 38",
+      "House Karpov 38",
+      "Adept Karpov 38",
+      "Harkonnen Scout Chestpiece",
+      "Artisan Disruptor Pistol",
+      "House Disruptor Pistol",
+      "Adept Disruptor Pistol",
+      "Regis Disruptor Pistol",
+      "Cope",
+      "Seethe",
+      "Hajra Literjon Mk3",
+      "Hajra Literjon Mk5",
+      "Hajra Literjon Mk6",
+      "Plastone",
+      "Plasma Cannon",
+      "Experimental Vulcan GAU-94",
+      "Extravagant Message",
+      "Bashar's Command",
+      "Fivefinger's Tripleshot Rifle",
+      "Regis Tripleshot Repeating Rifle",
+      "Assassin's Rifle",
+      "Long Shot",
+      "Thufir's Best",
+      "Dunewatcher",
+      "Low-grade Lubricant",
+      "Industrial-grade Lubricant",
+      "Personal Light",
+      "Radiation Suit Mk5",
+      "Radiation Suit Mk6",
+      "Radiation Suit Mk4",
+      "The Tapper",
+      "Buoyant Reaper Mk2",
+      "Syndicate Chestplate",
+      "Syndicate Boots",
+      "Syndicate Gauntlets",
+      "Syndicate Helmet",
+      "Syndicate Pants",
+      "Shredder",
+      "Abulurd's Rapture",
+      "Clapper Mk4",
+      "The Ancient Way",
+      "Handheld Life Scanner Mk3",
+      "Penetrator",
+      "House Burst Drillshot",
+      "Adept Burst Drillshot",
+      "Regis Burst Drillshot",
+      "Ambition",
+      "Legion Tattoo",
+      "Seb's Kisser",
+      "Ironwatch Special",
+      "Relentless",
+      "A Dart for Every Man",
+      "Artisan JABAL Spitdart",
+      "Spice Mask",
+      "Compact Compactor Mk4",
+      "Compact Compactor Mk5",
+      "Kel's Stillsuit Boots",
+      "Kel's Stillsuit Gloves",
+      "Kel's Stillsuit Mask",
+      "Kel's Stillsuit Garment",
+      "Shadrath's Stillsuit Boots",
+      "Shadrath's Stillsuit Gloves",
+      "Shadrath's Stillsuit Mask",
+      "Shadrath's Stillsuit Garment",
+      "Saturnine Stillsuit Boots",
+      "Saturnine Stillsuit Gloves",
+      "Saturnine Stillsuit Mask",
+      "Saturnine Stillsuit Garment",
+      "Imperial Stillsuit Boots",
+      "Imperial Stillsuit Gloves",
+      "Imperial Stillsuit Mask",
+      "Imperial Stillsuit Garment",
+      "Maraqeb Stillsuit Boots",
+      "Maraqeb Stillsuit Gloves",
+      "Maraqeb Stillsuit Mask",
+      "Maraqeb Stillsuit Garment",
+      "Batigh Stillsuit Boots",
+      "Batigh Stillsuit Gloves",
+      "Batigh Stillsuit Mask",
+      "Batigh Stillsuit Garment",
+      "Villari's Stillsuit Boots",
+      "Villari's Stillsuit Gloves",
+      "Villari's Stillsuit Mask",
+      "Villari's Stillsuit Garment",
+      "Shadow Hood",
+      "Shaded Hood",
+      "Pardot's Hood",
+      "Shaddam's Bladder",
+      "Imperial Stillsuit Boots (1)",
+      "Imperial Stillsuit Gloves (1)",
+      "Imperial Stillsuit Mask (1)",
+      "Imperial Stillsuit Body",
+      "Double-sealed Stilltent",
+      "Stilltent",
+      "House Drillshot FK7",
+      "Standard Disruptor M11",
+      "Duneman Scout Jacket",
+      "Duneman Scout Boots",
+      "Duneman Scout Gloves",
+      "Duneman Scout Helmet",
+      "Duneman Scout Pants",
+      "Slaver Stillsuit Boots",
+      "Slaver Stillsuit Golves",
+      "Slaver Stillsuit Mask",
+      "Slaver Stillsuit Body",
+      "Slaver Heavy Boots",
+      "Slaver Heavy Pants",
+      "Slaver Heavy Gloves",
+      "Slaver Heavy Helmet",
+      "Slaver Heavy Jerkin",
+      "Slaver Scout Boots",
+      "Slaver Scout Pants",
+      "Slaver Scout Gloves",
+      "Slaver Scout Mask",
+      "Slaver Scout Jacket",
+      "Artisan Rafiq Snubnose",
+      "Standard GRDA 44",
+      "Long Range Scanner",
+      "Mercenary Heavy Chestplate",
+      "Mercenary Heavy Boots",
+      "Mercenary Heavy Gloves",
+      "Mercenary Heavy Helmet",
+      "Mercenary Heavy Pants",
+      "Duneman Heavy Boots",
+      "Duneman Heavy Pants",
+      "Duneman Heavy Gloves",
+      "Duneman Heavy Mask",
+      "Duneman Heavy Jacket",
+      "House Vulcan GAU-92",
+      "House GRDA 44",
+      "Adept Drillshot FK7",
+      "Artisan Disruptor M11",
+      "House Disruptor M11",
+      "Native Stillsuit Boots",
+      "Native Stillsuit Gloves",
+      "Native Stillsuit Mask",
+      "Native Stillsuit Body",
+      "Thumper",
+      "Atreides Heavy Chestpiece",
+      "Atreides Heavy Pants",
+      "Mercenary Scout Boots",
+      "Mercenary Scout Leggings",
+      "Mercenary Scout Gloves",
+      "Mercenary Scout Helmet",
+      "Mercenary Scout Top",
+      "House Rafiq Snubnose",
+      "Adept Rafiq Snubnose",
+      "Adept Vulcan GAU-92",
+      "Standard Maula Pistol",
+      "Artisan Maula Pistol",
+      "Artisan GRDA 44",
+      "Adept GRDA 44",
+      "House JABAL Spitdart",
+      "Adept JABAL Spitdart",
+      "Mercenary Stillsuit Boots",
+      "Mercenary Stillsuit Gloves",
+      "Mercenary Stillsuit Mask",
+      "Mercenary Stillsuit Body",
+      "Adept Disruptor M11",
+      "Regis Vulcan GAU-92",
+      "Regis Disruptor M11",
+      "Massive Blood Sack",
+      "Blood Extractor Mk6",
+      "Regis Maula Pistol",
+      "CHOAM Heavy Boots",
+      "CHOAM Heavy Greaves",
+      "CHOAM Heavy Gauntlets",
+      "CHOAM Heavy Helmet",
+      "CHOAM Heavy Chestplate",
+      "CHOAM Scout Boots",
+      "CHOAM Scout Pants",
+      "CHOAM Scout Gloves",
+      "CHOAM Scout Helmet",
+      "CHOAM Scout Chestplate",
+      "Dew Reaper Mk6",
+      "Dew Scythe Mk6",
+      "Regis Karpov 38",
+      "Regis Rafiq Snubnose",
+      "Literjon Mk6",
+      "Regis Missile Launcher",
+      "Regis GRDA 44",
+      "Regis JABAL Spitdart",
+      "Regis Drillshot FK7",
+      "CHOAM Stillsuit Boots",
+      "CHOAM Stillsuit Gloves",
+      "CHOAM Stillsuit Mask",
+      "CHOAM Stillsuit Body",
+      "Ballistic Weave Fabric",
+      "Fluid Efficient Industrial Pump",
+      "Improved Watertube",
+      "Fila's Regret",
+      "Zaal's Companion",
+      "Stammershot",
+      "Mendek's Rattle",
+      "Indara's Lullaby",
+      "Pipecleaner",
+      "Scrubber",
+      "Salusan Vengeance",
+      "Firestorm",
+      "Starburst",
+      "Shellburster",
+      "Ripper",
+      "Eviscerator",
+      "Syndicate Impaler",
+      "Perforator",
+      "Shadrath's Edge",
+      "Taqwa's Double",
+      "Shishakli's Bite",
+      "Way of the Wanderer",
+      "Way of the Lost",
+      "Way of the Fighter",
+      "Way of the Desert",
+      "Way of the Misr",
+      "Piter's Disruptor",
+      "Sardaukar Intimidator",
+      "Wormsong Echo",
+      "Song of Shai-Hulud",
+      "Standard Filter",
+      "Particulate Filter",
+      "Advanced Particulate Filter"
+    ]
+  },
+  {
+    "name": "Small Vehicle Fuel Cell",
+    "StackSize": 1,
+    "Volume": 2.0,
+    "craftedAt": [
+      {
+        "station": "Small Chemical Refinery",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 25.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 10.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 20.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Spice-infused Aluminum Dust",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Sinner's Bloodbag",
+      "Filter Extractor Mk4",
+      "Rattler Boost Module Mk4",
+      "Bluddshot Buggy Engine Mk4",
+      "Bigger Buggy Boot Mk4",
+      "Focused Buggy Cutteray Mk4",
+      "Power Gauntlets",
+      "Miner's Blessing",
+      "Improved Reaper Gloves",
+      "Improved Suspensor Jacket",
+      "Compression-Stim Leggings",
+      "Idaho Softstep Boots",
+      "Sentinel Boots",
+      "Sentinel Pants",
+      "Sentinel Gauntlets",
+      "Sentinel Helmet",
+      "Sentinel Jacket",
+      "Quirth's Boots",
+      "Quirth's Pants",
+      "Quirth's Gauntlets",
+      "Quirth's Helmet",
+      "Quirth's Jacket",
+      "Collapsible Dew Reaper Mk4",
+      "Buoyant Reaper Mk4",
+      "The Emperor's Wings Mk4",
+      "House Disruptor Pistol",
+      "Hajra Literjon Mk4",
+      "Shadrath's Drinker",
+      "Spark-Knife",
+      "Experimental Vulcan GAU-94",
+      "Long Shot",
+      "Albatross Wing Module Mk4",
+      "Old Sparky Mk4",
+      "Sandflies Carver",
+      "Poison Mist",
+      "Abulurd's Rapture",
+      "Stormrider Boost Module Mk4",
+      "Clapper Mk4",
+      "Night Rider Sandbike Boost Mk4",
+      "Mohandis Sandbike Engine Mk4",
+      "House Burst Drillshot",
+      "Ironwatch Special",
+      "Compact Compactor Mk4",
+      "Shadrath's Stillsuit Boots",
+      "Shadrath's Stillsuit Gloves",
+      "Shadrath's Stillsuit Mask",
+      "Shadrath's Stillsuit Garment",
+      "Maraqeb Stillsuit Boots",
+      "Maraqeb Stillsuit Gloves",
+      "Maraqeb Stillsuit Mask",
+      "Maraqeb Stillsuit Garment",
+      "Shadow Hood",
+      "Stammershot",
+      "Pipecleaner",
+      "Denira's Gift",
+      "Firestorm",
+      "Eviscerator",
+      "Shadrath's Edge",
+      "Way of the Fighter",
+      "Spark-sword"
+    ]
+  },
+  {
+    "name": "Spice-infused Copper Dust",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Kaleff's Drinker",
+      "Old Sparky Mk1",
+      "Sim's Cutter",
+      "Hajra Literjon Mk1",
+      "Way of the Fallen",
+      "Aren's Chestpiece",
+      "Aren's Boots",
+      "Aren's Gloves",
+      "Aren's Mask",
+      "Aren's Pants",
+      "The Emperor's Wings Mk1",
+      "Mohandis Sandbike Engine Mk1",
+      "Hollower Stillsuit Boots",
+      "Hollower Stillsuit Gloves",
+      "Hollower Stillsuit Mask",
+      "Hollower Stillsuit Garment",
+      "Aren's Vengeance"
+    ]
+  },
+  {
+    "name": "Spice-infused Duraluminum Dust",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Maas Kharet Bloodbag",
+      "Impure Extractor Mk5",
+      "Filter Extractor Mk5",
+      "Rattler Boost Module Mk5",
+      "Bluddshot Buggy Engine Mk5",
+      "Bigger Buggy Boot Mk5",
+      "Focused Buggy Cutteray Mk5",
+      "Arhun K-28 Lasgun",
+      "Station Gauntlets",
+      "Mendek's Boots",
+      "Mendek's Pants",
+      "Mendek's Gauntlets",
+      "Mendek's Helmet",
+      "Mendek's Chestplate",
+      "Swordmasters Boots",
+      "Swordmasters Leggings",
+      "Swordmasters Gauntlets",
+      "Swordmasters Helm",
+      "Swordmasters Tunic",
+      "Trooper's Fatigues Boots",
+      "Trooper's Fatigues Leggings",
+      "Trooper's Fatigues Gauntlets",
+      "Trooper's Fatigues Helmet",
+      "Trooper's Fatigues Chest",
+      "Boots of the Sisterhood",
+      "Pants of the Sisterhood",
+      "Gloves of the Sisterhood",
+      "Veil of the Sisterhood",
+      "Robe of the Sisterhood",
+      "Station Garb",
+      "Advanced Reaper Gloves",
+      "Mentat's Garment Boots",
+      "Mentat's Garment Leggings",
+      "Mentat's Garment Gauntlets",
+      "Mentat's Garment Helmet",
+      "Mentat's Garment Chest",
+      "Advanced Suspensor Jacket",
+      "Wayfinder Helm",
+      "Stim-Leggings",
+      "Tarl Softstep Boots",
+      "Acheronian Boots",
+      "Acheronian Pants",
+      "Acheronian Gauntlets",
+      "Acheronian Helmet",
+      "Acheronian Chestplate",
+      "Chosen Boots",
+      "Chosen Pants",
+      "Chosen Gauntlets",
+      "Chosen Helmet",
+      "Chosen Chestplate",
+      "Collapsible Dew Reaper Mk5",
+      "Focused Reaper Mk5",
+      "Buoyant Reaper Mk5",
+      "Scorchbolt (1)",
+      "The Emperor's Wings Mk5",
+      "Adept Disruptor Pistol",
+      "Cope",
+      "Hajra Literjon Mk5",
+      "Pardot's Drinker",
+      "Jolt-knife",
+      "Stormrider Boost Module Mk5",
+      "Extravagant Message",
+      "Fivefinger's Tripleshot Rifle",
+      "Thufir's Best",
+      "Albatross Wing Module Mk5",
+      "Steady Assault Boost Module Mk5",
+      "Hummingbird Wing Module Mk5",
+      "Young Sparky Mk5",
+      "Tarl Cutteray",
+      "Shaitan's Tongue",
+      "Syndicate Chestplate",
+      "Syndicate Boots",
+      "Syndicate Gauntlets",
+      "Syndicate Helmet",
+      "Syndicate Pants",
+      "Night Rider Sandbike Boost Mk5",
+      "Mohandis Sandbike Engine Mk5",
+      "Adept Burst Drillshot",
+      "Relentless",
+      "Compact Compactor Mk5",
+      "Saturnine Stillsuit Boots",
+      "Saturnine Stillsuit Gloves",
+      "Saturnine Stillsuit Mask",
+      "Saturnine Stillsuit Garment",
+      "Batigh Stillsuit Boots",
+      "Batigh Stillsuit Gloves",
+      "Batigh Stillsuit Mask",
+      "Batigh Stillsuit Garment",
+      "Shaded Hood",
+      "Imperial Stillsuit Boots (1)",
+      "Imperial Stillsuit Gloves (1)",
+      "Imperial Stillsuit Mask (1)",
+      "Imperial Stillsuit Body",
+      "Double-sealed Stilltent",
+      "Long Range Scanner",
+      "Mendek's Rattle",
+      "Scrubber",
+      "Moisture Sealer",
+      "Kharet Viper",
+      "Starburst",
+      "Syndicate Impaler",
+      "Taqwa's Double",
+      "Way of the Desert",
+      "Piter's Disruptor",
+      "Jolt-sword",
+      "Wormsong Echo"
+    ]
+  },
+  {
+    "name": "Spice-infused Fuel Cell",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "craftedAt": [
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 30.0,
+        "ingredients": [
+          {
+            "item": "Fuel Cell",
+            "quantity": 30.0
+          },
+          {
+            "item": "Spice Residue",
+            "quantity": 65.0
+          },
+          {
+            "item": "Irradiated Slag",
+            "quantity": 3.0
+          },
+          {
+            "item": "Water",
+            "quantity": 200.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Spice-infused Iron Dust",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Scipio's Bloodbag",
+      "Iri's Gauntlets",
+      "Softstep Boots",
+      "Mendia's Boots",
+      "Mendia's Pants",
+      "Mendia's Gauntlets",
+      "Mendia's Wrap",
+      "Mendia's Jacket",
+      "The Emperor's Wings Mk2",
+      "Hajra Literjon Mk2",
+      "Scipio's Drinker",
+      "Old Sparky Mk2",
+      "Night Rider Sandbike Boost Mk2",
+      "Pseudo Pulse-Sword",
+      "Olef's Quickcutter",
+      "Buoyant Reaper Mk2",
+      "Oathbreaker Chestpiece",
+      "Oathbreaker Boots",
+      "Oathbreaker Gauntlets",
+      "Oathbreaker Headwrap",
+      "Oathbreaker Pants",
+      "Shredder",
+      "Mohandis Sandbike Engine Mk2",
+      "Legion Tattoo",
+      "Menol's Stillsuit Boots",
+      "Menol's Stillsuit Gloves",
+      "Menol's Stillsuit Mask",
+      "Menol's Stillsuit Garment",
+      "Fila's Regret",
+      "Way of the Wanderer"
+    ]
+  },
+  {
+    "name": "Spice-infused Plastanium Dust",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "The Baron's Bloodbag",
+      "Impure Extractor Mk6",
+      "Filter Extractor Mk6",
+      "Rattler Boost Module Mk6",
+      "Bluddshot Buggy Engine Mk6",
+      "Bigger Buggy Boot Mk6",
+      "Focused Buggy Cutteray Mk6",
+      "The Forge Boots",
+      "The Forge Pants",
+      "The Forge Gloves",
+      "The Forge Helmet",
+      "The Forge Chestpiece",
+      "Circuit Gauntlets",
+      "Power Harness",
+      "Bulwark Boots",
+      "Bulwark Leggings",
+      "Bulwark Gloves",
+      "Bulwark Helmet",
+      "Bulwark Chest",
+      "Fortress Chestpiece",
+      "Desert Garb",
+      "Hook-claw Gloves",
+      "Yueh's Reaper Gloves",
+      "Adrenal Boots",
+      "Idaho's Charge",
+      "Wayfinder Helm (1)",
+      "Ix-core Leggings",
+      "Seeker Helmet",
+      "Tabr Softstep Boots",
+      "Executor's Boots",
+      "Executor's Pants",
+      "Executor's Gauntlets",
+      "Executor's Helmet",
+      "Executor's Chestpiece",
+      "Pincushion Boots",
+      "Pincushion Pants",
+      "Pincushion Gauntlets",
+      "Pincushion Helmet",
+      "Pincushion Chestpiece",
+      "Collapsible Dew Reaper Mk6",
+      "Omni Focused Dew Scythe",
+      "Buoyant Reaper Mk6",
+      "Sentinel Belt",
+      "The Emperor's Wings Mk6",
+      "Regis Disruptor Pistol",
+      "Seethe",
+      "Hajra Literjon Mk6",
+      "Adaptive Holtzman Shield",
+      "Feyd's Drinker",
+      "Replica Pulse-knife",
+      "Stormrider Boost Module Mk6",
+      "Plasma Cannon",
+      "Bashar's Command",
+      "Regis Tripleshot Repeating Rifle",
+      "Dunewatcher",
+      "Kynes's Cutteray",
+      "Albatross Wing Module Mk6",
+      "Steady Assault Boost Module Mk6",
+      "Hummingbird Wing Module Mk6",
+      "Steady Carrier Boost Module Mk6",
+      "Roc Carrier Wing",
+      "Purifier Power Pack",
+      "Young Sparky Mk6",
+      "The Ancient Way",
+      "Night Rider Sandbike Boost Mk6",
+      "Mohandis Sandbike Engine Mk6",
+      "Walker Sandcrawler Engine Mk6",
+      "Dampened Sandcrawler Treads",
+      "Penetrator",
+      "Regis Burst Drillshot",
+      "Ambition",
+      "A Dart for Every Man",
+      "Compact Compactor Mk6",
+      "Imperial Stillsuit Boots",
+      "Imperial Stillsuit Gloves",
+      "Imperial Stillsuit Mask",
+      "Imperial Stillsuit Garment",
+      "Villari's Stillsuit Boots",
+      "Villari's Stillsuit Gloves",
+      "Villari's Stillsuit Mask",
+      "Villari's Stillsuit Garment",
+      "Pardot's Hood",
+      "Shaddam's Bladder",
+      "Black Market K-28 Lasgun",
+      "Glasser",
+      "Indara's Lullaby",
+      "Salusan Vengeance",
+      "Cauterizer",
+      "Vaporizer",
+      "Halleck's Pick",
+      "Static Needle",
+      "Shellburster",
+      "Perforator",
+      "Shishakli's Bite",
+      "Way of the Misr",
+      "Sardaukar Intimidator",
+      "Replica Pulse-sword",
+      "Song of Shai-Hulud"
+    ]
+  },
+  {
+    "name": "Spice-infused Steel Dust",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Glutton's Bloodbag",
+      "Filter Extractor Mk3",
+      "Bluddshot Buggy Engine Mk3",
+      "Bigger Buggy Boot Mk3",
+      "Focused Buggy Cutteray Mk3",
+      "Shock Gauntlets",
+      "Skin-lined Jacket",
+      "Reaper Gloves",
+      "Rigged Suspensor Jacket",
+      "Ta'lab Softstep Boots",
+      "Karak's Boots",
+      "Karak's Pants",
+      "Karak's Gauntlets",
+      "Karak's Helmet",
+      "Karak's Jacket",
+      "Inkvine Boots",
+      "Inkvine Pants",
+      "Inkvine Gauntlets",
+      "Inkvine Mask",
+      "Inkvine Jacket",
+      "Buoyant Reaper Mk3",
+      "The Emperor's Wings Mk3",
+      "Artisan Disruptor Pistol",
+      "Hajra Literjon Mk3",
+      "Glutton's Drinker",
+      "Shock-Knife",
+      "Assassin's Rifle",
+      "Old Sparky Mk3",
+      "The Tapper",
+      "Rattler Boost Module Mk3",
+      "Callie's Breaker",
+      "Searing Shiv",
+      "Night Rider Sandbike Boost Mk3",
+      "Mohandis Sandbike Engine Mk3",
+      "Handheld Life Scanner Mk3",
+      "Seb's Kisser",
+      "Compact Compactor Mk3",
+      "Kel's Stillsuit Boots",
+      "Kel's Stillsuit Gloves",
+      "Kel's Stillsuit Mask",
+      "Kel's Stillsuit Garment",
+      "Zaal's Companion",
+      "Ripper",
+      "Way of the Lost",
+      "Shock-sword"
+    ]
+  },
+  {
+    "name": "Spice Melange",
+    "StackSize": 500,
+    "Volume": 0.2,
+    "craftedAt": [
+      {
+        "station": "Medium Spice Refinery",
+        "craftingtime": 450.0,
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 750.0
+          },
+          {
+            "item": "Water",
+            "quantity": 700.0
+          }
+        ]
+      },
+      {
+        "station": "Spice Refinery",
+        "craftingtime": 180.0,
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 100.0
+          },
+          {
+            "item": "Water",
+            "quantity": 75.0
+          }
+        ]
+      },
+      {
+        "station": "Large Spice Refinery",
+        "craftingtime": 2700.0,
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 10000.0
+          },
+          {
+            "item": "Water",
+            "quantity": 75000.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Spice Residue"
+    ]
+  },
+  {
+    "name": "Spice Residue",
+    "StackSize": 1000,
+    "Volume": 0.08,
+    "craftedAt": [
+      {
+        "station": "Spice Refinery",
+        "craftingtime": 180.0,
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 100.0
+          },
+          {
+            "item": "Water",
+            "quantity": 75.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Spice Refinery",
+        "craftingtime": 450.0,
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 750.0
+          },
+          {
+            "item": "Water",
+            "quantity": 700.0
+          }
+        ]
+      },
+      {
+        "station": "Large Spice Refinery",
+        "craftingtime": 2700.0,
+        "ingredients": [
+          {
+            "item": "Spice Sand",
+            "quantity": 10000.0
+          },
+          {
+            "item": "Water",
+            "quantity": 13000.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Spice Melange"
+    ]
+  },
+  {
+    "name": "Standard Filter",
+    "StackSize": 5,
+    "Volume": 5.0,
+    "craftedAt": [
+      {
+        "station": "Survival Fabricator",
+        "craftingtime": 15.0,
+        "ingredients": [
+          {
+            "item": "Aluminum Ingot",
+            "quantity": 5.0
+          },
+          {
+            "item": "Plant Fiber",
+            "quantity": 10.0
+          },
+          {
+            "item": "Silicone Block",
+            "quantity": 4.0
+          },
+          {
+            "item": "Water",
+            "quantity": 120.0
+          }
+        ]
+      }
+    ],
+    "usedIn": []
+  },
+  {
+    "name": "Steel Ingot",
+    "StackSize": 500,
+    "Volume": 0.5,
+    "craftedAt": [
+      {
+        "station": "Small Ore Refinery",
+        "craftingtime": 5.0,
+        "ingredients": [
+          {
+            "item": "Carbon Ore",
+            "quantity": 4.0
+          },
+          {
+            "item": "Iron Ingot",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      },
+      {
+        "station": "Medium Ore Refinery",
+        "craftingtime": 4.0,
+        "ingredients": [
+          {
+            "item": "Carbon Ore",
+            "quantity": 3.0
+          },
+          {
+            "item": "Iron Ingot",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      },
+      {
+        "station": "Large Ore Refinery",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Carbon Ore",
+            "quantity": 2.0
+          },
+          {
+            "item": "Iron Ingot",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Glutton's Bloodbag",
+      "Filter Extractor Mk3",
+      "Bluddshot Buggy Engine Mk3",
+      "Bigger Buggy Boot Mk3",
+      "Focused Buggy Cutteray Mk3",
+      "Shock Gauntlets",
+      "Skin-lined Jacket",
+      "Reaper Gloves",
+      "Rigged Suspensor Jacket",
+      "Ta'lab Softstep Boots",
+      "Karak's Boots",
+      "Karak's Pants",
+      "Karak's Gauntlets",
+      "Karak's Helmet",
+      "Karak's Jacket",
+      "Inkvine Boots",
+      "Inkvine Pants",
+      "Inkvine Gauntlets",
+      "Inkvine Mask",
+      "Inkvine Jacket",
+      "Buoyant Reaper Mk3",
+      "Artisan Dirk",
+      "The Emperor's Wings Mk3",
+      "Artisan Karpov 38",
+      "Harkonnen Scout Chestpiece",
+      "Artisan Disruptor Pistol",
+      "Hajra Literjon Mk3",
+      "Glutton's Drinker",
+      "Shock-Knife",
+      "Assassin's Rifle",
+      "Cutteray Mk3",
+      "Personal Light",
+      "Old Sparky Mk3",
+      "The Tapper",
+      "Rattler Boost Module Mk3",
+      "Callie's Breaker",
+      "Searing Shiv",
+      "Scrap Buggy Chassis",
+      "Scrap Buggy Engine",
+      "Scrap Buggy PSU",
+      "Scrap Buggy Rear Hull",
+      "Scrap Buggy Front Hull",
+      "Scrap Buggy Tread",
+      "Welding Torch Mk3",
+      "Sandbike Booster Mk3",
+      "Sandbike Chassis Mk3",
+      "Night Rider Sandbike Boost Mk3",
+      "Sandbike Engine Mk3",
+      "Mohandis Sandbike Engine Mk3",
+      "Sandbike PSU Mk3",
+      "Sandbike Hull Mk3",
+      "Sandbike Tread Mk3",
+      "Handheld Life Scanner Mk3",
+      "Seb's Kisser",
+      "Artisan JABAL Spitdart",
+      "Compact Compactor Mk3",
+      "Kel's Stillsuit Boots",
+      "Kel's Stillsuit Gloves",
+      "Kel's Stillsuit Mask",
+      "Kel's Stillsuit Garment",
+      "Stilltent",
+      "Planar Suspensor Belt",
+      "Slaver Stillsuit Boots",
+      "Slaver Stillsuit Golves",
+      "Slaver Stillsuit Mask",
+      "Slaver Stillsuit Body",
+      "Slaver Heavy Boots",
+      "Slaver Heavy Pants",
+      "Slaver Heavy Gloves",
+      "Slaver Heavy Helmet",
+      "Slaver Heavy Jerkin",
+      "Slaver Scout Boots",
+      "Slaver Scout Pants",
+      "Slaver Scout Gloves",
+      "Slaver Scout Mask",
+      "Slaver Scout Jacket",
+      "Artisan Kindjal",
+      "Power Pack Mk3",
+      "Artisan Rafiq Snubnose",
+      "Buggy Rear Mk3",
+      "Buggy Storage Mk3",
+      "Buggy Booster Mk3",
+      "Buggy Chassis Mk3",
+      "Buggy Engine Mk3",
+      "Buggy Hull Mk3",
+      "Buggy PSU Mk3",
+      "Buggy Tread Mk3",
+      "Artisan Sword",
+      "Artisan Disruptor M11",
+      "Staking Unit",
+      "Vertical Staking Unit",
+      "Thumper",
+      "Buggy Utility Rear Mk3",
+      "Buggy Cutteray Mk3",
+      "Artisan Maula Pistol",
+      "Artisan GRDA 44",
+      "Holtzman Shield Mk3",
+      "Zaal's Companion",
+      "Ripper",
+      "Way of the Lost",
+      "Shock-sword",
+      "Ceremonial Damasteel Sword",
+      "Steel Welding Wire",
+      "Makeshift Filter"
+    ]
+  },
+  {
+    "name": "Stillsuit Tubing",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Shadrath's Stillsuit Boots",
+      "Shadrath's Stillsuit Gloves",
+      "Shadrath's Stillsuit Mask",
+      "Shadrath's Stillsuit Garment",
+      "Saturnine Stillsuit Boots",
+      "Saturnine Stillsuit Gloves",
+      "Saturnine Stillsuit Mask",
+      "Saturnine Stillsuit Garment",
+      "Maraqeb Stillsuit Boots",
+      "Maraqeb Stillsuit Gloves",
+      "Maraqeb Stillsuit Mask",
+      "Maraqeb Stillsuit Garment",
+      "Batigh Stillsuit Boots",
+      "Batigh Stillsuit Gloves",
+      "Batigh Stillsuit Mask",
+      "Batigh Stillsuit Garment",
+      "Shadow Hood",
+      "Shaded Hood",
+      "Imperial Stillsuit Boots (1)",
+      "Imperial Stillsuit Gloves (1)",
+      "Imperial Stillsuit Mask (1)",
+      "Imperial Stillsuit Body",
+      "Native Stillsuit Boots",
+      "Native Stillsuit Gloves",
+      "Native Stillsuit Mask",
+      "Native Stillsuit Body",
+      "Mercenary Stillsuit Boots",
+      "Mercenary Stillsuit Gloves",
+      "Mercenary Stillsuit Mask",
+      "Mercenary Stillsuit Body",
+      "Improved Watertube"
+    ]
+  },
+  {
+    "name": "Stravidium Fiber",
+    "StackSize": 500,
+    "Volume": 0.6,
+    "craftedAt": [
+      {
+        "station": "Medium Chemical Refinery",
+        "craftingtime": 10.0,
+        "ingredients": [
+          {
+            "item": "Stravidium Mass",
+            "quantity": 3.0
+          },
+          {
+            "item": "Water",
+            "quantity": 100.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Plastanium Ingot"
+    ]
+  },
+  {
+    "name": "Stravidium Mass",
+    "StackSize": 500,
+    "Volume": 0.5,
+    "craftedAt": [],
+    "usedIn": [
+      "Stravidium Fiber"
+    ]
+  },
+  {
+    "name": "Thermo-Responsive Ray Amplifier",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Ray Amplifier",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Copper Ingot",
+            "quantity": 2.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Buggy Cutteray Mk6",
+      "Focused Buggy Cutteray Mk6",
+      "Kynes's Cutteray",
+      "Black Market K-28 Lasgun",
+      "Cutteray Mk6"
+    ]
+  },
+  {
+    "name": "Thermoelectric Cooler",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [],
+    "usedIn": [
+      "Buggy Cutteray Mk5",
+      "Buggy Cutteray Mk6",
+      "Focused Buggy Cutteray Mk5",
+      "Focused Buggy Cutteray Mk6",
+      "Cutteray Mk5",
+      "Kynes's Cutteray",
+      "Tarl Cutteray",
+      "Compact Compactor Mk5",
+      "Compact Compactor Mk6",
+      "Cutteray Mk6",
+      "Omni Static Compactor"
+    ]
+  },
+  {
+    "name": "Titanium Ore",
+    "StackSize": 500,
+    "Volume": 0.9,
+    "craftedAt": [],
+    "usedIn": [
+      "Plastanium Ingot"
+    ]
+  },
+  {
+    "name": "Tri-Forged Hydraulic Piston",
+    "StackSize": 500,
+    "Volume": 0.1,
+    "craftedAt": [
+      {
+        "station": "Advanced Survival Fabricator",
+        "craftingtime": 3.0,
+        "ingredients": [
+          {
+            "item": "Hydraulic Piston",
+            "quantity": 3.0
+          },
+          {
+            "item": "Plasteel Plate",
+            "quantity": 2.0
+          },
+          {
+            "item": "Duraluminum Ingot",
+            "quantity": 1.0
+          },
+          {
+            "item": "Water",
+            "quantity": 50.0
+          }
+        ]
+      }
+    ],
+    "usedIn": [
+      "Buggy Engine Mk6",
+      "Bluddshot Buggy Engine Mk6",
+      "Scout Ornithopter Engine Mk6",
+      "Assault Ornithopter Engine Mk6",
+      "Sandbike Engine Mk6",
+      "Mohandis Sandbike Engine Mk6",
+      "Sandcrawler Engine Mk6",
+      "Walker Sandcrawler Engine Mk6",
+      "Carrier Ornithopter Engine Mk6"
+    ]
+  },
+  {
+    "name": "Worm Tooth",
+    "StackSize": 1,
+    "Volume": 0.0,
+    "craftedAt": [],
+    "usedIn": [
+      "Unfixed Crysknife"
+    ]
+  }
+]

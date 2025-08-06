@@ -2,6 +2,7 @@
 ///////////////////
 // VEHICLE LOGIC
 ///////////////////
+function loadVehicles(){
       const toggleBtn = document.getElementById("toggleOptionalParts");
       const optionalPartsDiv = document.getElementById("optionalParts");
 
@@ -492,3 +493,4 @@
           amountInput.addEventListener("input", render);
           if (select.value) render();
         });
+      }
