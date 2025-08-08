@@ -12,7 +12,7 @@ function loadResources() {
         div.className = "building";
 
         const iconName = res.name.toLowerCase().replace(/[^a-z0-9]+/g, "-");
-        const image = `./Images/Icons/${iconName}.png`;
+        const image = `./images/icons/${iconName}.png`;
 
         // Check if it has craftedAt info
         const isCraftable =
@@ -28,7 +28,7 @@ function loadResources() {
                   const iconName = i.item
                     .toLowerCase()
                     .replace(/[^a-z0-9]+/g, "-");
-                  const iconPath = `./Images/Icons/${iconName}.png`;
+                  const iconPath = `./images/icons/${iconName}.png`;
                   return `
               <li>
                 <img class="icon" src="${iconPath}" onerror="this.style.display='none'" />
