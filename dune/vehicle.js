@@ -70,9 +70,11 @@ function loadVehicles() {
       select.value = localStorage.getItem("vehType") || "";
       amountInput.value = localStorage.getItem("vehAmount") || "1";
 
+      const matCosts = {};
+      const amt = parseInt(amountInput.value) || 1;
+
       function render() {
         const type = select.value;
-        const amt = parseInt(amountInput.value) || 1;
         const match = data.filter((v) => {
           const t = v.type.toLowerCase();
           return (
@@ -148,7 +150,7 @@ function loadVehicles() {
         <ul class="parts-list">
           ${allParts
             .map((v, i) => {
-              const checked = stored.includes(i);
+              const checked = stored.includes(v.id);
 
               const imgName = v.name
                 .toLowerCase()
@@ -492,8 +494,6 @@ function loadVehicles() {
           }
 
           // === Cost Calculation ===
-          const matCosts = {};
-          const amt = parseInt(amountInput.value) || 1;
 
           match
             .filter((v) => selected.includes(v.id))
