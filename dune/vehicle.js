@@ -118,7 +118,7 @@ function loadVehicles() {
 
         imageNames.forEach((imgName, index) => {
           const img = new Image();
-          img.src = `./Images/vehicles/${name}/${imgName}`;
+          img.src = `./images/vehicles/${name}/${imgName}`;
           img.className = "vehicle-img";
           img.width = 128;
           img.style.display = "none"; // hide until loaded
@@ -199,7 +199,7 @@ function loadVehicles() {
                     }
                   </span>
                   <img 
-                    src="./Images/Vehicles/${name}/${imgName}.png" 
+                    src="./images/Vehicles/${name}/${imgName}.png" 
                     alt="${v.name}" 
                     width="32" 
                     height="32" 
@@ -512,7 +512,7 @@ function loadVehicles() {
             `<strong>Total Cost for <span class="value">${amt}x</span>:</strong><ul>` +
             Object.entries(matCosts)
               .map(([item, qty]) => {
-                const icon = `./Images/Icons/${item
+                const icon = `./images/Icons/${item
                   .toLowerCase()
                   .replace(/[^a-z0-9]+/g, "-")}.png`;
                 const lowerItem = item.toLowerCase();
