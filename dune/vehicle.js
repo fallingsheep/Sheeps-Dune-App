@@ -199,7 +199,7 @@ function loadVehicles() {
                     }
                   </span>
                   <img 
-                    src="./images/Vehicles/${name}/${imgName}.png" 
+                    src="./images/vehicles/${name}/${imgName}.png" 
                     alt="${v.name}" 
                     width="32" 
                     height="32" 
