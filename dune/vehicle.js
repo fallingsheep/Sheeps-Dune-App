@@ -138,7 +138,6 @@ function loadVehicles() {
           .sort((a, b) => a.name.localeCompare(b.name))
           .sort((a, b) => (a.unique === b.unique ? 0 : a.unique ? 1 : -1));
 
-
         const partMap = {};
         allParts.forEach((part) => {
           partMap[part.id] = part;
@@ -166,7 +165,10 @@ function loadVehicles() {
                 // Crawler
                 .replace(/Walker Sandcrawler Engine/gi, "sandcrawler_engine")
                 .replace(/Dampened Sandcrawler Treads/gi, "sandcrawler_tread")
-                .replace(/Upgraded Regis Spice Container/gi, "sandcrawler_centrifuge")
+                .replace(
+                  /Upgraded Regis Spice Container/gi,
+                  "sandcrawler_centrifuge"
+                )
                 // Carrier
                 .replace(/Steady Carrier Boost Module/gi, "carrier_thruster")
                 // Scout
@@ -184,9 +186,15 @@ function loadVehicles() {
               <li class="parts-list-item">
                 <label style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
                   <span>
-                    <input type="checkbox" name="opt" value="${v.id}" ${checked ? "checked" : ""}/>
+                    <input type="checkbox" name="opt" value="${v.id}" ${
+                checked ? "checked" : ""
+              }/>
                     <span class="value">${v.amount || 1}x</span>
-                    ${v.unique ? `<span class="unique">${v.name}</span>` : v.name}
+                    ${
+                      v.unique
+                        ? `<span class="unique">${v.name}</span>`
+                        : v.name
+                    }
                   </span>
                   <img 
                     src="./Images/Vehicles/${name}/${imgName}.png" 
@@ -488,10 +496,10 @@ function loadVehicles() {
           const amt = parseInt(amountInput.value) || 1;
 
           match
-            .filter((_, i) => selected.includes(i))
+            .filter((v) => selected.includes(v.id))
             .forEach((v) => {
               const mult = (v.amount || 1) * amt;
-              v.components.forEach((c) => {
+              v.components?.forEach((c) => {
                 matCosts[c.item] = (matCosts[c.item] || 0) + c.quantity * mult;
               });
             });
