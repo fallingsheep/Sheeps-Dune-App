@@ -68,7 +68,7 @@ input[type='number'] {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 .building-grid {
@@ -329,4 +329,38 @@ body.dark .unique {
   .flex-row {
     flex-direction: column;
   }
+}
+
+.parts-list{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body.dark .parts-list-item {
+  background:#1e1e1e;
+  padding:8px; 
+  border-radius:6px; 
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between;
+  border: 1px solid var(--border);
+}
+
+.parts-list-item {
+  background:#fff7f0;
+  padding:8px; 
+  border-radius:6px; 
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between;
+  border: 1px solid var(--border);
+}
+
+.missing-parts {
+  color: orange;
+  font-weight: bold;
 }

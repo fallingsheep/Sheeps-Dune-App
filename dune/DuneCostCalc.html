@@ -9,133 +9,177 @@ total storage
 export to csv
 -->
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dune Cost Calculator</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dune Cost Calculator</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <div class="container">
-    <h1>Dune Cost Calculator</h1>
-    <div class="toggle-group">
-      <div>
-        <div id="viewButtons" class="view-toggle">
-          <button id="btnBuildings">Buildings</button>
-          <button id="btnVehicles">Vehicles</button>
-          <button id="btnResources">Resources</button>
-        </div>
-      </div>
-      <div>
-        <label>Dark Mode <input type="checkbox" id="darkModeToggle" /></label>
-      </div>
-    </div>
-
-    <!-- BUILDING CALC -->
-    <div id="buildingCalc">
-      <button class="resetBuildings">Reset</button>
-      <label><input type="checkbox" id="deepDesertTop" /> Deep Desert 50%
-        cost</label>
-      <br /><br />
-      <label for="powerDays"><strong>Days of Power Required:</strong></label>
-      <input type="number" id="powerDays" value="1" min="1" style="width: 60px; margin-left: 10px" />
-      <div id="fuelBreakdown" class="power-display" style="margin-top: 10px"></div>
-      <div id="viewButtons" class="view-toggle">
-        <button onclick="filterBuildings('all')" id="btnFilterAll">All</button>
-        <button onclick="filterBuildings('misc')" id="btnFilterMisc">Misc</button>
-        <button onclick="filterBuildings('water')" id="btnFilterWater">Water</button>
-        <button onclick="filterBuildings('power')" id="btnFilterPower">Power</button>
-        <button onclick="filterBuildings('fabricator')" id="btnFilterFabricator">Fabricator</button>
-      </div>
-
-      <br />
-      <div id="buildingList" class="building-grid"></div>
-      <div class="totals-flex">
-        <div class="totals">
-          <strong>Total Resources Required:</strong>
-          <ul id="totalResources"></ul>
-          <strong>Total Power: </strong><br />
-          <img class="icon" src="./Images/Icons/power.png" />
-          <span id="powerUsage" class="power-display">0</span> used /
-          <span id="powerGenerated" class="power-display">0</span> generated
-          <div id="buildingPower" class="power-display">0</div>
-          <br />
-          <strong>Total Fuel: </strong>
-          <div id="fuel" class="weight-display">0</div>
-          <br />
-          <strong>Total Weight: </strong><br />
-          <span id="weightUsage" class="weight-display">0v</span>
-          <br /><br />
-          <strong>Total Water Storage: </strong><br />
-          <span id="waterStorage" class="water-display">0ml</span>
-          <div id="waterProduction" class="power-display">0</div>
-          <br />
-          <strong>Total Storage: </strong><br />
-          <span id="storage" class="storage-display">0v</span><br />
-          <span id="storageSlots" class="storage-display">0</span>
-          <div id="storageBuildings" class="storage-display">0</div>
-        </div>
-        <div class="totals">
-          <div class="selected-block">
-            <strong>Selected Buildings:</strong>
-            <br /><br />
-            <ul id="selectedBuildings" class="buildings-display"></ul>
+  <body>
+    <div class="container">
+      <h1>Dune Cost Calculator</h1>
+      <div class="toggle-group">
+        <div>
+          <div id="viewButtons" class="view-toggle">
+            <button id="btnBuildings">Buildings</button>
+            <button id="btnVehicles">Vehicles</button>
+            <button id="btnResources">Resources</button>
           </div>
         </div>
+        <div>
+          <label>Dark Mode <input type="checkbox" id="darkModeToggle" /></label>
+        </div>
       </div>
-      <br />
-      <button class="resetBuildings">Reset</button>
-      <label><input type="checkbox" id="deepDesertBottom" /> Deep Desert 50%
-        cost</label>
-    </div>
 
-    <!-- VEHICLE CALC -->
-    <div id="vehicleCalc" class="hidden">
-      <button id="resetVehiclestop">Reset</button>
-      <br />
-      <label for="vehicleSelect">Select Vehicle:</label>
-      <select id="vehicleSelect">
-        <option value="">-- Choose Vehicle --</option>
-      </select>
-      <br />
-      <label for="buildAmount">Amount:</label>
-      <input type="number" id="buildAmount" value="1" min="1" style="width: 40px" />
-      <div id="selectedVehicle"></div>
-      <div id="imageholder" class="flex-row">
-        <div id="requiredParts" class="flex-column"></div>
-        <div id="vehicleImage" class="flex-column" style="margin-left: 50px"></div>
-        <div id="vehicleStats" class="flex-column"></div>
-      </div>
-      <div>
+      <!-- BUILDING CALC -->
+      <div id="buildingCalc">
+        <button class="resetBuildings">Reset</button>
+        <label
+          ><input type="checkbox" id="deepDesertTop" /> Deep Desert 50%
+          cost</label
+        >
+        <br /><br />
+        <label for="powerDays"><strong>Days of Power Required:</strong></label>
+        <input
+          type="number"
+          id="powerDays"
+          value="1"
+          min="1"
+          style="width: 60px; margin-left: 10px"
+        />
+        <div
+          id="fuelBreakdown"
+          class="power-display"
+          style="margin-top: 10px"
+        ></div>
+        <div id="viewButtons" class="view-toggle">
+          <button onclick="filterBuildings('all')" id="btnFilterAll">
+            All
+          </button>
+          <button onclick="filterBuildings('misc')" id="btnFilterMisc">
+            Misc
+          </button>
+          <button onclick="filterBuildings('water')" id="btnFilterWater">
+            Water
+          </button>
+          <button onclick="filterBuildings('power')" id="btnFilterPower">
+            Power
+          </button>
+          <button
+            onclick="filterBuildings('fabricator')"
+            id="btnFilterFabricator"
+          >
+            Fabricator
+          </button>
+        </div>
+
         <br />
-        <button id="toggleOptionalParts">Show Optional Parts ▼</button>
-        <div id="optionalParts" style="display: none"></div>
+        <div id="buildingList" class="building-grid"></div>
+        <div class="totals-flex">
+          <div class="totals">
+            <strong>Total Resources Required:</strong>
+            <ul id="totalResources"></ul>
+            <strong>Total Power: </strong><br />
+            <img class="icon" src="./Images/Icons/power.png" />
+            <span id="powerUsage" class="power-display">0</span> used /
+            <span id="powerGenerated" class="power-display">0</span> generated
+            <div id="buildingPower" class="power-display">0</div>
+            <br />
+            <strong>Total Fuel: </strong>
+            <div id="fuel" class="weight-display">0</div>
+            <br />
+            <strong>Total Weight: </strong><br />
+            <span id="weightUsage" class="weight-display">0v</span>
+            <br /><br />
+            <strong>Total Water Storage: </strong><br />
+            <span id="waterStorage" class="water-display">0ml</span>
+            <div id="waterProduction" class="power-display">0</div>
+            <br />
+            <strong>Total Storage: </strong><br />
+            <span id="storage" class="storage-display">0v</span><br />
+            <span id="storageSlots" class="storage-display">0</span>
+            <div id="storageBuildings" class="storage-display">0</div>
+          </div>
+          <div class="totals">
+            <div class="selected-block">
+              <strong>Selected Buildings:</strong>
+              <br /><br />
+              <ul id="selectedBuildings" class="buildings-display"></ul>
+            </div>
+          </div>
+        </div>
+        <br />
+        <button class="resetBuildings">Reset</button>
+        <label
+          ><input type="checkbox" id="deepDesertBottom" /> Deep Desert 50%
+          cost</label
+        >
       </div>
-      <div id="conflictWarning" class="conflict-msg"></div>
-      <div id="totalCost"></div>
-      <br />
-      <button id="resetVehicles">Reset</button>
+
+      <!-- VEHICLE CALC -->
+      <div id="vehicleCalc" class="hidden">
+        <div class="flex-row">
+          <div>
+            <button id="resetVehiclestop">Reset</button>
+            <br />
+            <label for="vehicleSelect">Select Vehicle:</label>
+            <select id="vehicleSelect">
+              <option value="">-- Choose Vehicle --</option>
+            </select>
+            <br />
+            <label for="buildAmount">Amount:</label>
+            <input
+              type="number"
+              id="buildAmount"
+              value="1"
+              min="1"
+              style="width: 40px"
+            />
+            <div id="selectedVehicle"></div>
+          </div>
+          <div>
+          <div
+            id="vehicleImage"
+            class="flex-column"
+            style="margin-left: 50px"
+          ></div>
+          </div>
+        </div>
+        <div id="imageholder" class="flex-row hidden">
+          <div id="partsList" class="flex-column"></div>
+        </div>
+        <div id="conflictWarning" class="conflict-msg"></div>
+        <label for="buildAmount2" class="hidden">Amount:</label>
+        <input
+          type="number"
+          id="buildAmount2"
+          value="1"
+          min="1"
+          style="width: 40px"
+          class="hidden"
+        />
+        <div id="totalCost" class="hidden"></div>
+        <br />
+        <button id="resetVehicles">Reset</button>
+      </div>
+
+      <!-- RESOURCES CALC -->
+      <div id="resourcesTab" class="hidden">
+        <h2>Craftable Resources</h2>
+        <div id="craftableResources" class="building-grid-resources"></div>
+
+        <h2 style="margin-top: 40px">Uncraftable Resources</h2>
+        <div id="uncraftableResources" class="building-grid-resources"></div>
+      </div>
     </div>
-
-    <!-- RESOURCES CALC -->
-    <div id="resourcesTab" class="hidden">
-      <h2>Craftable Resources</h2>
-      <div id="craftableResources" class="building-grid-resources"></div>
-
-      <h2 style="margin-top: 40px;">Uncraftable Resources</h2>
-      <div id="uncraftableResources" class="building-grid-resources"></div>
-    </div>
-
-
-  </div>
-  <script src="./resources.js"></script>
-  <script src="./building.js"></script>
-  <script src="./vehicle.js"></script>
-  <script src="./ui.js"></script>
-
-</body>
-
+    <script src="./resources.js"></script>
+    <script src="./building.js"></script>
+    <script src="./vehicle.js"></script>
+    <script src="./ui.js"></script>
+  </body>
 </html>

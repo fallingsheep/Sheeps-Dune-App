@@ -1,31 +1,61 @@
-
 ///////////////////
 // VEHICLE LOGIC
 ///////////////////
 function loadVehicles() {
-  const toggleBtn = document.getElementById("toggleOptionalParts");
-  const optionalPartsDiv = document.getElementById("optionalParts");
-
-  toggleBtn.addEventListener("click", () => {
-    const isHidden = optionalPartsDiv.style.display === "none";
-    optionalPartsDiv.style.display = isHidden ? "block" : "none";
-    toggleBtn.textContent = isHidden ? "Hide Optional Parts ▲" : "Show Optional Parts ▼";
-  });
-
   fetch("Data/vehicles.json")
     .then((res) => res.json())
     .then((data) => {
       const select = document.getElementById("vehicleSelect");
       const amountInput = document.getElementById("buildAmount");
+      const amountInputBottom = document.getElementById("buildAmount2");
       const selVeh = document.getElementById("selectedVehicle");
-      const reqParts = document.getElementById("requiredParts");
-      const optParts = document.getElementById("optionalParts");
+      const partsList = document.getElementById("partsList");
       const costDiv = document.getElementById("totalCost");
       const imageDiv = document.getElementById("vehicleImage");
 
+      // When top changes, update bottom
+      amountInput.addEventListener("input", () => {
+        amountInputBottom.value = amountInput.value;
+        render();
+      });
+
+      // When bottom changes, update top
+      amountInputBottom.addEventListener("input", () => {
+        amountInput.value = amountInputBottom.value;
+        render();
+      });
+
+      select.addEventListener("change", () => {
+        if (!select.value) {
+          document.getElementById("imageholder").classList.add("hidden");
+          document.getElementById("buildAmount2").classList.add("hidden");
+          document
+            .querySelector('label[for="buildAmount2"]')
+            .classList.add("hidden");
+          document.getElementById("totalCost").classList.add("hidden");
+        }
+      });
+
       const types = [
         ...new Set(
-          data.flatMap((v) => v.type.split(",").map((t) => t.trim()))
+          data
+            .map((v) => v.type.split(",")[0].trim().toLowerCase()) // e.g. "sandbike mk1" => "sandbike"
+            .map((t) =>
+              t.includes("sandbike")
+                ? "Sandbike"
+                : t.includes("buggy")
+                ? "Buggy"
+                : t.includes("sandcrawler")
+                ? "Sandcrawler"
+                : t.includes("carrier")
+                ? "Carrier"
+                : t.includes("scout") || t.includes("light")
+                ? "Scout"
+                : t.includes("assault") || t.includes("medium")
+                ? "Assault"
+                : null
+            )
+            .filter(Boolean)
         ),
       ];
 
@@ -43,13 +73,27 @@ function loadVehicles() {
       function render() {
         const type = select.value;
         const amt = parseInt(amountInput.value) || 1;
-        const match = data.filter((v) =>
-          v.type
-            .split(",")
-            .map((t) => t.trim())
-            .includes(type)
-        );
+        const match = data.filter((v) => {
+          const t = v.type.toLowerCase();
+          return (
+            (type === "Sandbike" && t.includes("sandbike")) ||
+            (type === "Buggy" && t.includes("buggy")) ||
+            (type === "Sandcrawler" && t.includes("sandcrawler")) ||
+            (type === "Carrier" && t.includes("carrier")) ||
+            (type === "Scout" &&
+              (t.includes("scout") || t.includes("light"))) ||
+            (type === "Assault" &&
+              (t.includes("assault") || t.includes("medium")))
+          );
+        });
         if (!match.length) return;
+
+        document.getElementById("imageholder").classList.remove("hidden");
+        document.getElementById("buildAmount2").classList.remove("hidden");
+        document
+          .querySelector('label[for="buildAmount2"]')
+          .classList.remove("hidden");
+        document.getElementById("totalCost").classList.remove("hidden");
 
         localStorage.setItem("vehType", type);
         localStorage.setItem("vehAmount", amt);
@@ -90,198 +134,124 @@ function loadVehicles() {
           };
         });
 
-        const optional = match.filter((v) => !v.required);
-        let showOnlyUnique = false; // global flag
+        const allParts = [...match]
+          .sort((a, b) => a.name.localeCompare(b.name))
+          .sort((a, b) => (a.unique === b.unique ? 0 : a.unique ? 1 : -1));
 
-        function renderOptionalParts() {
-          const stored = JSON.parse(localStorage.getItem("vehOpts") || "[]");
 
-          optParts.innerHTML = `
-                <div style="margin-bottom: 8px;">
-                  <button id="toggleUniqueBtn" style="margin-bottom: 5px;">
-                    ${showOnlyUnique ? "Show All Optional Parts" : "Show Only Unique Parts"}
-                  </button>
-                </div>
-                <form id="optForm"><ul>
-                  ${optional
-              .map((v, i) => {
-                if (showOnlyUnique && !v.unique) return ""; // skip non-unique if filter is on
+        const partMap = {};
+        allParts.forEach((part) => {
+          partMap[part.id] = part;
+        });
+        const stored = JSON.parse(localStorage.getItem("vehOpts") || "[]");
+        partsList.innerHTML = `
+        <form id="optForm"><strong>Parts List</strong>
+        <ul class="parts-list">
+          ${allParts
+            .map((v, i) => {
+              const checked = stored.includes(i);
 
-                const checked = stored.includes(i);
+              const imgName = v.name
+                .toLowerCase()
+                .replace(/ornithopter/g, "")
+                // Buggy specific replacements
+                .replace(/rear/g, "")
+                .replace(/Rattler Boost Module /gi, "buggy_booster")
+                .replace(/Focused Buggy Cutteray/gi, "buggy_cutteray")
+                .replace(/Bluddshot Buggy Engine/gi, "buggy_engine")
+                .replace(/Bigger Buggy Boot/gi, "buggy_storage")
+                // Sandbike
+                .replace(/Mohandis Sandbike Engine/gi, "sandbike_engine")
+                .replace(/Night Rider Sandbike Boost/gi, "sandbike_booster")
+                // Crawler
+                .replace(/Walker Sandcrawler Engine/gi, "sandcrawler_engine")
+                .replace(/Dampened Sandcrawler Treads/gi, "sandcrawler_tread")
+                .replace(/Upgraded Regis Spice Container/gi, "sandcrawler_centrifuge")
+                // Carrier
+                .replace(/Steady Carrier Boost Module/gi, "carrier_thruster")
+                // Scout
+                .replace(/Stormrider Boost Module /gi, "scout_thruster")
+                .replace(/Albatross Wing Module/gi, "scout_wing")
+                .replace(/Scan Module/gi, "scanner")
+                // Assault
+                .replace(/Steady Assault Boost Module/gi, "assault_thruster")
+                .replace(/Launcher /gi, "")
+                .replace(/mk\d+/i, "")
+                .replace(/[^a-z0-9]+/g, "_")
+                .replace(/^_+|_+$/g, "");
 
-                const imgName = v.name
-                  .toLowerCase()
-                  .replace(/ornithopter/g, "")
-                  // Buggy specific replacements
-                  .replace(/rear/g, "")
-                  .replace(/Rattler Boost Module /gi, "buggy_booster")
-                  .replace(/Focused Buggy Cutteray/gi, "buggy_cutteray")
-                  .replace(/Bluddshot Buggy Engine/gi, "buggy_engine")
-                  .replace(/Bigger Buggy Boot/gi, "buggy_storage")
-                  // Sandbike
-                  .replace(/Mohandis Sandbike Engine/gi, "sandbike_engine")
-                  .replace(/Night Rider Sandbike Boost/gi, "sandbike_booster")
-                  // Crawler
-                  .replace(/Walker Sandcrawler Engine/gi, "sandcrawler_engine")
-                  // Scout
-                  .replace(/Stormrider Boost Module /gi, "scout_thruster")
-                  .replace(/Albatross Wing Module/gi, "scout_wing")
-                  .replace(/Scan Module/gi, "scanner")
-                  // Assault
-                  .replace(/Steady Assault Boost Module/gi, "assault_thruster")
-                  .replace(/Launcher /gi, "")
-                  .replace(/mk\d+/i, "")
-                  .replace(/[^a-z0-9]+/g, "_")
-                  .replace(/^_+|_+$/g, "");
-
-                return `
-                        <li style="display: flex; justify-content: space-between; align-items: center;">
-                          <label style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-                            <span>
-                              <input type="checkbox" name="opt" value="${i}" ${checked ? "checked" : ""}/>
-                              <span class="value">${(v.amount || 1) * amt}x</span>
-                              ${v.unique ? `<span class="unique">${v.name}</span>` : v.name}
-                            </span>
-                            <img 
-                              src="./Images/Vehicles/${name}/${imgName}.png" 
-                              alt="${v.name}" 
-                              width="32" 
-                              height="32" 
-                              style="margin-left: 10px;" 
-                              onerror="this.style.display='none'"
-                            />
-                          </label>
-                        </li>`;
-              })
-              .join("")}
-                </ul></form>`;
-
-          // Attach toggle event
-          document.getElementById("toggleUniqueBtn").addEventListener("click", () => {
-            showOnlyUnique = !showOnlyUnique;
-            renderOptionalParts(); // re-render
-            document.getElementById("optForm").addEventListener("change", updateCost);
-          });
-        }
-
-        renderOptionalParts();
-
+              return `
+              <li class="parts-list-item">
+                <label style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                  <span>
+                    <input type="checkbox" name="opt" value="${v.id}" ${checked ? "checked" : ""}/>
+                    <span class="value">${v.amount || 1}x</span>
+                    ${v.unique ? `<span class="unique">${v.name}</span>` : v.name}
+                  </span>
+                  <img 
+                    src="./Images/Vehicles/${name}/${imgName}.png" 
+                    alt="${v.name}" 
+                    width="32" 
+                    height="32" 
+                    style="margin-left: 10px;" 
+                    onerror="this.style.display='none'"
+                  />
+                </label>
+              </li>`;
+            })
+            .join("")}
+        </ul></form>
+      `;
 
         function updateCost() {
           const selectedCheckboxes = Array.from(
             document.querySelectorAll("#optForm input:checked")
           );
-          const selected = selectedCheckboxes.map((e) => parseInt(e.value));
+          const selected = selectedCheckboxes.map((e) => e.value); // now strings (ids)
           localStorage.setItem("vehOpts", JSON.stringify(selected));
-
-          const selectedOptionalIndexes = JSON.parse(
-            localStorage.getItem("vehOpts") || "[]"
-          );
-          const selectedOptionalNames = selectedOptionalIndexes.map((i) =>
-            (match.filter((v) => !v.required)[i]?.name || "").toLowerCase()
-          );
-          const amt2 = parseInt(amountInput.value) || 1; // <-- Add this line
-
-          reqParts.innerHTML =
-            "<strong>Required Parts:</strong><ul>" +
-            match
-              .filter((v) => v.required)
-              .filter((v) => {
-                const lowerName = v.name.toLowerCase();
-                // Hide required engine if optional engine is selected
-                if (lowerName.includes("engine")) {
-                  return !selectedOptionalNames.some((opt) =>
-                    opt.toLowerCase().includes("engine")
-                  );
-                }
-                return true;
-              })
-              .filter((v) => {
-                const lowerName = v.name.toLowerCase();
-                // Hide required engine if optional engine is selected
-                if (lowerName.includes("rear")) {
-                  return !selectedOptionalNames.some((opt) =>
-                    opt.toLowerCase().includes("utility")
-                  );
-                }
-                return true;
-              })
-              .map((v) => {
-                const imgName = v.name
-                  .toLowerCase()
-                  .replace(/ornithopter/g, "")         // Remove "ornithopter"
-                  .replace(/mk\d+/i, "")        // Remove Mk6, Mk1, etc.
-                  .replace(/[^a-z0-9]+/g, "_")  // Replace spaces/punctuation with _
-                  .replace(/^_+|_+$/g, "");     // Trim leading/trailing underscores
-
-                return `<li style="display: flex; justify-content: space-between; align-items: center;">
-                    <span>
-                      <span class="value">${(v.amount || 1) * amt2}x</span> ${v.name}
-                    </span>
-                    <img 
-                      src="./Images/Vehicles/${name}/${imgName}.png" 
-                      alt="${v.name}" 
-                      width="32" 
-                      height="32" 
-                      style="margin-left: 10px;" 
-                      onerror="this.style.display='none'"
-                    />
-                  </li>`;
-              })
-              .join("") +
-            "</ul>";
-
 
           // Clear previous styles
           document
             .querySelectorAll("#optForm li")
             .forEach((li) => li.classList.remove("conflict"));
-          const conflictWarning =
-            document.getElementById("conflictWarning");
+          const conflictWarning = document.getElementById("conflictWarning");
           conflictWarning.innerHTML = "";
 
-          const selectedParts = selected.map((i) =>
-            optional[i].name.toLowerCase()
-          );
           const type = select.value.toLowerCase();
 
           const conflictMessages = [];
           const conflictIndexes = [];
 
           // Storage + Rocket
-          const rocketIdx = selected.filter((i) =>
-            optional[i].name.toLowerCase().includes("rocket launcher")
+          const rocketIdx = selected.filter((id) =>
+            partMap[id]?.name.toLowerCase().includes("rocket launcher")
           );
-          const storageIdx = selected.filter((i) =>
-            optional[i].name.toLowerCase().includes("storage")
+          const storageIdx = selected.filter((id) =>
+            partMap[id]?.name.toLowerCase().includes("storage")
           );
           if (rocketIdx.length > 0 && storageIdx.length > 0) {
-            conflictMessages.push(
-              "You can't have both Storage and Rocket."
-            );
+            conflictMessages.push("You can't have both Storage and Rocket.");
             conflictIndexes.push(...rocketIdx, ...storageIdx);
           }
 
           // Buggy + multiple Cutterrays
           if (type.includes("buggy")) {
-            const cutterIdx = selected.filter((i) =>
-              optional[i].name.toLowerCase().includes("cutteray")
+            const cutterIdx = selected.filter((id) =>
+              partMap[id]?.name.toLowerCase().includes("cutteray")
             );
             if (cutterIdx.length > 1) {
-              conflictMessages.push(
-                "You can only have 1 Cutteray on a Buggy."
-              );
+              conflictMessages.push("You can only have 1 Cutteray on a Buggy.");
               conflictIndexes.push(...cutterIdx);
             }
           }
 
           if (type.includes("buggy")) {
-            const cutterIdx = selected.filter((i) =>
-              optional[i].name.toLowerCase().includes("cutteray")
+            const cutterIdx = selected.filter((id) =>
+              partMap[id]?.name.toLowerCase().includes("cutteray")
             );
 
-            const hasUtility = selected.some((i) =>
-              optional[i].name.toLowerCase().includes("utility")
+            const hasUtility = selected.some((id) =>
+              partMap[id]?.name.toLowerCase().includes("utility")
             );
 
             if (cutterIdx.length > 0 && !hasUtility) {
@@ -292,20 +262,19 @@ function loadVehicles() {
             }
           }
 
-          // Buggy + boot/util/storage
+          // Buggy + boot//storage
           if (type.includes("buggy")) {
-            const exclusiveIdx = selected.filter((i) => {
-              const name = optional[i].name.toLowerCase();
+            const exclusiveIdx = selected.filter((id) => {
+              const name = partMap[id]?.name.toLowerCase();
               return (
                 name.includes("boot") ||
                 name.includes("boost") ||
-                name.includes("storage") ||
-                name.includes("utility")
+                name.includes("storage")
               );
             });
             if (exclusiveIdx.length > 1) {
               conflictMessages.push(
-                "Buggy can only have 1 of Boot/Storage, Boost, or Utitly."
+                "Buggy can only have 1 of Boot or Storage or Boost."
               );
               conflictIndexes.push(...exclusiveIdx);
             }
@@ -313,20 +282,29 @@ function loadVehicles() {
 
           // Buggy + engine
           if (type.includes("buggy")) {
-            const engineIdx = selected.filter((i) =>
-              optional[i].name.toLowerCase().includes("engine")
+            const engineIdx = selected.filter((id) =>
+              partMap[id]?.name.toLowerCase().includes("engine")
             );
             if (engineIdx.length > 1) {
-              conflictMessages.push(
-                "You can only have 1 engine on a Buggy."
-              );
+              conflictMessages.push("You can only have 1 engine on a Buggy.");
+              conflictIndexes.push(...engineIdx);
+            }
+          }
+
+          // Buggy + utility
+          if (type.includes("buggy")) {
+            const engineIdx = selected.filter((id) =>
+              partMap[id]?.name.toLowerCase().includes("utility")
+            );
+            if (engineIdx.length > 1) {
+              conflictMessages.push("You can only have 1 utility on a Buggy.");
               conflictIndexes.push(...engineIdx);
             }
           }
 
           // Multiple Thrusters/Boosters
-          const thrusterIdx = selected.filter((i) => {
-            const name = optional[i].name.toLowerCase();
+          const thrusterIdx = selected.filter((id) => {
+            const name = partMap[id]?.name.toLowerCase();
             return name.includes("thruster") || name.includes("boost");
           });
           if (thrusterIdx.length > 1) {
@@ -337,20 +315,18 @@ function loadVehicles() {
           }
 
           // Multiple Rockets
-          const allRocketIdx = selected.filter((i) =>
-            optional[i].name.toLowerCase().includes("rocket")
+          const allRocketIdx = selected.filter((id) =>
+            partMap[id]?.name.toLowerCase().includes("rocket")
           );
           if (allRocketIdx.length > 1) {
-            conflictMessages.push(
-              "You can only have 1 Rocket per vehicle."
-            );
+            conflictMessages.push("You can only have 1 Rocket per vehicle.");
             conflictIndexes.push(...allRocketIdx);
           }
 
           // Sandbike exclusive slot
           if (type.includes("sandbike")) {
-            const exclusiveIdx = selected.filter((i) => {
-              const name = optional[i].name.toLowerCase();
+            const exclusiveIdx = selected.filter((id) => {
+              const name = partMap[id]?.name.toLowerCase();
               return (
                 name.includes("seat") ||
                 name.includes("inv") ||
@@ -367,8 +343,8 @@ function loadVehicles() {
 
           // sandbike + engine
           if (type.includes("sandbike")) {
-            const engineIdx = selected.filter((i) =>
-              optional[i].name.toLowerCase().includes("engine")
+            const engineIdx = selected.filter((id) =>
+              partMap[id]?.name.toLowerCase().includes("engine")
             );
             if (engineIdx.length > 1) {
               conflictMessages.push(
@@ -378,78 +354,154 @@ function loadVehicles() {
             }
           }
 
+          if (type.includes("scout")) {
+            const scannerIdx = selected.filter((id) =>
+              partMap[id]?.name.toLowerCase().includes("scanner")
+            );
+            if (scannerIdx.length > 1) {
+              conflictMessages.push("Scout can only have 1 Scanner.");
+              conflictIndexes.push(...scannerIdx);
+            }
+          }
+
+          const wingTreadIdx = selected.filter((id) => {
+            const name = partMap[id]?.name.toLowerCase();
+            return name.includes("wing") || name.includes("tread");
+          });
+          if (wingTreadIdx.length > 1) {
+            conflictMessages.push("You can only select type 1 Wing or Tread.");
+            conflictIndexes.push(...wingTreadIdx);
+          }
+
+          if (type.includes("sandcrawler")) {
+            const treadIdx = selected.filter((id) =>
+              partMap[id]?.name.toLowerCase().includes("tread")
+            );
+            if (treadIdx.length > 1) {
+              conflictMessages.push("Sandcrawler can only have 1 Tread.");
+              conflictIndexes.push(...treadIdx);
+            }
+          }
+
+          function hasPart(name) {
+            const selectedNames = selected.map((i) =>
+              partMap[i]?.name.toLowerCase()
+            );
+            return selectedNames.some((p) => p.includes(name));
+          }
+
+          const missingParts = [];
+
+          if (type.includes("sandbike")) {
+            ["chassis", "engine", "hull", "psu", "tread"].forEach((part) => {
+              if (!hasPart(part)) missingParts.push(formatPartName(part));
+            });
+          }
+          if (type.includes("medium") || type.includes("assault")) {
+            [
+              "cabin",
+              "chassis",
+              "cockpit",
+              "engine",
+              "generator",
+              "tail",
+              "wing",
+            ].forEach((part) => {
+              if (!hasPart(part)) missingParts.push(formatPartName(part));
+            });
+          }
+          if (type.includes("light") || type.includes("scout")) {
+            [
+              "chassis",
+              "cockpit",
+              "engine",
+              "generator",
+              "tail",
+              "wing",
+            ].forEach((part) => {
+              if (!hasPart(part)) missingParts.push(formatPartName(part));
+            });
+          }
+          if (type.includes("buggy")) {
+            const hasRear = hasPart("rear");
+            const hasUtility = hasPart("utility");
+            ["chassis", "engine", "hull", "psu", "tread"].forEach((part) => {
+              if (!hasPart(part)) missingParts.push(formatPartName(part));
+            });
+            if (!hasRear && !hasUtility) missingParts.push("Rear or Utility");
+          }
+          if (type.includes("sandcrawler")) {
+            const hasCentrifuge = hasPart("centrifuge");
+            const hasContainer = hasPart("container");
+            ["cabin", "chassis", "engine", "psu", "vacuum", "tread"].forEach(
+              (part) => {
+                if (!hasPart(part)) missingParts.push(formatPartName(part));
+              }
+            );
+            if (!hasCentrifuge && !hasContainer)
+              missingParts.push("Centrifuge or Container");
+          }
+          if (type.includes("carrier")) {
+            [
+              "chassis",
+              "cockpit",
+              "engine",
+              "generator",
+              "tail",
+              "hull",
+              "side hull",
+              "wing",
+            ].forEach((part) => {
+              if (!hasPart(part)) missingParts.push(formatPartName(part));
+            });
+          }
+
           // Show all conflict messages
-          if (conflictMessages.length > 0) {
-            conflictWarning.innerHTML = conflictMessages
-              .map((msg) => `⚠️ ${msg}`)
-              .join("<br>");
+          if (conflictMessages.length > 0 || missingParts.length > 0) {
+            conflictWarning.classList.remove("hidden");
+
+            const allWarnings = [...conflictMessages.map((msg) => `⚠️ ${msg}`)];
+
+            if (missingParts.length > 0) {
+              missingParts.forEach((p) => {
+                allWarnings.push(
+                  `⚠️ <span class="missing-parts">Missing required part: <b>${p}</b></span>`
+                );
+              });
+            }
+
+            conflictWarning.innerHTML = allWarnings.join("<br>");
+
             conflictIndexes.forEach((i) => {
               const li = document
                 .querySelector(`#optForm input[value="${i}"]`)
                 ?.closest("li");
               if (li) li.classList.add("conflict");
             });
+          } else {
+            conflictWarning.classList.add("hidden");
+            conflictWarning.innerHTML = "";
           }
 
           // === Cost Calculation ===
           const matCosts = {};
           const amt = parseInt(amountInput.value) || 1;
 
-          [
-            // Required parts, but skip engine or rear if optional counterparts are selected
-            ...match.filter((v) => {
-              if (!v.required) return false;
-              const name = v.name.toLowerCase();
-
-              if (name.includes("engine")) {
-                return !selectedOptionalNames.some((opt) =>
-                  opt.toLowerCase().includes("engine")
-                );
-              }
-
-              if (name.includes("rear")) {
-                return !selectedOptionalNames.some((opt) =>
-                  opt.toLowerCase().includes("utility")
-                );
-              }
-
-              return true;
-            }),
-
-            // Include selected optional parts
-            ...optional.filter((_, i) => selected.includes(i)),
-          ].forEach((v) => {
-            const mult = (v.amount || 1) * amt;
-            v.components.forEach((c) => {
-              matCosts[c.item] = (matCosts[c.item] || 0) + c.quantity * mult;
+          match
+            .filter((_, i) => selected.includes(i))
+            .forEach((v) => {
+              const mult = (v.amount || 1) * amt;
+              v.components.forEach((c) => {
+                matCosts[c.item] = (matCosts[c.item] || 0) + c.quantity * mult;
+              });
             });
-          });
-
 
           const conflictingPartNames = conflictIndexes.map((i) =>
-            optional[i].name.toLowerCase()
+            partMap[i]?.name.toLowerCase()
           );
 
-          showStats([
-            // Required (filtered for engines and rear),
-            ...match.filter((v) => {
-              if (!v.required) return false;
-              const name = v.name.toLowerCase();
-              if (name.includes("engine")) {
-                return !selectedOptionalNames.some((opt) => opt.includes("engine"));
-              }
-              if (name.includes("rear")) {
-                return !selectedOptionalNames.some((opt) => opt.includes("utility"));
-              }
-              return true;
-            }),
-            // Selected optional
-            ...optional.filter((_, i) => selected.includes(i)),
-          ]);
-
-
           costDiv.innerHTML =
-            "<strong>Total Cost:</strong><ul>" +
+            `<strong>Total Cost for <span class="value">${amt}x</span>:</strong><ul>` +
             Object.entries(matCosts)
               .map(([item, qty]) => {
                 const icon = `./Images/Icons/${item
@@ -473,6 +525,13 @@ function loadVehicles() {
               })
               .join("") +
             "</ul>";
+
+          if (selected.length > 0) {
+            costDiv.classList.remove("hidden");
+          } else {
+            costDiv.classList.add("hidden");
+          }
+
           document.getElementById("resetVehicles").onclick = () => {
             localStorage.removeItem("vehType");
             localStorage.removeItem("vehAmount");
@@ -480,11 +539,17 @@ function loadVehicles() {
             select.value = "";
             amountInput.value = "1";
             selVeh.innerHTML =
-              reqParts.innerHTML =
-              optParts.innerHTML =
+              partsList.innerHTML =
               costDiv.innerHTML =
               imageDiv.innerHTML =
-              "";
+                "";
+            document.getElementById("imageholder").classList.add("hidden");
+            document.getElementById("buildAmount2").classList.add("hidden");
+            document
+              .querySelector('label[for="buildAmount2"]')
+              .classList.add("hidden");
+            document.getElementById("totalCost").classList.add("hidden");
+            conflictWarning.classList.add("hidden");
           };
           document.getElementById("resetVehiclestop").onclick = () => {
             localStorage.removeItem("vehType");
@@ -493,102 +558,19 @@ function loadVehicles() {
             select.value = "";
             amountInput.value = "1";
             selVeh.innerHTML =
-              reqParts.innerHTML =
-              optParts.innerHTML =
+              partsList.innerHTML =
               costDiv.innerHTML =
               imageDiv.innerHTML =
-              "";
+                "";
+            document.getElementById("imageholder").classList.add("hidden");
+            document.getElementById("buildAmount2").classList.add("hidden");
+            document
+              .querySelector('label[for="buildAmount2"]')
+              .classList.add("hidden");
+            document.getElementById("totalCost").classList.add("hidden");
+            conflictWarning.classList.add("hidden");
           };
         }
-
-function showStats(vehicleParts) {
-  const statDisplay = document.getElementById("vehicleStats");
-  const combined = {
-    Armor: 0,
-    GlideSpeed: 0,
-    Speed: 0,
-    TurnRating: 0,
-    Agility: 0,
-    Acceleration: "",
-    PowerConsumption: 0,
-    GripRating: 0,
-    VibrationLevel: 0,
-    Type: "",
-    BoostRating: 0,
-    ExtraHeat: 0,
-    TemperatureRating: 0,
-    FuelEfficiency: 0,
-    FuelCapacity: 0,
-    Seats: 0,
-    UtilitySlots: 0,
-    MaxVolume: 0,
-    ItemSlots: 0,
-    HeatIncrease: 0,
-    HeatIncreaseSpeed: "",
-    AmmoType: "",
-    Damage: 0,
-    AoERadius: 0,
-    RateofFire: 0,
-    MiningYield: [
-      { amount: 0, item: "Copper" },
-      { amount: 0, item: "Granite" },
-      { amount: 0, item: "Salvaged Metal" },
-      { amount: 0, item: "Iron" },
-      { amount: 0, item: "Carbon" },
-      { amount: 0, item: "Erythrite" },
-      { amount: 0, item: "Basalt" },
-      { amount: 0, item: "Aluminum" },
-      { amount: 0, item: "Jasmium" },
-      { amount: 0, item: "Titanium" },
-      { amount: 0, item: "Stravidium" },
-    ],
-  };
-
-  function addMining(miningArray) {
-    miningArray.forEach((entry) => {
-      const match = combined.MiningYield.find((m) => m.item === entry.item);
-      if (match) match.amount += entry.amount;
-    });
-  }
-
-  vehicleParts.forEach((part) => {
-    for (const key in combined) {
-      if (key === "MiningYield" && part.MiningYield) {
-        addMining(part.MiningYield);
-      } else if (typeof combined[key] === "number") {
-        combined[key] += part[key] || 0;
-      } else if (typeof combined[key] === "string" && part[key]) {
-        combined[key] = part[key];
-      }
-    }
-  });
-
-  const statHtml = Object.entries(combined)
-    .filter(([key, val]) => {
-      if (key === "MiningYield") return val.some((v) => v.amount > 0);
-      return val !== 0 && val !== "";
-    })
-    .map(([key, val]) => {
-      if (key === "MiningYield") {
-        return (
-          `<div><strong>${key}:</strong><ul>` +
-          val
-            .filter((v) => v.amount > 0)
-            .map((v) => `<li>${v.item}: ${v.amount}</li>`)
-            .join("") +
-          `</ul></div>`
-        );
-      }
-      return `<div><strong>${key}:</strong> <span class="value">${val}</span></div>`;
-    })
-    .join("");
-
-  statDisplay.innerHTML = statHtml
-    ? `<h3>Vehicle Stats</h3>${statHtml}`
-    : "";
-}
-
-
 
         document
           .getElementById("optForm")
@@ -596,6 +578,9 @@ function showStats(vehicleParts) {
         updateCost();
       }
 
+      function formatPartName(str) {
+        return str.replace(/_/g, " ").replace(/\b\w/g, (l) => l.toUpperCase()); // capitalize each word
+      }
       select.addEventListener("change", render);
       amountInput.addEventListener("input", render);
       if (select.value) render();
