@@ -69,7 +69,7 @@ function loadBuildings() {
         const fileName = bld.name.toLowerCase().replace(/\s+/g, "-");
 
         // Construct local image path
-        const imageSrc = `./Images/Buildings/${fileName}.png`;
+        const imageSrc = `./images/buildings/${fileName}.png`;
 
         const imageTag = `
             <img src="${imageSrc}" alt="${bld.name}" 
@@ -133,7 +133,7 @@ function loadBuildings() {
 
         buildings.forEach((bld, i) => {
           let fileName = bld.name.toLowerCase().replace(/\s+/g, "-");
-          let imageSrc = `./Images/Buildings/${fileName}.png`;
+          let imageSrc = `./images/buildings/${fileName}.png`;
           let imageTagSmall = `
             <img src="${imageSrc}" alt="${bld.name}" 
                 class="building-image-small"
@@ -182,7 +182,7 @@ function loadBuildings() {
           .sort((a, b) => a[0].localeCompare(b[0])) // ✅ Alphabetical sort by item name
           .map(([item, qty]) => {
             let totalDisplay = "";
-            const icon = `./Images/Icons/${item
+            const icon = `./images/icons/${item
               .toLowerCase()
               .replace(/[^a-z0-9]+/g, "-")}.png`;
             if (qty > 0) {
@@ -227,7 +227,7 @@ function loadBuildings() {
           const qty = parseInt(document.getElementById(`qty-${i}`).value) || 0;
           if (qty > 0 && bld.power > 0) {
             const fileName = bld.name.toLowerCase().replace(/\s+/g, "-");
-            const imageSrc = `./Images/Buildings/${fileName}.png`;
+            const imageSrc = `./images/buildings/${fileName}.png`;
 
             const div = document.createElement("div");
             div.className = "power-building-item";
@@ -250,7 +250,7 @@ function loadBuildings() {
           const qty = parseInt(document.getElementById(`qty-${i}`).value) || 0;
           if (qty > 0 && bld.water > 0) {
             const fileName = bld.name.toLowerCase().replace(/\s+/g, "-");
-            const imageSrc = `./Images/Buildings/${fileName}.png`;
+            const imageSrc = `./images/buildings/${fileName}.png`;
 
             const div = document.createElement("div");
             div.className = "water-building-item";
@@ -273,7 +273,7 @@ function loadBuildings() {
           const qty = parseInt(document.getElementById(`qty-${i}`).value) || 0;
           if (qty > 0 && bld.storage > 0) {
             const fileName = bld.name.toLowerCase().replace(/\s+/g, "-");
-            const imageSrc = `./Images/Buildings/${fileName}.png`;
+            const imageSrc = `./images/buildings/${fileName}.png`;
 
             const div = document.createElement("div");
             div.className = "storage-building-item";
@@ -314,12 +314,12 @@ function loadBuildings() {
         } else {
           let html = "";
           for (const [fuel, amount] of Object.entries(fuelTotals)) {
-            let icon = `./Images/Icons/${fuel
+            let icon = `./images/icons/${fuel
               .toLowerCase()
               .replace(/[^a-z0-9]+/g, "-")}.png`;
 
             if (fuel === "FuelCell") {
-              icon = `./Images/Icons/fuel-cell.png`;
+              icon = `./images/icons/fuel-cell.png`;
             }
             html += `
       <div class="buildFont">
