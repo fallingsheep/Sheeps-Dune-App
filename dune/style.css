@@ -41,6 +41,7 @@ h1 {
   padding: 20px;
   max-width: 1000px;
   margin: auto;
+  overflow-x: clip; /* prevent accidental horizontal scroll on mobile */
 }
 
 .icon {
@@ -141,11 +142,7 @@ ul {
   font-weight: bold;
 }
 
-#optForm li.conflict span {
-  color: #ff4444 !important;
-  font-weight: bold;
-}
-
+#optForm li.conflict span,
 #optForm li.conflict {
   color: #ff4444 !important;
   font-weight: bold;
@@ -169,7 +166,7 @@ ul {
 }
 
 .value {
-  color: #a85f2f; /* light mode color */
+  color: #a85f2f;
   font-weight: bold;
 }
 .buildTitle {
@@ -211,7 +208,7 @@ ul {
 }
 
 body.dark .value {
-  color: #d1a160; /* dark mode color */
+  color: #d1a160;
 }
 
 #selectedList {
@@ -242,31 +239,26 @@ body.dark .value {
   margin: 0;
 }
 
+/* === FILTER/VIEW BUTTON GROUPS === */
 .view-toggle {
   display: flex;
-  gap: 0;
+  flex-wrap: wrap;         /* allow wrapping on small screens */
+  gap: 8px;                /* spacing between wrapped rows */
   margin-bottom: 10px;
 }
 
+/* buttons auto-size and wrap nicely */
 .view-toggle button {
-  padding: 8px 16px;
+  padding: 10px 14px;
   font-family: 'Orbitron', sans-serif;
   border: 2px solid var(--border, #aaa);
   background-color: transparent;
   color: var(--text, #333);
   cursor: pointer;
-  margin: 0; /* <-- REMOVE margin */
-  border-radius: 0;
-}
-
-.view-toggle button:first-child {
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
-}
-
-.view-toggle button:last-child {
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
+  margin: 0;
+  border-radius: 6px;      /* rounded even when wrapped */
+  flex: 1 1 auto;          /* share available width, wrap as needed */
+  min-width: 120px;        /* prevents tiny buttons before wrapping */
 }
 
 .view-toggle button.active {
@@ -295,9 +287,12 @@ body.dark .unique {
   font-weight: bold;
 }
 
+/* Minor tweak for very narrow screens where images could push width */
 @media (max-width: 534px) {
   .building-image {
-    margin-left: 150px;
+    margin-left: 0;            /* remove the big left push */
+    display: block;            /* let it sit on its own line */
+    margin: 0 auto 10px auto;  /* center it with margin auto */
   }
 }
 
@@ -328,6 +323,12 @@ body.dark .unique {
 
   .flex-row {
     flex-direction: column;
+  }
+
+  /* On small screens, stack filter/view buttons full-width */
+  .view-toggle button {
+    flex: 1 1 100%;
+    min-width: 0;
   }
 }
 

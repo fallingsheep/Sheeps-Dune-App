@@ -17,7 +17,13 @@ export to csv
       href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <script>
+      // Dynamically add CSS link with a timestamp to prevent caching
+      const cssLink = document.createElement("link");
+      cssLink.rel = "stylesheet";
+      cssLink.href = "style.css?v=" + new Date().getTime();
+      document.head.appendChild(cssLink);
+    </script>
   </head>
 
   <body>
@@ -57,23 +63,14 @@ export to csv
           class="power-display"
           style="margin-top: 10px"
         ></div>
-        <div id="viewButtons" class="view-toggle">
-          <button onclick="filterBuildings('all')" id="btnFilterAll">
-            All
-          </button>
-          <button onclick="filterBuildings('misc')" id="btnFilterMisc">
-            Misc
-          </button>
-          <button onclick="filterBuildings('water')" id="btnFilterWater">
-            Water
-          </button>
-          <button onclick="filterBuildings('power')" id="btnFilterPower">
-            Power
-          </button>
-          <button
-            onclick="filterBuildings('fabricator')"
-            id="btnFilterFabricator"
-          >
+
+        <!-- RENAMED this div's id to avoid duplicate "viewButtons" -->
+        <div id="buildingFilters" class="view-toggle">
+          <button onclick="filterBuildings('all')" id="btnFilterAll">All</button>
+          <button onclick="filterBuildings('misc')" id="btnFilterMisc">Misc</button>
+          <button onclick="filterBuildings('water')" id="btnFilterWater">Water</button>
+          <button onclick="filterBuildings('power')" id="btnFilterPower">Power</button>
+          <button onclick="filterBuildings('fabricator')" id="btnFilterFabricator">
             Fabricator
           </button>
         </div>
@@ -143,11 +140,11 @@ export to csv
             <div id="selectedVehicle"></div>
           </div>
           <div>
-          <div
-            id="vehicleImage"
-            class="flex-column"
-            style="margin-left: 50px"
-          ></div>
+            <div
+              id="vehicleImage"
+              class="flex-column"
+              style="margin-left: 50px"
+            ></div>
           </div>
         </div>
         <div id="imageholder" class="flex-row hidden">

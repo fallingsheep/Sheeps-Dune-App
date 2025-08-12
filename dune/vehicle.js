@@ -13,28 +13,32 @@ function loadVehicles() {
       const costDiv = document.getElementById("totalCost");
       const imageDiv = document.getElementById("vehicleImage");
 
-      // When top changes, update bottom
-      amountInput.addEventListener("input", () => {
-        amountInputBottom.value = amountInput.value;
-        render();
-      });
+      // 🔹 Prevent duplicate event listeners
+      if (!select.dataset.bound) {
+        amountInput.addEventListener("input", () => {
+          amountInputBottom.value = amountInput.value;
+          render();
+        });
+        amountInputBottom.addEventListener("input", () => {
+          amountInput.value = amountInputBottom.value;
+          render();
+        });
+        select.addEventListener("change", () => {
+          if (!select.value) {
+            document.getElementById("imageholder").classList.add("hidden");
+            document.getElementById("buildAmount2").classList.add("hidden");
+            document
+              .querySelector('label[for="buildAmount2"]')
+              .classList.add("hidden");
+            document.getElementById("totalCost").classList.add("hidden");
+          }
+        });
+        select.dataset.bound = "1";
+      }
 
-      // When bottom changes, update top
-      amountInputBottom.addEventListener("input", () => {
-        amountInput.value = amountInputBottom.value;
-        render();
-      });
-
-      select.addEventListener("change", () => {
-        if (!select.value) {
-          document.getElementById("imageholder").classList.add("hidden");
-          document.getElementById("buildAmount2").classList.add("hidden");
-          document
-            .querySelector('label[for="buildAmount2"]')
-            .classList.add("hidden");
-          document.getElementById("totalCost").classList.add("hidden");
-        }
-      });
+      // 🔹 Always clear existing options before adding new ones
+      select.innerHTML = "";
+      select.appendChild(new Option("-- Choose Vehicle --", ""));
 
       const types = [
         ...new Set(
