@@ -117,7 +117,7 @@ function loadBuildings() {
             : "";
         const storageslotsLine =
           bld.storageslots !== 0
-            ? `Storage Slots: <span class="value">${bld.storageslots} Slots</span><br>`
+            ? `Storage Slots: <span class="value">${bld.storageslots}</span><br>`
             : "";
 
         div.innerHTML = `
