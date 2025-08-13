@@ -36,8 +36,10 @@ function loadBuildings() {
       const storageSlots = document.getElementById("storageSlots");
       const powerGen = document.getElementById("powerGenerated");
       const desertTop = document.getElementById("deepDesertTop");
-      const powerDaysInput = document.getElementById("powerDays");
       const desertBottom = document.getElementById("deepDesertBottom");
+      const landsraadBonusTop = document.getElementById("landsraadBonusTop");
+      const landsraadBonusBottom = document.getElementById("landsraadBonusBottom");
+      const powerDaysInput = document.getElementById("powerDays");
       const buildingPower = document.getElementById("buildingPower");
 
       // Restore values
@@ -46,8 +48,10 @@ function loadBuildings() {
       );
       desertTop.checked = localStorage.getItem("deepDesertTop") === "true";
       desertBottom.checked = localStorage.getItem("deepDesertBottom") === "true";
+      landsraadBonusTop.checked = localStorage.getItem("landsraadBonusTop") === "true";
+      landsraadBonusBottom.checked = localStorage.getItem("landsraadBonusBottom") === "true";
 
-      // Sync both checkboxes and recalc when either changes
+      // Sync both DD checkboxes and recalc when either changes
       const syncDesertToggles = (source) => {
         const value = source.checked;
         desertTop.checked = value;
@@ -59,6 +63,20 @@ function loadBuildings() {
       desertTop.addEventListener("change", () => syncDesertToggles(desertTop));
       desertBottom.addEventListener("change", () =>
         syncDesertToggles(desertBottom)
+      );
+
+      // Sync both landsraad checkboxes and recalc when either changes
+      const synclandsraadToggles = (source) => {
+        const value = source.checked;
+        landsraadBonusTop.checked = value;
+        landsraadBonusBottom.checked = value;
+        localStorage.setItem("landsraad", value);
+        calcBuildings();
+      };
+
+      landsraadBonusTop.addEventListener("change", () => synclandsraadToggles(landsraadBonusTop));
+      landsraadBonusBottom.addEventListener("change", () =>
+        synclandsraadToggles(landsraadBonusBottom)
       );
 
       buildings.forEach((bld, i) => {
@@ -171,9 +189,17 @@ function loadBuildings() {
           totalStorage += bld.storage * qty;
           totalStorageSlots += bld.storageslots * qty;
           bld.components.forEach((c) => {
-            const amt = desertTop.checked
-              ? Math.ceil(c.quantity / 2)
-              : c.quantity;
+            let amt = c.quantity;
+
+            let discount = 0; // percentage in decimal
+            if (desertTop.checked) discount += 0.5;   // 50%
+            if (landsraadBonusTop.checked)  discount += 0.25;  // 25%
+
+            // Cap the discount at 100%
+            discount = Math.min(discount, 1);
+
+            amt = Math.ceil(amt * (1 - discount));
+
             totals[c.item] = (totals[c.item] || 0) + amt * qty;
           });
         });
@@ -219,6 +245,8 @@ function loadBuildings() {
         localStorage.setItem("buildingQuantities", JSON.stringify(saveQty));
         localStorage.setItem("deepDesertTop", desertTop.checked);
         localStorage.setItem("deepDesertBottom", desertBottom.checked);
+        localStorage.setItem("landsraadBonusTop", landsraadBonusTop.checked);
+        localStorage.setItem("landsraadBonusBottom", landsraadBonusBottom.checked);
 
         // Update buildingPower display with buildings that generate power
         buildingPower.innerHTML = ""; // Clear previous list
@@ -335,6 +363,8 @@ function loadBuildings() {
       list.addEventListener("input", calcBuildings);
       desertTop.addEventListener("change", calcBuildings);
       desertBottom.addEventListener("change", calcBuildings);
+      landsraadBonusTop.addEventListener("change", calcBuildings);
+      landsraadBonusBottom.addEventListener("change", calcBuildings);
       powerDaysInput.addEventListener("input", calcBuildings);
 
       document.querySelectorAll(".resetBuildings").forEach((btn) => {
@@ -347,6 +377,9 @@ function loadBuildings() {
           localStorage.removeItem("buildingQuantities");
           localStorage.removeItem("deepDesertTop");
           localStorage.removeItem("deepDesertBottom");
+          localStorage.removeItem("landsraadBonusTop");
+          localStorage.removeItem("landsraadBonusBottom");
+
           calcBuildings();
           setFilter("all");
         });

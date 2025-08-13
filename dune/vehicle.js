@@ -7,6 +7,31 @@
 // - Compare excludes Description, Crafted At (MadeAt), Cat/Category/VehicleType/Type
 // - Canonicalises keys so Armour/Armor never duplicates
 ///////////////////
+const landsraadBonusTopVeh = document.getElementById("landsraadBonusTopVeh");
+const landsraadBonusBottomVeh = document.getElementById(
+  "landsraadBonusBottomVeh"
+);
+
+landsraadBonusTopVeh.checked =
+  localStorage.getItem("landsraadBonusTop") === "true";
+landsraadBonusBottomVeh.checked =
+  localStorage.getItem("landsraadBonusBottom") === "true";
+
+landsraadBonusTopVeh.addEventListener("change", () =>
+  synclandsraadToggles(landsraadBonusTopVeh)
+);
+landsraadBonusBottomVeh.addEventListener("change", () =>
+  synclandsraadToggles(landsraadBonusBottomVeh)
+);
+
+// Sync both landsraad checkboxes and recalc when either changes
+const synclandsraadToggles = (source) => {
+  const value = source.checked;
+  landsraadBonusTopVeh.checked = value;
+  landsraadBonusBottomVeh.checked = value;
+  localStorage.setItem("landsraad_veh", value);
+  loadVehicles();
+};
 
 // ===== Helpers (created once) =====
 const LABEL_MAP = {
@@ -59,8 +84,8 @@ const EXCLUDE_KEYS = new Set([
 // === NEW: fields to EXCLUDE from the COMPARE panel specifically (canonical keys) ===
 const EXCLUDE_COMPARE_CANON = new Set([
   "description",
-  "madeat",        // (displayed as "Crafted At" but compare hides it)
-  "crafted at",    // safety if something already saved that way
+  "madeat", // (displayed as "Crafted At" but compare hides it)
+  "crafted at", // safety if something already saved that way
   "cat",
   "category",
   "vehicletype",
@@ -125,9 +150,7 @@ function formatValue(key, val) {
     if (match) {
       const thirdDigit = parseInt(match[4] || "0", 10);
       if (thirdDigit >= 6) {
-        rounded = (Math.round(num * 1000) / 1000)
-          .toFixed(3)
-          .slice(0, -1); // drop the 3rd decimal
+        rounded = (Math.round(num * 1000) / 1000).toFixed(3).slice(0, -1); // drop the 3rd decimal
       } else {
         rounded = num.toFixed(2);
       }
@@ -157,34 +180,36 @@ function formatPartName(str) {
 
 // Normalise a part name to an image slug
 function partNameToImgSlug(name) {
-  return name
-    .toLowerCase()
-    .replace(/ornithopter/g, "")
-    // Buggy
-    .replace(/rear/g, "")
-    .replace(/rattler boost module /gi, "buggy_booster")
-    .replace(/focused buggy cutteray/gi, "buggy_cutteray")
-    .replace(/bluddshot buggy engine/gi, "buggy_engine")
-    .replace(/bigger buggy boot/gi, "buggy_storage")
-    // Sandbike
-    .replace(/mohandis sandbike engine/gi, "sandbike_engine")
-    .replace(/night rider sandbike boost/gi, "sandbike_booster")
-    // Crawler
-    .replace(/walker sandcrawler engine/gi, "sandcrawler_engine")
-    .replace(/dampened sandcrawler treads/gi, "sandcrawler_tread")
-    .replace(/upgraded regis spice container/gi, "sandcrawler_centrifuge")
-    // Carrier
-    .replace(/steady carrier boost module/gi, "carrier_thruster")
-    // Scout
-    .replace(/stormrider boost module /gi, "scout_thruster")
-    .replace(/albatross wing module/gi, "scout_wing")
-    .replace(/scan module/gi, "scanner")
-    // Assault
-    .replace(/steady assault boost module/gi, "assault_thruster")
-    .replace(/launcher /gi, "")
-    .replace(/mk\d+/i, "")
-    .replace(/[^a-z0-9]+/g, "_")
-    .replace(/^_+|_+$/g, "");
+  return (
+    name
+      .toLowerCase()
+      .replace(/ornithopter/g, "")
+      // Buggy
+      .replace(/rear/g, "")
+      .replace(/rattler boost module /gi, "buggy_booster")
+      .replace(/focused buggy cutteray/gi, "buggy_cutteray")
+      .replace(/bluddshot buggy engine/gi, "buggy_engine")
+      .replace(/bigger buggy boot/gi, "buggy_storage")
+      // Sandbike
+      .replace(/mohandis sandbike engine/gi, "sandbike_engine")
+      .replace(/night rider sandbike boost/gi, "sandbike_booster")
+      // Crawler
+      .replace(/walker sandcrawler engine/gi, "sandcrawler_engine")
+      .replace(/dampened sandcrawler treads/gi, "sandcrawler_tread")
+      .replace(/upgraded regis spice container/gi, "sandcrawler_centrifuge")
+      // Carrier
+      .replace(/steady carrier boost module/gi, "carrier_thruster")
+      // Scout
+      .replace(/stormrider boost module /gi, "scout_thruster")
+      .replace(/albatross wing module/gi, "scout_wing")
+      .replace(/scan module/gi, "scanner")
+      // Assault
+      .replace(/steady assault boost module/gi, "assault_thruster")
+      .replace(/launcher /gi, "")
+      .replace(/mk\d+/i, "")
+      .replace(/[^a-z0-9]+/g, "_")
+      .replace(/^_+|_+$/g, "")
+  );
 }
 
 // Debounce utility for inputs
@@ -259,7 +284,13 @@ function aggregateSetStats(partIds, partMap, opts = {}) {
 
       const label = prettyLabel(rawKey);
       if (!buckets.has(canon)) {
-        buckets.set(canon, { label, num: 0, texts: new Set(), sawNumber: false, sawText: false });
+        buckets.set(canon, {
+          label,
+          num: 0,
+          texts: new Set(),
+          sawNumber: false,
+          sawText: false,
+        });
       }
       const bucket = buckets.get(canon);
       if (typeof v === "number") {
@@ -338,15 +369,18 @@ function renderComparePanel() {
   // Remove MiningYield unless (type=buggy && contains a cutteray id)
   if (setA) {
     const isBuggyA = /buggy/i.test(setA.type || "");
-    const hasCutterayA = (setA.ids || []).some((id) => (GLOBAL_PART_INDEX[id] || "").includes("cutteray"));
+    const hasCutterayA = (setA.ids || []).some((id) =>
+      (GLOBAL_PART_INDEX[id] || "").includes("cutteray")
+    );
     if (!(isBuggyA && hasCutterayA)) delete setA.stats?.miningyield;
   }
   if (setB) {
     const isBuggyB = /buggy/i.test(setB.type || "");
-    const hasCutterayB = (setB.ids || []).some((id) => (GLOBAL_PART_INDEX[id] || "").includes("cutteray"));
+    const hasCutterayB = (setB.ids || []).some((id) =>
+      (GLOBAL_PART_INDEX[id] || "").includes("cutteray")
+    );
     if (!(isBuggyB && hasCutterayB)) delete setB.stats?.miningyield;
   }
-
 
   // Build union of keys for side-by-side (already canonicalised)
   const union = new Set();
@@ -363,15 +397,25 @@ function renderComparePanel() {
   const metaRow = `
     <div class="compare-row compare-head" style="display:grid;grid-template-columns:minmax(140px,1fr) 1fr 1fr;gap:8px;font-weight:bold;border-bottom:1px solid var(--border, #ccc);padding:8px 0;">
       <div>Stat</div>
-      <div>Set A ${setA ? `(${setA.type} • ${setA.amount}x • ${setA.ids?.length || 0} parts)` : ""}</div>
-      <div>Set B ${setB ? `(${setB.type} • ${setB.amount}x • ${setB.ids?.length || 0} parts)` : ""}</div>
+      <div>Set A ${
+        setA
+          ? `(${setA.type} • ${setA.amount}x • ${setA.ids?.length || 0} parts)`
+          : ""
+      }</div>
+      <div>Set B ${
+        setB
+          ? `(${setB.type} • ${setB.amount}x • ${setB.ids?.length || 0} parts)`
+          : ""
+      }</div>
     </div>
   `;
   rows.push(metaRow);
 
   // Show ordered keys first (after canonicalising) then remaining (alphabetical)
   const orderedCanon = ORDERED_KEYS.map((k) => canonicalKey(k));
-  const remainingCanon = Array.from(union).filter((k) => !orderedCanon.includes(k)).sort();
+  const remainingCanon = Array.from(union)
+    .filter((k) => !orderedCanon.includes(k))
+    .sort();
   const sequence = [
     ...orderedCanon.filter((k) => union.has(k)),
     ...remainingCanon,
@@ -404,7 +448,10 @@ function renderComparePanel() {
 }
 
 function getSelectedIdsFromForm() {
-  return Array.from(document.querySelectorAll("#optForm input:checked"), (e) => e.value);
+  return Array.from(
+    document.querySelectorAll("#optForm input:checked"),
+    (e) => e.value
+  );
 }
 
 function saveSet(slot /* 'A' | 'B' */) {
@@ -417,7 +464,9 @@ function saveSet(slot /* 'A' | 'B' */) {
   }
   const allowMiningYield =
     currentType.toLowerCase().includes("buggy") &&
-    ids.some((id) => (currentPartMap[id]?.name || "").toLowerCase().includes("cutteray"));
+    ids.some((id) =>
+      (currentPartMap[id]?.name || "").toLowerCase().includes("cutteray")
+    );
   const stats = aggregateSetStats(ids, currentPartMap, { allowMiningYield });
   const payload = {
     type: currentType,
@@ -437,7 +486,9 @@ function clearSets() {
 }
 
 function applySet(slot /* 'A' | 'B' */) {
-  const data = JSON.parse(localStorage.getItem(slot === "A" ? "vehSetA" : "vehSetB") || "null");
+  const data = JSON.parse(
+    localStorage.getItem(slot === "A" ? "vehSetA" : "vehSetB") || "null"
+  );
   if (!data) return;
   const select = document.getElementById("vehicleSelect");
   if (select && data.type && select.value !== data.type) {
@@ -448,16 +499,24 @@ function applySet(slot /* 'A' | 'B' */) {
       const amountInputBottom = document.getElementById("buildAmount2");
       if (amountInput) amountInput.value = data.amount || 1;
       if (amountInputBottom) amountInputBottom.value = data.amount || 1;
-      for (const cb of document.querySelectorAll("#optForm input[type=checkbox]")) {
+      for (const cb of document.querySelectorAll(
+        "#optForm input[type=checkbox]"
+      )) {
         cb.checked = data.ids.includes(cb.value);
       }
-      document.getElementById("optForm")?.dispatchEvent(new Event("change", { bubbles: true }));
+      document
+        .getElementById("optForm")
+        ?.dispatchEvent(new Event("change", { bubbles: true }));
     }, 30);
   } else {
-    for (const cb of document.querySelectorAll("#optForm input[type=checkbox]")) {
+    for (const cb of document.querySelectorAll(
+      "#optForm input[type=checkbox]"
+    )) {
       cb.checked = data.ids.includes(cb.value);
     }
-    document.getElementById("optForm")?.dispatchEvent(new Event("change", { bubbles: true }));
+    document
+      .getElementById("optForm")
+      ?.dispatchEvent(new Event("change", { bubbles: true }));
   }
 }
 
@@ -469,7 +528,8 @@ function loadVehicles() {
       // Build a global index of all parts by id -> name (lowercase) for cross-type checks
       GLOBAL_PART_INDEX = Object.create(null);
       for (const row of data) {
-        if (row?.id && row?.name) GLOBAL_PART_INDEX[row.id] = String(row.name).toLowerCase();
+        if (row?.id && row?.name)
+          GLOBAL_PART_INDEX[row.id] = String(row.name).toLowerCase();
       }
       // ===== Cache DOM lookups once =====
       const select = document.getElementById("vehicleSelect");
@@ -525,16 +585,16 @@ function loadVehicles() {
           }
         });
 
-  // One delegated listener covers top/bottom buttons and future renders
-  document.addEventListener("click", (e) => {
-    const t = e.target;
-    if (!(t instanceof HTMLElement)) return;
-    if (t.matches("#saveSetA, #saveSetA_btm")) return saveSet("A");
-    if (t.matches("#saveSetB, #saveSetB_btm")) return saveSet("B");
-    if (t.matches("#applySetA, #applySetA_btm")) return applySet("A");
-    if (t.matches("#applySetB, #applySetB_btm")) return applySet("B");
-    if (t.matches("#clearSets, #clearSets_btm")) return clearSets();
-  });
+        // One delegated listener covers top/bottom buttons and future renders
+        document.addEventListener("click", (e) => {
+          const t = e.target;
+          if (!(t instanceof HTMLElement)) return;
+          if (t.matches("#saveSetA, #saveSetA_btm")) return saveSet("A");
+          if (t.matches("#saveSetB, #saveSetB_btm")) return saveSet("B");
+          if (t.matches("#applySetA, #applySetA_btm")) return applySet("A");
+          if (t.matches("#applySetB, #applySetB_btm")) return applySet("B");
+          if (t.matches("#clearSets, #clearSets_btm")) return clearSets();
+        });
 
         select.dataset.bound = "1";
       }
@@ -549,15 +609,15 @@ function loadVehicles() {
       amountInput.value = localStorage.getItem("vehAmount") || "1";
 
       const render = () => {
-        const amt = parseInt(amountInput.value, 10) || 1;
+        const qty = parseInt(amountInput.value, 10) || 1;
         const type = select.value;
         if (!type) return;
 
         // persist selection
         localStorage.setItem("vehType", type);
-        localStorage.setItem("vehAmount", String(amt));
+        localStorage.setItem("vehAmount", String(qty));
         currentType = type;
-        currentAmount = amt;
+        currentAmount = qty;
 
         // filter rows for this category
         const match = withCategory.filter((v) => v._cat === type);
@@ -575,9 +635,11 @@ function loadVehicles() {
         // Vehicle skin images
         const name = type.toLowerCase();
         imageDiv.innerHTML = "<strong>Skins</strong><br>";
-        const imageNames = [`${name}.png`, `${name}_atr.png`, `${name}_harko.png`].sort(
-          (a, b) => (!a.includes("_") ? -1 : !b.includes("_") ? 1 : 0)
-        );
+        const imageNames = [
+          `${name}.png`,
+          `${name}_atr.png`,
+          `${name}_harko.png`,
+        ].sort((a, b) => (!a.includes("_") ? -1 : !b.includes("_") ? 1 : 0));
         for (let i = 0; i < imageNames.length; i++) {
           const img = new Image();
           img.src = `./images/vehicles/${name}/${imageNames[i]}`;
@@ -598,20 +660,27 @@ function loadVehicles() {
           return a.name.localeCompare(b.name);
         });
 
-                // --- Build available Mk tiers for this vehicle ---
+        // --- Build available Mk tiers for this vehicle ---
         const mkSet = new Set();
         for (const p of allParts) {
           const m = /mk\s*(\d+)/i.exec(p.name);
           if (m) mkSet.add(`Mk${m[1]}`);
         }
-        const mkOptions = ["All", ...Array.from(mkSet).sort((a, b) => Number(a.slice(2)) - Number(b.slice(2)))];
+        const mkOptions = [
+          "All",
+          ...Array.from(mkSet).sort(
+            (a, b) => Number(a.slice(2)) - Number(b.slice(2))
+          ),
+        ];
         const savedMk = localStorage.getItem("vehMkFilter") || "All";
 
         // Build part map
         for (const p of allParts) currentPartMap[p.id] = p;
 
         // Build part list
-        const stored = new Set(JSON.parse(localStorage.getItem("vehOpts") || "[]"));
+        const stored = new Set(
+          JSON.parse(localStorage.getItem("vehOpts") || "[]")
+        );
 
         // Only show MiningYield for Buggies with a Cutteray selected
         const showMiningYield =
@@ -624,11 +693,18 @@ function loadVehicles() {
           <form id="optForm">
             <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
               <strong>Parts List</strong>
-              <button type="button" id="toggleStatsBtn">${statsVisible ? "Hide" : "Show"} Stats</button>
+              <button type="button" id="toggleStatsBtn">${
+                statsVisible ? "Hide" : "Show"
+              } Stats</button>
               <label for="mkFilter"><strong>Tier:<strong></label>
               <select id="mkFilter">
                 ${mkOptions
-                  .map((opt) => `<option value="${opt}" ${opt === savedMk ? "selected" : ""}>${opt}</option>`)
+                  .map(
+                    (opt) =>
+                      `<option value="${opt}" ${
+                        opt === savedMk ? "selected" : ""
+                      }>${opt}</option>`
+                  )
                   .join("")}
               </select>
             </div>
@@ -662,7 +738,9 @@ function loadVehicles() {
                     if (isPresent(raw)) {
                       const isBig = key === "Description" || key === "MadeAt";
                       lines.push(
-                        `<div><span class="statFont">${prettyLabel(key)}:</span> <span class="value">${formatValue(
+                        `<div><span class="statFont">${prettyLabel(
+                          key
+                        )}:</span> <span class="value">${formatValue(
                           key,
                           raw
                         )}</span>${isBig ? "<br/><br/>" : ""}</div>`
@@ -675,12 +753,21 @@ function loadVehicles() {
                     const kl = k.toLowerCase();
                     if (EXCLUDE_KEYS.has(kl)) continue;
                     if (ORDERED_KEYS_LC.includes(kl)) continue;
-                    if (!showMiningYield && k.replace(/\s+/g, "").toLowerCase() === "miningyield") continue;
+                    if (
+                      !showMiningYield &&
+                      k.replace(/\s+/g, "").toLowerCase() === "miningyield"
+                    )
+                      continue;
 
                     const val = v[k];
-                    if ((typeof val === "string" || typeof val === "number") && isPresent(val)) {
+                    if (
+                      (typeof val === "string" || typeof val === "number") &&
+                      isPresent(val)
+                    ) {
                       lines.push(
-                        `<div><span class="statFont">${prettyLabel(k)}:</span> <span class="value">${formatValue(
+                        `<div><span class="statFont">${prettyLabel(
+                          k
+                        )}:</span> <span class="value">${formatValue(
                           k,
                           val
                         )}</span></div>`
@@ -690,16 +777,18 @@ function loadVehicles() {
 
                   const statsBlock =
                     lines.length > 0
-                      ? `<div class="part-stats" style="margin-top:6px;font-size:0.9em;line-height:1.25;${statsVisible ? "" : "display:none;"}">${lines.join(
-                          ""
-                        )}</div>`
+                      ? `<div class="part-stats" style="margin-top:6px;font-size:0.9em;line-height:1.25;${
+                          statsVisible ? "" : "display:none;"
+                        }">${lines.join("")}</div>`
                       : "";
 
                   return `
 <li class="parts-list-item">
   <label style="display:block;width:100%;">
     <div style="display:flex;align-items:center;gap:8px;">
-      <input type="checkbox" name="opt" value="${v.id}" ${checked ? "checked" : ""}/>
+      <input type="checkbox" name="opt" value="${v.id}" ${
+                    checked ? "checked" : ""
+                  }/>
       <span class="value">${v.amount || 1}x</span>
       ${v.unique ? `<span class="unique">${v.name}</span>` : v.name}
       <img 
@@ -725,10 +814,12 @@ function loadVehicles() {
           document.querySelectorAll(".part-stats").forEach((el) => {
             el.style.display = statsVisible ? "block" : "none";
           });
-          document.getElementById("toggleStatsBtn").textContent = statsVisible ? "Hide Stats" : "Show Stats";
+          document.getElementById("toggleStatsBtn").textContent = statsVisible
+            ? "Hide Stats"
+            : "Show Stats";
         };
 
-                // tier filter change
+        // tier filter change
         document.getElementById("mkFilter").addEventListener("change", (e) => {
           localStorage.setItem("vehMkFilter", e.target.value);
           render(); // re-render with new filter
@@ -754,7 +845,9 @@ function loadVehicles() {
           localStorage.setItem("vehOpts", JSON.stringify(selected));
 
           // Clear conflict styles
-          document.querySelectorAll("#optForm li").forEach((li) => li.classList.remove("conflict"));
+          document
+            .querySelectorAll("#optForm li")
+            .forEach((li) => li.classList.remove("conflict"));
           conflictWarning.innerHTML = "";
 
           const typeLC = type.toLowerCase();
@@ -785,16 +878,24 @@ function loadVehicles() {
 
             const hasUtility = hasSelectedNameLike(selected, "utility");
             if (cutterIdx.length > 0 && !hasUtility) {
-              conflictMessages.push("You need a Utility rear to have Cutteray on a Buggy.");
+              conflictMessages.push(
+                "You need a Utility rear to have Cutteray on a Buggy."
+              );
               conflictIndexes.push(...cutterIdx);
             }
 
             const exclusiveIdx = selected.filter((id) => {
               const n = (partMap[id]?.name || "").toLowerCase();
-              return n.includes("boot") || n.includes("boost") || n.includes("storage");
+              return (
+                n.includes("boot") ||
+                n.includes("boost") ||
+                n.includes("storage")
+              );
             });
             if (exclusiveIdx.length > 1) {
-              conflictMessages.push("Buggy can only have 1 of Boot or Storage or Boost.");
+              conflictMessages.push(
+                "Buggy can only have 1 of Boot or Storage or Boost."
+              );
               conflictIndexes.push(...exclusiveIdx);
             }
 
@@ -821,7 +922,9 @@ function loadVehicles() {
             return n.includes("thruster") || n.includes("boost");
           });
           if (thrusterIdx.length > 1) {
-            conflictMessages.push("You can only have 1 Thruster or Booster per vehicle.");
+            conflictMessages.push(
+              "You can only have 1 Thruster or Booster per vehicle."
+            );
             conflictIndexes.push(...thrusterIdx);
           }
 
@@ -838,17 +941,23 @@ function loadVehicles() {
           if (typeLC.includes("sandbike")) {
             const exclusiveIdx = selected.filter((id) => {
               const n = (partMap[id]?.name || "").toLowerCase();
-              return n.includes("seat") || n.includes("inv") || n.includes("boost");
+              return (
+                n.includes("seat") || n.includes("inv") || n.includes("boost")
+              );
             });
             if (exclusiveIdx.length > 1) {
-              conflictMessages.push("Sandbike can only have 1 of Seat, Inventory, or Booster.");
+              conflictMessages.push(
+                "Sandbike can only have 1 of Seat, Inventory, or Booster."
+              );
               conflictIndexes.push(...exclusiveIdx);
             }
             const engineIdx = selected.filter((id) =>
               (partMap[id]?.name || "").toLowerCase().includes("engine")
             );
             if (engineIdx.length > 1) {
-              conflictMessages.push("You can only have 1 engine on a sandbike.");
+              conflictMessages.push(
+                "You can only have 1 engine on a sandbike."
+              );
               conflictIndexes.push(...engineIdx);
             }
           }
@@ -894,11 +1003,26 @@ function loadVehicles() {
               if (!hasPartName(p)) missingParts.push(formatPartName(p));
             });
           } else if (typeLC.includes("assault") || typeLC.includes("medium")) {
-            ["cabin", "chassis", "cockpit", "engine", "generator", "tail", "wing"].forEach((p) => {
+            [
+              "cabin",
+              "chassis",
+              "cockpit",
+              "engine",
+              "generator",
+              "tail",
+              "wing",
+            ].forEach((p) => {
               if (!hasPartName(p)) missingParts.push(formatPartName(p));
             });
           } else if (typeLC.includes("light") || typeLC.includes("scout")) {
-            ["chassis", "cockpit", "engine", "generator", "tail", "wing"].forEach((p) => {
+            [
+              "chassis",
+              "cockpit",
+              "engine",
+              "generator",
+              "tail",
+              "wing",
+            ].forEach((p) => {
               if (!hasPartName(p)) missingParts.push(formatPartName(p));
             });
           } else if (typeLC.includes("buggy")) {
@@ -911,12 +1035,24 @@ function loadVehicles() {
           } else if (typeLC.includes("sandcrawler")) {
             const hasCentrifuge = hasPartName("centrifuge");
             const hasContainer = hasPartName("container");
-            ["cabin", "chassis", "engine", "psu", "vacuum", "tread"].forEach((p) => {
-              if (!hasPartName(p)) missingParts.push(formatPartName(p));
-            });
-            if (!hasCentrifuge && !hasContainer) missingParts.push("Centrifuge or Container");
+            ["cabin", "chassis", "engine", "psu", "vacuum", "tread"].forEach(
+              (p) => {
+                if (!hasPartName(p)) missingParts.push(formatPartName(p));
+              }
+            );
+            if (!hasCentrifuge && !hasContainer)
+              missingParts.push("Centrifuge or Container");
           } else if (typeLC.includes("carrier")) {
-            ["chassis", "cockpit", "engine", "generator", "tail", "hull", "side hull", "wing"].forEach((p) => {
+            [
+              "chassis",
+              "cockpit",
+              "engine",
+              "generator",
+              "tail",
+              "hull",
+              "side hull",
+              "wing",
+            ].forEach((p) => {
               if (!hasPartName(p)) missingParts.push(formatPartName(p));
             });
           }
@@ -927,12 +1063,15 @@ function loadVehicles() {
             const allWarnings = [
               ...conflictMessages.map((m) => `⚠️ ${m}`),
               ...missingParts.map(
-                (p) => `⚠️ <span class="missing-parts">Missing required part: <b>${p}</b></span>`
+                (p) =>
+                  `⚠️ <span class="missing-parts">Missing required part: <b>${p}</b></span>`
               ),
             ];
             conflictWarning.innerHTML = allWarnings.join("<br>");
             for (const i of conflictIndexes) {
-              const li = document.querySelector(`#optForm input[value="${i}"]`)?.closest("li");
+              const li = document
+                .querySelector(`#optForm input[value="${i}"]`)
+                ?.closest("li");
               if (li) li.classList.add("conflict");
             }
           } else {
@@ -942,14 +1081,34 @@ function loadVehicles() {
 
           // === Cost Calculation ===
           const matCosts = Object.create(null);
+
           for (const id of selected) {
             const v = partMap[id];
-            if (!v) continue;
-            const mult = (v.amount || 1) * amt;
-            if (Array.isArray(v.components)) {
-              for (const c of v.components) {
-                matCosts[c.item] = (matCosts[c.item] || 0) + c.quantity * mult;
-              }
+            if (!v || !Array.isArray(v.components)) continue;
+
+            const amt = Number(v.amount) || 0; // parts per selection
+            const baseUnits = amt * qty; // total part units being crafted
+
+            // Additive stacking of discounts
+            let discount = 0;
+            if (
+              typeof landsraadBonusTopVeh !== "undefined" &&
+              landsraadBonusTopVeh.checked
+            )
+              discount += 0.25; // 25%
+            discount = Math.min(discount, 1); // cap at 100%
+
+            // Apply discount per material line, then round up
+            const factor = 1 - discount;
+
+            for (const c of v.components) {
+              const perUnitQty = Number(c.quantity) || 0;
+              const raw = perUnitQty * baseUnits * factor;
+
+              // round up *after* discount so you never under-buy
+              const add = Math.ceil(raw);
+
+              matCosts[c.item] = (matCosts[c.item] || 0) + add;
             }
           }
 
@@ -958,7 +1117,7 @@ function loadVehicles() {
           );
 
           costDiv.innerHTML =
-            `<strong>Total Cost for <span class="value">${amt}x</span>:</strong><ul>` +
+            `<strong>Total Cost for <span class="value">${qty}x</span>:</strong><ul>` +
             Object.entries(matCosts)
               .map(([item, qty]) => {
                 const icon = `./images/icons/${item
@@ -966,8 +1125,13 @@ function loadVehicles() {
                   .replace(/[^a-z0-9]+/g, "-")}.png`;
                 const lowerItem = item.toLowerCase();
                 const isSpice = lowerItem.includes("spice-infused");
-                const isConflict = Array.from(conflictingNamesLC).some((n) => lowerItem.includes(n));
-                const classes = [isSpice ? "unique" : "", isConflict ? "conflict" : ""]
+                const isConflict = Array.from(conflictingNamesLC).some((n) =>
+                  lowerItem.includes(n)
+                );
+                const classes = [
+                  isSpice ? "unique" : "",
+                  isConflict ? "conflict" : "",
+                ]
                   .filter(Boolean)
                   .join(" ");
                 return `<li><img class="icon" src="${icon}" /><span class="value">${qty}x</span> <span class="${classes}">${item}</span></li>`;
@@ -981,7 +1145,9 @@ function loadVehicles() {
           renderComparePanel();
         }
 
-        document.getElementById("optForm").addEventListener("change", updateCost);
+        document
+          .getElementById("optForm")
+          .addEventListener("change", updateCost);
         updateCost();
 
         // Reset buttons

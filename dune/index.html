@@ -45,9 +45,15 @@ export to csv
       <!-- BUILDING CALC -->
       <div id="buildingCalc">
         <button class="resetBuildings">Reset</button>
+        <br />
         <label
-          ><input type="checkbox" id="deepDesertTop" /> Deep Desert 50%
+          ><input type="checkbox" id="deepDesertTop" /> Deep Desert -50%
           cost</label
+        >
+        <br />
+        <label
+          ><input type="checkbox" id="landsraadBonusTop" /> Landsraad Decree
+          -25% cost</label
         >
         <br /><br />
         <label for="powerDays"><strong>Days of Power Required:</strong></label>
@@ -66,11 +72,22 @@ export to csv
 
         <!-- RENAMED this div's id to avoid duplicate "viewButtons" -->
         <div id="buildingFilters" class="view-toggle">
-          <button onclick="filterBuildings('all')" id="btnFilterAll">All</button>
-          <button onclick="filterBuildings('misc')" id="btnFilterMisc">Misc</button>
-          <button onclick="filterBuildings('water')" id="btnFilterWater">Water</button>
-          <button onclick="filterBuildings('power')" id="btnFilterPower">Power</button>
-          <button onclick="filterBuildings('fabricator')" id="btnFilterFabricator">
+          <button onclick="filterBuildings('all')" id="btnFilterAll">
+            All
+          </button>
+          <button onclick="filterBuildings('misc')" id="btnFilterMisc">
+            Misc
+          </button>
+          <button onclick="filterBuildings('water')" id="btnFilterWater">
+            Water
+          </button>
+          <button onclick="filterBuildings('power')" id="btnFilterPower">
+            Power
+          </button>
+          <button
+            onclick="filterBuildings('fabricator')"
+            id="btnFilterFabricator"
+          >
             Fabricator
           </button>
         </div>
@@ -112,9 +129,14 @@ export to csv
         </div>
         <br />
         <button class="resetBuildings">Reset</button>
+        <br />
         <label
-          ><input type="checkbox" id="deepDesertBottom" /> Deep Desert 50%
+          ><input type="checkbox" id="deepDesertBottom" /> Deep Desert -50%
           cost</label
+        ><br />
+        <label
+          ><input type="checkbox" id="landsraadBonusBottom" /> Landsraad Decree
+          -25% cost</label
         >
       </div>
 
@@ -123,6 +145,11 @@ export to csv
         <div class="flex-row">
           <div>
             <button id="resetVehiclestop">Reset</button>
+            <br />
+            <label>
+              <input type="checkbox" id="landsraadBonusTopVeh" />
+              Landsraad Decree -25% cost
+            </label>
             <br />
             <label for="vehicleSelect">Select Vehicle:</label>
             <select id="vehicleSelect">
@@ -167,8 +194,12 @@ export to csv
         <div id="totalCost" class="hidden"></div>
 
         <!-- ===== NEW: Compare Controls & Panel ===== -->
-        <div id="compareControls" class="compare-controls hidden" style="margin-top:20px">
-          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+        <div
+          id="compareControls"
+          class="compare-controls hidden"
+          style="margin-top: 20px"
+        >
+          <div style="display: flex; gap: 8px; flex-wrap: wrap">
             <button id="saveSetA_btm">Save Set A</button>
             <button id="saveSetB_btm">Save Set B</button>
             <button id="applySetA_btm">Apply Set A</button>
@@ -177,14 +208,19 @@ export to csv
           </div>
         </div>
 
-        <div id="compareWrapper" class="hidden" style="margin-top:16px;">
-          <h3 style="margin:8px 0;">Compare Sets</h3>
+        <div id="compareWrapper" class="hidden" style="margin-top: 16px">
+          <h3 style="margin: 8px 0">Compare Sets</h3>
           <div id="compare"></div>
         </div>
         <!-- ===== /NEW ===== -->
 
         <br />
         <button id="resetVehicles">Reset</button>
+                    <br />
+            <label>
+              <input type="checkbox" id="landsraadBonusBottomVeh" />
+              Landsraad Decree -25% cost
+            </label>
       </div>
 
       <!-- RESOURCES CALC -->
