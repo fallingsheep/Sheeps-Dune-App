@@ -18,7 +18,7 @@ body.dark {
 
 body {
   margin: 0;
-  font-family: 'Orbitron', Arial, sans-serif;
+  font-family: "Orbitron", Arial, sans-serif;
   background-color: var(--bg);
   color: var(--text);
   padding: 20px;
@@ -51,7 +51,7 @@ h1 {
 }
 
 select,
-input[type='number'] {
+input[type="number"] {
   padding: 8px;
   margin-left: 10px;
   font-family: inherit;
@@ -176,6 +176,11 @@ ul {
 .buildFont {
   font-size: 0.8rem;
 }
+
+.statFont {
+  font-size: 1rem;
+}
+
 .quantityBuild {
   vertical-align: middle;
 }
@@ -242,23 +247,23 @@ body.dark .value {
 /* === FILTER/VIEW BUTTON GROUPS === */
 .view-toggle {
   display: flex;
-  flex-wrap: wrap;         /* allow wrapping on small screens */
-  gap: 8px;                /* spacing between wrapped rows */
+  flex-wrap: wrap; /* allow wrapping on small screens */
+  gap: 8px; /* spacing between wrapped rows */
   margin-bottom: 10px;
 }
 
 /* buttons auto-size and wrap nicely */
 .view-toggle button {
   padding: 10px 14px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   border: 2px solid var(--border, #aaa);
   background-color: transparent;
   color: var(--text, #333);
   cursor: pointer;
   margin: 0;
-  border-radius: 6px;      /* rounded even when wrapped */
-  flex: 1 1 auto;          /* share available width, wrap as needed */
-  min-width: 120px;        /* prevents tiny buttons before wrapping */
+  border-radius: 6px; /* rounded even when wrapped */
+  flex: 1 1 auto; /* share available width, wrap as needed */
+  min-width: 120px; /* prevents tiny buttons before wrapping */
 }
 
 .view-toggle button.active {
@@ -290,9 +295,9 @@ body.dark .unique {
 /* Minor tweak for very narrow screens where images could push width */
 @media (max-width: 534px) {
   .building-image {
-    margin-left: 0;            /* remove the big left push */
-    display: block;            /* let it sit on its own line */
-    margin: 0 auto 10px auto;  /* center it with margin auto */
+    margin-left: 0; /* remove the big left push */
+    display: block; /* let it sit on its own line */
+    margin: 0 auto 10px auto; /* center it with margin auto */
   }
 }
 
@@ -307,7 +312,7 @@ body.dark .unique {
   }
 
   select,
-  input[type='number'],
+  input[type="number"],
   button {
     font-size: 0.9rem;
   }
@@ -332,7 +337,7 @@ body.dark .unique {
   }
 }
 
-.parts-list{
+.parts-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 8px;
@@ -342,23 +347,34 @@ body.dark .unique {
 }
 
 body.dark .parts-list-item {
-  background:#1e1e1e;
-  padding:8px; 
-  border-radius:6px; 
-  display:flex; 
-  align-items:center; 
-  justify-content:space-between;
+  background: #1e1e1e;
+  padding: 8px;
+  border-radius: 6px;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
   border: 1px solid var(--border);
 }
 
 .parts-list-item {
-  background:#fff7f0;
-  padding:8px; 
-  border-radius:6px; 
-  display:flex; 
-  align-items:center; 
-  justify-content:space-between;
+  background: #fff7f0;
+  padding: 8px;
+  border-radius: 6px;
+  display: block;
+  align-items: center;
+  justify-content: space-between;
   border: 1px solid var(--border);
+}
+
+.parts-list-item .part-stats {
+  margin-top: 6px;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .parts-list-item img {
+    margin-left: 0; /* no push to the right */
+  }
 }
 
 .missing-parts {

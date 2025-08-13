@@ -147,10 +147,13 @@ export to csv
             ></div>
           </div>
         </div>
+
         <div id="imageholder" class="flex-row hidden">
           <div id="partsList" class="flex-column"></div>
         </div>
+
         <div id="conflictWarning" class="conflict-msg"></div>
+
         <label for="buildAmount2" class="hidden">Amount:</label>
         <input
           type="number"
@@ -160,7 +163,26 @@ export to csv
           style="width: 40px"
           class="hidden"
         />
+
         <div id="totalCost" class="hidden"></div>
+
+        <!-- ===== NEW: Compare Controls & Panel ===== -->
+        <div id="compareControls" class="compare-controls hidden" style="margin-top:20px">
+          <div style="display:flex; gap:8px; flex-wrap:wrap;">
+            <button id="saveSetA_btm">Save Set A</button>
+            <button id="saveSetB_btm">Save Set B</button>
+            <button id="applySetA_btm">Apply Set A</button>
+            <button id="applySetB_btm">Apply Set B</button>
+            <button id="clearSets_btm">Clear Sets</button>
+          </div>
+        </div>
+
+        <div id="compareWrapper" class="hidden" style="margin-top:16px;">
+          <h3 style="margin:8px 0;">Compare Sets</h3>
+          <div id="compare"></div>
+        </div>
+        <!-- ===== /NEW ===== -->
+
         <br />
         <button id="resetVehicles">Reset</button>
       </div>
