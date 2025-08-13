@@ -41,6 +41,8 @@ function loadBuildings() {
       const landsraadBonusBottom = document.getElementById("landsraadBonusBottom");
       const powerDaysInput = document.getElementById("powerDays");
       const buildingPower = document.getElementById("buildingPower");
+      //clear list
+      list.innerHTML = "";
 
       // Restore values
       const savedQty = JSON.parse(
