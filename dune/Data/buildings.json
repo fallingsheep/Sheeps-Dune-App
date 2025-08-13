@@ -226,7 +226,7 @@
     "storageslots": 0,
     "power": -75,
     "weight":50,
-    "water":0,
+    "water":500,
     "burntime":0,
     "fueltype":""
   },
@@ -260,7 +260,7 @@
     "storageslots": 0,
     "power": -135,
     "weight":249,
-    "water":0,
+    "water":500,
     "burntime":0,
     "fueltype":""
   },
