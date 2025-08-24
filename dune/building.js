@@ -47,9 +47,11 @@ function loadBuildings() {
       const savedQty = JSON.parse(
         localStorage.getItem("buildingQuantities") || "{}"
       );
-      desertTop.checked = localStorage.getItem("deepDesertTop") === "true";
-      desertBottom.checked = localStorage.getItem("deepDesertBottom") === "true";
-
+      // Restore deep desert toggle from a single stored value
+      const deepDesert = localStorage.getItem("deepDesert") === "true";
+      desertTop.checked = deepDesert;
+      desertBottom.checked = deepDesert;
+      
       // Sync both DD checkboxes and recalc when either changes
       const syncDesertToggles = (source) => {
         const value = source.checked;
