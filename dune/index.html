@@ -15,13 +15,7 @@ export to csv
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Dune Cost Calculator</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet" />
-  <script>
-    // Dynamically add CSS link with a timestamp to prevent caching
-    const cssLink = document.createElement("link");
-    cssLink.rel = "stylesheet";
-    cssLink.href = "style.css?v=" + new Date().getTime();
-    document.head.appendChild(cssLink);
-  </script>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -205,6 +199,13 @@ export to csv
   <script src="./building.js"></script>
   <script src="./vehicle.js"></script>
   <script src="./ui.js"></script>
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('service-worker.js');
+      });
+    }
+  </script>
 </body>
 
 </html>
