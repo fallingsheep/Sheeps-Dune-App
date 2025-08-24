@@ -29,7 +29,10 @@ const synclandsraadToggles = (source) => {
   const value = source.checked;
   landsraadBonusTopVeh.checked = value;
   landsraadBonusBottomVeh.checked = value;
-  localStorage.setItem("landsraad_veh", value);
+  // Persist the shared state for both checkboxes using the same keys
+  // used on initial load so the preference survives page reloads.
+  localStorage.setItem("landsraadBonusTop", value);
+  localStorage.setItem("landsraadBonusBottom", value);
   loadVehicles();
 };
 
